@@ -38,7 +38,7 @@ using TeeJee.Misc;
 public Main App;
 public const string AppName = "Timeshift";
 public const string AppShortName = "timeshift";
-public const string AppVersion = "18.4";
+public const string AppVersion = "18.8";
 public const string AppAuthor = "Tony George";
 public const string AppAuthorEmail = "teejeetech@gmail.com";
 
@@ -444,6 +444,7 @@ public class AppConsole : GLib.Object {
 	}
 
 	private void list_devices(Gee.ArrayList<Device> device_list){
+		
 		string[,] grid = new string[device_list.size+1,6];
 		bool[] right_align = { false, false, false, true, true, false};
 
