@@ -44,6 +44,17 @@ endif
 
 symbols=$(shell echo "${vte_symbol} ${gtk3_symbol} ${xapp_symbol}")
 
+# <Antonio Petricca>
+
+# https://wiki.gnome.org/Projects/Vala/Tutorial
+
+debug_flags=""
+
+debug: debug_flags=-g --save-temps
+debug: all
+
+# </Antonio Petricca>
+
 all:
 
 	#timeshift-gtk
@@ -53,7 +64,8 @@ all:
 		-o ${app_name}-gtk \
 		--pkg glib-2.0 --pkg gio-unix-2.0 --pkg posix \
 		--pkg gee-0.8 --pkg json-glib-1.0 \
-		--pkg gtk+-3.0 --pkg vte-2.91 $(xapp_pkg)
+		--pkg gtk+-3.0 --pkg vte-2.91 $(xapp_pkg) \
+		${debug_flags}
 
 	#timeshift
 	valac -X -D'GETTEXT_PACKAGE="${app_name}"' \
@@ -62,7 +74,8 @@ all:
 		-o ${app_name} \
 		--pkg glib-2.0 --pkg gio-unix-2.0 --pkg posix \
 		--pkg gee-0.8 --pkg json-glib-1.0 \
-		--pkg gtk+-3.0 --pkg vte-2.91 $(xapp_pkg)
+		--pkg gtk+-3.0 --pkg vte-2.91 $(xapp_pkg) \
+		${debug_flags}
 
 	# update translation template
 	find . -iname "*.vala" | xargs xgettext \

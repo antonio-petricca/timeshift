@@ -4,6 +4,9 @@ all:
 clean:
 	cd src; make clean
 
+debug:
+	cd src; make debug
+
 install:
 	cd src; make install
 	
