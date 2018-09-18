@@ -24,4 +24,6 @@ If applicable, add screenshots to help explain your problem.
  - Desktop [e.g. MATE, XFCE]
  - Application Version [e.g. v18.8]
 
-***Paid support is now available for this application. Please make a donation for [$10 via PayPal](https://www.paypal.com/cgi-bin/webscr?business=teejeetech@gmail.com&cmd=_xclick&currency_code=USD&amount=5&item_name=Timeshift%20Support) if you need help with an issue.***
+***Consider making a donation to support this project***
+
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?business=teejeetech@gmail.com&cmd=_xclick&currency_code=USD&item_name=Timeshift%20Donation)

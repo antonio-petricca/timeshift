@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: teejeetech@gmail.com\n"
-"POT-Creation-Date: 2018-08-26 21:06+0530\n"
+"POT-Creation-Date: 2018-09-05 21:57+0530\n"
 "PO-Revision-Date: 2017-11-22 15:09+0000\n"
 "Last-Translator: samson <Unknown>\n"
 "Language-Team: Amharic <am@li.org>\n"
@@ -84,7 +84,7 @@ msgstr ""
 msgid "Aborted."
 msgstr "ተቋርጧል"
 
-#: Gtk/MainWindow.vala:393
+#: Gtk/MainWindow.vala:386
 msgid "About"
 msgstr "ስለ"
 
@@ -208,7 +208,7 @@ msgstr "ተዋንያን"
 msgid "Authors"
 msgstr "ደራሲዎች"
 
-#: Gtk/MainWindow.vala:346
+#: Gtk/MainWindow.vala:356
 msgid "Available"
 msgstr "ዝግጁ"
 
@@ -254,7 +254,7 @@ msgstr "ወደ ኋላ"
 msgid "Backend"
 msgstr "ተተኪ ተፈጥሯል"
 
-#: Console/AppConsole.vala:356 Gtk/BackupWindow.vala:91
+#: Console/AppConsole.vala:356 Gtk/BackupWindow.vala:92
 msgid "Backup"
 msgstr "ተተኪ"
 
@@ -266,7 +266,7 @@ msgstr "ተተኪ አካል"
 msgid "Backup device not specified!"
 msgstr "ተተኪ አካል አልተገለጸም"
 
-#: Utility/Gtk/DonationWindow.vala:89
+#: Utility/Gtk/DonationWindow.vala:79
 msgid "Become a Patron"
 msgstr ""
 
@@ -320,7 +320,7 @@ msgid "Building file list..."
 msgstr "የ ፋይል ዝርዝር በ መገንባት ላይ"
 
 #: Utility/GtkHelper.vala:122 Utility/Gtk/CustomMessageDialog.vala:172
-#: Gtk/SetupWizardWindow.vala:214 Gtk/BackupWindow.vala:177
+#: Gtk/SetupWizardWindow.vala:214 Gtk/BackupWindow.vala:178
 #: Gtk/DeleteWindow.vala:187 Gtk/RestoreWindow.vala:206
 #: Gtk/RestoreWindow.vala:215
 msgid "Cancel"
@@ -341,7 +341,7 @@ msgstr ""
 "ይችላል: ወይንም እርስዎ ብዙ ችግር ሊያጋጥምዎት ይችላል: ከ ሰረዙ በኋላ: እርስዎ ሌላ የ መመልከቻ ፎት እንደገና "
 "ማስኬድ አለብዎት: ስርአቱን ወደ ተረጋጋ ሁኔታ ውስጥ ለማስገባት: ይጫኑ አዎ ለ ማረጋገጥ"
 
-#: Gtk/MainWindow.vala:563
+#: Gtk/MainWindow.vala:556
 msgid "Cannot Delete Live Snapshot"
 msgstr "በ ቀጥታ የ መመልከቻ ፎቶ ማጥፋት አይቻልም"
 
@@ -396,8 +396,8 @@ msgstr "በ ማባዛት ላይ"
 msgid "Cloning system..."
 msgstr "ስርአቱን በ ማባዛት ላይ..."
 
-#: Utility/Gtk/AboutWindow.vala:326 Utility/Gtk/DonationWindow.vala:121
-#: Gtk/RsyncLogBox.vala:266 Gtk/BackupWindow.vala:168
+#: Utility/Gtk/AboutWindow.vala:326 Utility/Gtk/DonationWindow.vala:117
+#: Gtk/RsyncLogBox.vala:266 Gtk/BackupWindow.vala:169
 #: Gtk/BootOptionsWindow.vala:106 Gtk/DeleteWindow.vala:170
 #: Gtk/RestoreWindow.vala:508
 msgid "Close"
@@ -473,7 +473,7 @@ msgstr "የ ስርአቱን ንዑስ መጠን ማግኘት አልተቻለም:
 msgid "Create"
 msgstr "መፍጠሪያ"
 
-#: Gtk/BackupWindow.vala:61
+#: Gtk/BackupWindow.vala:62
 msgid "Create Snapshot"
 msgstr "የ መመልከቻ ፎቶ መፍጠሪያ"
 
@@ -509,7 +509,7 @@ msgstr "የ መመልከቻ ፎቶ መፍጠሪያ ከ ታቀደ"
 msgid "Create snapshot of current system"
 msgstr "ለ አሁኑ ስርአት የ መመልከቻ ፎቶ መፍጠሪያ"
 
-#: Gtk/MainWindow.vala:1068
+#: Gtk/MainWindow.vala:1058
 msgid ""
 "Create snapshots manually or enable scheduled snapshots to protect your "
 "system"
@@ -706,23 +706,6 @@ msgstr "አካሎች ከ ሊነክስ ፋይል ስርአት ጋር"
 msgid "Devices with Windows file systems are not supported (NTFS, FAT, etc)."
 msgstr ""
 
-#: Utility/Gtk/DonationWindow.vala:61
-msgid ""
-"Did you find this software useful?\n"
-"\n"
-"You can buy me a coffee or make a donation via PayPal to show your support. "
-"Or just drop me an email and say Hi. This application is completely free and "
-"will continue to remain that way. Your contributions will help in keeping "
-"this project alive and improving it further.\n"
-"\n"
-"Feel free to send me an email if you find any issues in this application or "
-"if you need any changes. Suggestions and feedback are always welcome.\n"
-"\n"
-"Thanks,\n"
-"Tony George\n"
-"(teejeetech@gmail.com)"
-msgstr ""
-
 #: Utility/TeeJee.FileSystem.vala:518
 msgid "Dir not found"
 msgstr "ዳይሬክቶሪ አልተገኘም"
@@ -747,13 +730,10 @@ msgstr "ስርጭት"
 msgid "Documentation"
 msgstr "እርዳታ"
 
-#: Utility/Gtk/DonationWindow.vala:42 Gtk/MainWindow.vala:388
+#: Utility/Gtk/DonationWindow.vala:43 Utility/Gtk/DonationWindow.vala:76
+#: Gtk/MainWindow.vala:209 Gtk/MainWindow.vala:210
 msgid "Donate"
 msgstr "ይለግሱ"
-
-#: Utility/Gtk/DonationWindow.vala:81
-msgid "Donate with PayPal"
-msgstr "በ PayPal ይለግሱ"
 
 #: Utility/Gtk/AboutWindow.vala:465
 msgid "Donations"
@@ -763,7 +743,7 @@ msgstr "እርዳታ"
 msgid "Enable BTRFS qgroups (recommended)"
 msgstr ""
 
-#: Gtk/MainWindow.vala:1062
+#: Gtk/MainWindow.vala:1052
 msgid "Enable scheduled snapshots to protect your system"
 msgstr "የ እርስዎን ስርአት ለ መጠበቅ በ እቅድ የ መመልከቻ ፎቶ ይፍጠሩ"
 
@@ -815,7 +795,7 @@ msgstr "ስህተት"
 msgid "Error running Rsync"
 msgstr ""
 
-#: Gtk/SetupWizardWindow.vala:99 Gtk/BackupWindow.vala:81
+#: Gtk/SetupWizardWindow.vala:99 Gtk/BackupWindow.vala:82
 msgid "Estimate"
 msgstr "ግምት"
 
@@ -1010,6 +990,10 @@ msgstr "አካሉን ማውረድ አልተቻለም"
 msgid "Failed to write file"
 msgstr "ፋይል ላይ መጻፍ አልተቻለም"
 
+#: Utility/Gtk/DonationWindow.vala:105
+msgid "Feature Requests"
+msgstr ""
+
 #: Gtk/RsyncLogBox.vala:122
 msgid "File (snapshot)"
 msgstr "የ መመልከቻ ፎቶ ማጥፊያ"
@@ -1066,7 +1050,7 @@ msgstr "የ አካሉን ስም ወይንም ቁጥር ያስገቡ"
 msgid "Filters"
 msgstr "ማጣሪያዎች"
 
-#: Gtk/SetupWizardWindow.vala:205 Gtk/BackupWindow.vala:96
+#: Gtk/SetupWizardWindow.vala:205 Gtk/BackupWindow.vala:97
 #: Gtk/DeleteWindow.vala:103
 msgid "Finish"
 msgstr "መጨረሻ"
@@ -1172,6 +1156,12 @@ msgid ""
 "point!"
 msgstr "እርስዎ እነዚህን ደንቦች የማይቀበሉ ከሆነ: እባክዎን ከዚህ ነጥብ በኋላ አይቀጥሉ!"
 
+#: Utility/Gtk/DonationWindow.vala:70
+msgid ""
+"If you find this application useful, consider making a donation to support "
+"the development."
+msgstr ""
+
 #: Gtk/ExcludeBox.vala:54
 msgid "Include / Exclude Patterns"
 msgstr "የሚካተቱ /የማይካተቱ አዘገጃጀት"
@@ -1197,13 +1187,13 @@ msgstr "ዋጋ የሌለው የ መመልከቻ ፎቶ"
 msgid "Invalid command line arguments"
 msgstr "ዋጋ የሌለው የ ትእዛዝ መስመር ክርክርክ"
 
-#: Gtk/MainWindow.vala:824
+#: Gtk/MainWindow.vala:817
 msgid "Invalid snapshot"
 msgstr "ዋጋ የሌለው የ መመልከቻ ፎቶ"
 
-#: Utility/Gtk/DonationWindow.vala:97
-msgid "Issue Tracker ~ Report Issues, Request Features, Ask Questions"
-msgstr "ችግር መከታተያ ~ ችግር ማመልከቻ: ገጽታዎች መጠየቂያ: ጥያቄዎች መጠየቂያ"
+#: Utility/Gtk/DonationWindow.vala:94
+msgid "Issue Tracker"
+msgstr ""
 
 #: Gtk/ExcludeBox.vala:272
 msgid "Items Not Selected"
@@ -1309,7 +1299,7 @@ msgstr "የ መመልከቻ ፎቶ መጨረሻ በየ ሳምንቱ የ ተነ�
 msgid "Last weekly snapshot not found"
 msgstr "የ መመልከቻ ፎቶ መጨረሻ በየ ሳምንቱ የ ተነሳው አልተገኘም"
 
-#: Gtk/MainWindow.vala:1043
+#: Gtk/MainWindow.vala:1033
 #, c-format
 msgid "Latest snapshot"
 msgstr "ዘመናዊ የ መመልከቻ ፎቶ"
@@ -1335,16 +1325,16 @@ msgstr "የ ካሎች ዝርዝር"
 msgid "List snapshots"
 msgstr "የ መመልከቻ ፎቶ ዝርዝር"
 
-#: Gtk/MainWindow.vala:994
+#: Gtk/MainWindow.vala:984
 msgid "Live USB Mode (Restore Only)"
 msgstr "በ ቀጥታ USB ዘዴ (እንደ ነበር ለ መመለስ ብቻ)"
 
-#: Gtk/SetupWizardWindow.vala:104 Gtk/BackupWindow.vala:86
+#: Gtk/SetupWizardWindow.vala:104 Gtk/BackupWindow.vala:87
 #: Gtk/SettingsWindow.vala:89
 msgid "Location"
 msgstr "አካባቢ"
 
-#: Gtk/MainWindow.vala:459
+#: Gtk/MainWindow.vala:452
 msgid "Main window closed by user"
 msgstr "ተጠቃሚው ዋናውን መስኮት ዘግቷል"
 
@@ -1352,7 +1342,7 @@ msgstr "ተጠቃሚው ዋናውን መስኮት ዘግቷል"
 msgid "Mark for Deletion"
 msgstr "ለ ማጥፋት ምልክት ማድረጊያ"
 
-#: Gtk/MainWindow.vala:641
+#: Gtk/MainWindow.vala:634
 msgid "Marked for deletion"
 msgstr "ለ ማጥፋት ምልክት ማድረጊያ"
 
@@ -1360,7 +1350,7 @@ msgstr "ለ ማጥፋት ምልክት ማድረጊያ"
 msgid "Maximum backups exceeded for backup level"
 msgstr "ከፍተኛ ተተኪ የ ተተኪን ደረጃ መጠን አልፏል"
 
-#: Gtk/MainWindow.vala:208
+#: Gtk/MainWindow.vala:218
 msgid "Menu"
 msgstr "ዝርዝር"
 
@@ -1402,7 +1392,7 @@ msgstr "መጫኛ"
 msgid "Moved system subvolume to snapshot directory"
 msgstr "የ ስርአቱ ንዑስ መጠን ወደ መመልከቻ ፎቶ ማንሻ ዳይሬክቶሪ የ ተንቀሳቀሱ"
 
-#: Gtk/MainWindow.vala:800
+#: Gtk/MainWindow.vala:793
 msgid "Multiple snapshots selected"
 msgstr "በርካታ የ መመልከቻ ፎቶ ማንሻ ተመርጧል"
 
@@ -1411,7 +1401,7 @@ msgstr "በርካታ የ መመልከቻ ፎቶ ማንሻ ተመርጧል"
 msgid "Name"
 msgstr "ስም"
 
-#: Gtk/SetupWizardWindow.vala:197 Gtk/BackupWindow.vala:160
+#: Gtk/SetupWizardWindow.vala:197 Gtk/BackupWindow.vala:161
 #: Gtk/DeleteWindow.vala:162 Gtk/RestoreWindow.vala:198
 msgid "Next"
 msgstr "ይቀጥሉ"
@@ -1424,16 +1414,16 @@ msgstr "አይ"
 msgid "No Change"
 msgstr "ለውጥ የለም"
 
-#: Gtk/MainWindow.vala:615 Gtk/DeleteWindow.vala:341
+#: Gtk/MainWindow.vala:608 Gtk/DeleteWindow.vala:341
 msgid "No Snapshots Selected"
 msgstr "ምንም የ መመልከቻ ፎቶ አልተመረጠም"
 
-#: Gtk/MainWindow.vala:1067
+#: Gtk/MainWindow.vala:1057
 msgid "No snapshots available"
 msgstr "ምንም የ መመልከቻ ፎቶ አልተገኘም"
 
 #: Console/AppConsole.vala:320 Core/SnapshotRepo.vala:898
-#: Gtk/MainWindow.vala:1011
+#: Gtk/MainWindow.vala:1001
 msgid "No snapshots found"
 msgstr "ምንም የ መመልከቻ ፎቶ አልተገኘም"
 
@@ -1441,7 +1431,7 @@ msgstr "ምንም የ መመልከቻ ፎቶ አልተገኘም"
 msgid "No snapshots found on device"
 msgstr "ምንም የ መመልከቻ ፎቶ በ አካሉ ላይ አልተገኘም"
 
-#: Gtk/MainWindow.vala:553
+#: Gtk/MainWindow.vala:546
 msgid "No snapshots on device"
 msgstr "ምንም የ መመልከቻ ፎቶ በ አካሉ ላይ የለም"
 
@@ -1449,11 +1439,11 @@ msgstr "ምንም የ መመልከቻ ፎቶ በ አካሉ ላይ የለም"
 msgid "No snapshots on this device"
 msgstr "ምንም የ መመልከቻ ፎቶ በዚህ አካል ላይ የለም"
 
-#: Gtk/MainWindow.vala:793
+#: Gtk/MainWindow.vala:786
 msgid "No snapshots selected"
 msgstr "ምንም የ መመልከቻ ፎቶ አልተመረጠም"
 
-#: Gtk/MainWindow.vala:1044 Gtk/MainWindow.vala:1046
+#: Gtk/MainWindow.vala:1034 Gtk/MainWindow.vala:1036
 msgid "None"
 msgstr "ምንም"
 
@@ -1511,7 +1501,7 @@ msgstr ""
 msgid "Older log files removed"
 msgstr "አሮጌ የ መግቢያ ፋይል ተወግዷል"
 
-#: Gtk/MainWindow.vala:1045
+#: Gtk/MainWindow.vala:1035
 msgid "Oldest snapshot"
 msgstr "አሮጌው የ መመልከቻ ፎቶ"
 
@@ -1524,7 +1514,7 @@ msgid ""
 "Only ubuntu-type layouts with @ and @home subvolumes are currently supported."
 msgstr ""
 
-#: Gtk/MainWindow.vala:209
+#: Gtk/MainWindow.vala:219
 msgid "Open Menu"
 msgstr "ዝርዝር መክፈቻ"
 
@@ -1598,7 +1588,7 @@ msgstr "እባክዎን መተግበሪያውን እንደ አስተዳዳሪ �
 msgid "Please save your work and close all applications."
 msgstr "እባክዎን የ እርስዎን ስራ ያስቀምጡ እና መተግበሪያውን ይዝጉ"
 
-#: Gtk/MainWindow.vala:695
+#: Gtk/MainWindow.vala:688
 msgid "Please select a snapshot to view the log!"
 msgstr "እባክዎን የ መመልከቻ ፎቶ ይምረጡ መግቢያውን ለ መመልከት!"
 
@@ -1610,7 +1600,7 @@ msgstr "እባክዎን የ GRUB አካል ይምረጡ"
 msgid "Please wait a few minutes and try again."
 msgstr "እባክዎን ትንሽ ይቆዩ እና እንደገና ይሞክሩ"
 
-#: Gtk/MainWindow.vala:762
+#: Gtk/MainWindow.vala:755
 msgid "Please wait for snapshots to be deleted."
 msgstr "እባክዎን ይቆዩ የ መመልከቻ ፎቶ እስከሚጠፋ ድረስ"
 
@@ -1627,7 +1617,7 @@ msgstr ""
 msgid "Preparing..."
 msgstr "በ ማሰናዳት ላይ..."
 
-#: Gtk/SetupWizardWindow.vala:189 Gtk/BackupWindow.vala:152
+#: Gtk/SetupWizardWindow.vala:189 Gtk/BackupWindow.vala:153
 #: Gtk/DeleteWindow.vala:154 Gtk/RestoreWindow.vala:190
 msgid "Previous"
 msgstr "ያለፈው"
@@ -1857,7 +1847,7 @@ msgstr "እቅድ"
 msgid "Scheduled snapshot in progress..."
 msgstr "የ ታቀደው የ መመልከቻ ፎቶ በ ሂደት ላይ..."
 
-#: Core/Main.vala:1147 Gtk/MainWindow.vala:1061 Gtk/ScheduleBox.vala:312
+#: Core/Main.vala:1147 Gtk/MainWindow.vala:1051 Gtk/ScheduleBox.vala:312
 msgid "Scheduled snapshots are disabled"
 msgstr "የ ታቀደው የ መመልከቻ ፎቶ ተሰናክሏል"
 
@@ -1892,7 +1882,7 @@ msgstr "የ GRUB አካል ይምረጡ"
 msgid "Select Path"
 msgstr "መንገድ ይምረጡ"
 
-#: Gtk/MainWindow.vala:694
+#: Gtk/MainWindow.vala:687
 msgid "Select Snapshot"
 msgstr "የ መመልከቻ ፎቶ ይምረጡ"
 
@@ -1921,7 +1911,7 @@ msgstr "የ ታለመውን አካል ይምረጡ"
 msgid "Select a partition on this disk"
 msgstr "በዚህ ዲስክ ላይ ክፍልፋይ ይምረጡ"
 
-#: Gtk/MainWindow.vala:801
+#: Gtk/MainWindow.vala:794
 msgid "Select a single snapshot to restore"
 msgstr "ነጠላ የ መመልከቻ ፎቶ ይምረጡ እንደ ነበር ለ መመለስ"
 
@@ -1933,11 +1923,11 @@ msgstr "ሌላ አካል ይምረጡ ለ root ፋይል ስርአት (/)"
 msgid "Select another device or free up some space"
 msgstr "ሌላ አካል ይምረጡ ወይንም ነፃ ቦታ ይፍጠሩ"
 
-#: Gtk/MainWindow.vala:547 Gtk/MainWindow.vala:554
+#: Gtk/MainWindow.vala:540 Gtk/MainWindow.vala:547
 msgid "Select another device to delete snasphots"
 msgstr "ሌላ አካል ይምረጡ የ መመልከቻ ፎቶ ለ ማጥፋት"
 
-#: Gtk/MainWindow.vala:481
+#: Gtk/MainWindow.vala:474
 msgid "Select another device?"
 msgstr "ሌላ አካል ልምረጥ?"
 
@@ -1985,7 +1975,7 @@ msgstr "ከ ዝርዝር ውስጥ የሚወገዱትን እቃዎች ይምረ�
 msgid "Select the snapshot device"
 msgstr "የ መመልከቻ ፎቶ አካል ይምረጡ"
 
-#: Gtk/MainWindow.vala:794
+#: Gtk/MainWindow.vala:787
 msgid "Select the snapshot to restore"
 msgstr "የ መመልከቻ ፎቶ የሚቀመጥበትን ይምረጡ"
 
@@ -1993,7 +1983,7 @@ msgstr "የ መመልከቻ ፎቶ የሚቀመጥበትን ይምረጡ"
 msgid "Select the snapshots to be deleted"
 msgstr "የ መመልከቻ ፎቶ የሚጠፋውን ይምረጡ"
 
-#: Gtk/MainWindow.vala:616
+#: Gtk/MainWindow.vala:609
 msgid "Select the snapshots to mark for deletion"
 msgstr "የ መመልከቻ ፎቶ የሚጠፋውን ምልክት በማድረግ ይምረጡ"
 
@@ -2029,7 +2019,7 @@ msgstr "የ ተመረጠው የ መመልከቻ ፎቶ አካል የ ስርአ�
 msgid "Selected snapshot is marked for deletion"
 msgstr "ለማጥፋት ምልክት የ ተደረገበትን የ መመልከቻ ፎቶ ይምረጡ"
 
-#: Gtk/MainWindow.vala:825
+#: Gtk/MainWindow.vala:818
 msgid "Selected snapshot is marked for deletion and cannot be restored"
 msgstr "ለማጥፋት ምልክት የ ተደረገበትን የ መመልከቻ ፎቶ እንደ ነበር መመለስ አይቻልም"
 
@@ -2111,7 +2101,7 @@ msgstr "የ GRUB2 እንደገና መግጠሚያ መዝለያ"
 msgid "Snapshot"
 msgstr "የ መመልከቻ ፎቶ"
 
-#: Gtk/MainWindow.vala:564
+#: Gtk/MainWindow.vala:557
 #, c-format
 msgid ""
 "Snapshot '%s' is being used by the system and cannot be deleted. Restart the "
@@ -2129,7 +2119,7 @@ msgstr "የ መመልከቻ ፎቶ ተፈጥሯል"
 msgid "Snapshot Levels"
 msgstr "የ መመልከቻ ፎቶ ደረጃ ይምረጡ"
 
-#: Gtk/MainWindow.vala:761
+#: Gtk/MainWindow.vala:754
 msgid "Snapshot deletion in progress..."
 msgstr "የ መመልከቻ ፎቶ ማጥፋት በ ሂደት ላይ ነው..."
 
@@ -2167,7 +2157,7 @@ msgstr "የ መመልከቻ ፎቶ ንቁ የሚሆነው ስርአቱ እንደ
 msgid "Snapshot(s) Deleted"
 msgstr "የ መመልከቻ ፎቶ(ዎች) ጠፍተዋል"
 
-#: Gtk/MainWindow.vala:310 Gtk/DeleteWindow.vala:89
+#: Gtk/MainWindow.vala:320 Gtk/DeleteWindow.vala:89
 msgid "Snapshots"
 msgstr "የ መመልከቻ ፎቶ"
 
@@ -2225,7 +2215,7 @@ msgid ""
 "locations are not supported."
 msgstr ""
 
-#: Gtk/MainWindow.vala:1006
+#: Gtk/MainWindow.vala:996
 msgid "Snapshots available for restore"
 msgstr "የ መመልከቻ ፎቶ ዝግጁ ነው እንደ ነበር ለ መመለስ"
 
@@ -2240,7 +2230,7 @@ msgstr ""
 msgid "Snapshots cannot be created in Live CD mode"
 msgstr "የ መመልከቻ ፎቶ በ ቀጥታ ሲዲ ዘዴ ውስጥ መፍጠር አይቻልም"
 
-#: Gtk/MainWindow.vala:1053
+#: Gtk/MainWindow.vala:1043
 msgid "Snapshots will be created at selected intervals"
 msgstr "የ መመልከቻ ፎቶ በ ተመረጠው ክፍተት መሰረት ይፈጠራል"
 
@@ -2251,7 +2241,7 @@ msgid ""
 msgstr ""
 "የ መመልከቻ ፎቶ በ ተመረጠው ክፍተት መሰረት ይፈጠራል: ለ መመልከቻ ፎቶ ማንሻ በቂ ነፃ የ ዲስክ ቦታ ካለ (> 1 ጌባ)"
 
-#: Gtk/MainWindow.vala:642
+#: Gtk/MainWindow.vala:635
 msgid "Snapshots will be removed during the next scheduled run"
 msgstr "የ መመልከቻ ፎቶ ይወገዳል የሚቀጥለው እቅድ ሲሄድ"
 
@@ -2299,6 +2289,11 @@ msgstr "መጠን"
 msgid "Summary"
 msgstr "ማጠቃለያ"
 
+#: Utility/Gtk/DonationWindow.vala:84
+#, fuzzy
+msgid "Support"
+msgstr "የ ተደገፈ አይደለም"
+
 #: Console/AppConsole.vala:377
 msgid "Switch to BTRFS mode (default: config)"
 msgstr "ወደ BTRFS ዘዴ መቀየሪያ (ነባር: ማሰናጃ)"
@@ -2328,7 +2323,7 @@ msgstr "አገባብ"
 msgid "System"
 msgstr "ስርአት"
 
-#: Gtk/MainWindow.vala:951
+#: Gtk/MainWindow.vala:941
 msgid "System Restore Utility"
 msgstr "ስርአት እንደ ነበር መመለሻ መሳሪያ"
 
@@ -2390,6 +2385,16 @@ msgstr "የታለመው ክፍልፋይ ያልተደገፈ ንዑስ መጠን �
 msgid "There are no snapshots on this device"
 msgstr "የ መመልከቻ ፎቶ በዚህ አካል የለም"
 
+#: Utility/Gtk/DonationWindow.vala:109
+msgid ""
+"This application was created for my own use in my spare time, and it's not "
+"practical for me to work for free, on every change that is requested. If you "
+"need new features or changes to the application, consider making a donation "
+"to sponsor the work. If you are a developer, consider contributing to the "
+"project, by submitting code changes for issues and features in the issue "
+"tracker."
+msgstr ""
+
 #: Utility/Device.vala:1379
 msgid "This device is not encrypted"
 msgstr "ይህ አካል አልተመሰጠረም"
@@ -2400,7 +2405,14 @@ msgid ""
 "responsibility for any damage arising from the use of this program."
 msgstr ""
 
-#: Gtk/MainWindow.vala:1041 Gtk/MainWindow.vala:1052
+#: Utility/Gtk/DonationWindow.vala:66
+msgid ""
+"This software is free for personal and commercial use. It is distributed in "
+"the hope that it is useful but without any warranty. See the GNU General "
+"Public License v2 or later for more information"
+msgstr ""
+
+#: Gtk/MainWindow.vala:1031 Gtk/MainWindow.vala:1042
 msgid "Timeshift is active"
 msgstr "Timeshift ንቁ ነው"
 
@@ -2498,6 +2510,12 @@ msgstr "GRUB menu ማሻሻያ..."
 msgid "Updating bootloader configuration..."
 msgstr "የ bootloader ማሰናጅ በ ማሻሻል ላይ..."
 
+#: Utility/Gtk/DonationWindow.vala:88
+msgid ""
+"Use the issue tracker for reporting issues, asking questions, and requesting "
+"features. Please avoid reporting issues by email."
+msgstr ""
+
 #: Utility/Device.vala:1954
 #, c-format
 msgid "Used"
@@ -2542,7 +2560,7 @@ msgstr ""
 msgid "View Rsync Log for Restore"
 msgstr ""
 
-#: Gtk/MainWindow.vala:378
+#: Gtk/MainWindow.vala:380
 msgid "View TimeShift Logs"
 msgstr "የ TimeShift መግቢያ መመልከቻ"
 
@@ -2558,11 +2576,6 @@ msgstr "ማስጠንቀቂያ"
 msgid "Web Browsers"
 msgstr "ዌብ መቃኛ"
 
-#: Utility/Gtk/DonationWindow.vala:113
-#, c-format
-msgid "Website"
-msgstr "ድህረ ገጽ"
-
 #: Gtk/ScheduleBox.vala:82 Gtk/SnapshotListBox.vala:301
 msgid "Weekly"
 msgstr "በየ ሳምንቱ"
@@ -2575,9 +2588,9 @@ msgstr "የ መመልከቻ ፎቶ በየ ሳምንቱ ማንሳት አልተቻ
 msgid "Weekly snapshots are enabled"
 msgstr "የ መመልከቻ ፎቶ በየ ሳምንቱ ማንሳት አስችለዋል"
 
-#: Utility/Gtk/DonationWindow.vala:105
-msgid "Wiki ~ Documentation & Help"
-msgstr "Wiki ~ ሰነድ & እርዳታ"
+#: Utility/Gtk/DonationWindow.vala:99
+msgid "Wiki"
+msgstr ""
 
 #: Gtk/BackupFinishBox.vala:63 Gtk/DeleteFinishBox.vala:63
 msgid "With Errors"
@@ -2669,6 +2682,30 @@ msgstr "rsync ስህተት መልሷል"
 #: Core/SnapshotRepo.vala:831
 msgid "un-tagged"
 msgstr "ምልክት-ያልተደረገበት"
+
+#, fuzzy
+#~ msgid "Donation Plugins"
+#~ msgstr "እርዳታ"
+
+#, fuzzy
+#~ msgid "Donate ($5)"
+#~ msgstr "ይለግሱ"
+
+#, fuzzy
+#~ msgid "Get Support ($10)"
+#~ msgstr "የ ተደገፈ አይደለም"
+
+#~ msgid "Donate with PayPal"
+#~ msgstr "በ PayPal ይለግሱ"
+
+#~ msgid "Issue Tracker ~ Report Issues, Request Features, Ask Questions"
+#~ msgstr "ችግር መከታተያ ~ ችግር ማመልከቻ: ገጽታዎች መጠየቂያ: ጥያቄዎች መጠየቂያ"
+
+#~ msgid "Website"
+#~ msgstr "ድህረ ገጽ"
+
+#~ msgid "Wiki ~ Documentation & Help"
+#~ msgstr "Wiki ~ ሰነድ & እርዳታ"
 
 #~ msgid "Code Contributions"
 #~ msgstr "አበርካቾች"

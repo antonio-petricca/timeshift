@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: timeshift\n"
 "Report-Msgid-Bugs-To: teejeetech@gmail.com\n"
-"POT-Creation-Date: 2018-08-26 21:06+0530\n"
+"POT-Creation-Date: 2018-09-05 21:57+0530\n"
 "PO-Revision-Date: 2017-11-17 14:25+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -84,7 +84,7 @@ msgstr ""
 msgid "Aborted."
 msgstr "중단되었습니다."
 
-#: Gtk/MainWindow.vala:393
+#: Gtk/MainWindow.vala:386
 msgid "About"
 msgstr "소개"
 
@@ -208,7 +208,7 @@ msgstr "아티스트"
 msgid "Authors"
 msgstr "저자"
 
-#: Gtk/MainWindow.vala:346
+#: Gtk/MainWindow.vala:356
 msgid "Available"
 msgstr "사용 가능"
 
@@ -255,7 +255,7 @@ msgstr "뒤로"
 msgid "Backend"
 msgstr "백엔드"
 
-#: Console/AppConsole.vala:356 Gtk/BackupWindow.vala:91
+#: Console/AppConsole.vala:356 Gtk/BackupWindow.vala:92
 msgid "Backup"
 msgstr "백업"
 
@@ -267,7 +267,7 @@ msgstr "백업 장치"
 msgid "Backup device not specified!"
 msgstr "백업 장치가 지정되지 않았습니다!"
 
-#: Utility/Gtk/DonationWindow.vala:89
+#: Utility/Gtk/DonationWindow.vala:79
 msgid "Become a Patron"
 msgstr "Patron 후원자 되기"
 
@@ -321,7 +321,7 @@ msgid "Building file list..."
 msgstr "파일 목록을 만들고 있습니다..."
 
 #: Utility/GtkHelper.vala:122 Utility/Gtk/CustomMessageDialog.vala:172
-#: Gtk/SetupWizardWindow.vala:214 Gtk/BackupWindow.vala:177
+#: Gtk/SetupWizardWindow.vala:214 Gtk/BackupWindow.vala:178
 #: Gtk/DeleteWindow.vala:187 Gtk/RestoreWindow.vala:206
 #: Gtk/RestoreWindow.vala:215
 msgid "Cancel"
@@ -342,7 +342,7 @@ msgstr ""
 "게 되거나 여러 가지 이슈를 마주하게 될 겁니다. 취소 후에, 시스템을 일치하게 "
 "만들려면, 다른 스냅샷을 복원해야 합니다. 예를 눌러서 결정해주세요."
 
-#: Gtk/MainWindow.vala:563
+#: Gtk/MainWindow.vala:556
 msgid "Cannot Delete Live Snapshot"
 msgstr "라이브 스냅샷은 지울 수 없습니다"
 
@@ -397,8 +397,8 @@ msgstr "복제하기"
 msgid "Cloning system..."
 msgstr "시스템을 복제하고 있습니다..."
 
-#: Utility/Gtk/AboutWindow.vala:326 Utility/Gtk/DonationWindow.vala:121
-#: Gtk/RsyncLogBox.vala:266 Gtk/BackupWindow.vala:168
+#: Utility/Gtk/AboutWindow.vala:326 Utility/Gtk/DonationWindow.vala:117
+#: Gtk/RsyncLogBox.vala:266 Gtk/BackupWindow.vala:169
 #: Gtk/BootOptionsWindow.vala:106 Gtk/DeleteWindow.vala:170
 #: Gtk/RestoreWindow.vala:508
 msgid "Close"
@@ -474,7 +474,7 @@ msgstr "사전 복원 스냅샷을 만들기 위한 시스템 서브 볼륨을 �
 msgid "Create"
 msgstr "만들기"
 
-#: Gtk/BackupWindow.vala:61
+#: Gtk/BackupWindow.vala:62
 msgid "Create Snapshot"
 msgstr "스냅샷 만들기"
 
@@ -510,7 +510,7 @@ msgstr "계획된 스냅샷 만들기"
 msgid "Create snapshot of current system"
 msgstr "현재 시스템의 스냅샷 만들기"
 
-#: Gtk/MainWindow.vala:1068
+#: Gtk/MainWindow.vala:1058
 msgid ""
 "Create snapshots manually or enable scheduled snapshots to protect your "
 "system"
@@ -709,36 +709,6 @@ msgstr "리눅스 파일 시스템이 있는 장치"
 msgid "Devices with Windows file systems are not supported (NTFS, FAT, etc)."
 msgstr ""
 
-#: Utility/Gtk/DonationWindow.vala:61
-msgid ""
-"Did you find this software useful?\n"
-"\n"
-"You can buy me a coffee or make a donation via PayPal to show your support. "
-"Or just drop me an email and say Hi. This application is completely free and "
-"will continue to remain that way. Your contributions will help in keeping "
-"this project alive and improving it further.\n"
-"\n"
-"Feel free to send me an email if you find any issues in this application or "
-"if you need any changes. Suggestions and feedback are always welcome.\n"
-"\n"
-"Thanks,\n"
-"Tony George\n"
-"(teejeetech@gmail.com)"
-msgstr ""
-"이 프로그램 쓸만하시던가요?\n"
-"\n"
-"제게 커피를 한 잔 사시거나 페이팔로 기부를 하시는 것으로 후원하는 마음을 보여"
-"주실 수 있습니다. 또는 안녕하세요라는 이 메일 한 통 보내셔도 좋구요. 이 프로"
-"그램은 완전히 무료이며 앞으로도 무료일겁니다. 여러분의 공헌으로 이 프로젝트"
-"는 살아가고 발전해 나가게 될 겁니다.\n"
-"\n"
-"이 프로그램에 문제를 제기하시거나 바꿀게 있다면 부담 갖지 마시고 이메일 보내"
-"세요. 제안이나 피드백은 언제나 환영입니다.\n"
-"\n"
-"감사합니다,\n"
-"Tony George\n"
-"(teejeetech@gmail.com)"
-
 #: Utility/TeeJee.FileSystem.vala:518
 msgid "Dir not found"
 msgstr "디렉토리를 찾을 수 없습니다"
@@ -763,13 +733,10 @@ msgstr "배포판"
 msgid "Documentation"
 msgstr "기부"
 
-#: Utility/Gtk/DonationWindow.vala:42 Gtk/MainWindow.vala:388
+#: Utility/Gtk/DonationWindow.vala:43 Utility/Gtk/DonationWindow.vala:76
+#: Gtk/MainWindow.vala:209 Gtk/MainWindow.vala:210
 msgid "Donate"
 msgstr "기부하기"
-
-#: Utility/Gtk/DonationWindow.vala:81
-msgid "Donate with PayPal"
-msgstr "페이팔로 기부하기"
 
 #: Utility/Gtk/AboutWindow.vala:465
 msgid "Donations"
@@ -779,7 +746,7 @@ msgstr "기부"
 msgid "Enable BTRFS qgroups (recommended)"
 msgstr ""
 
-#: Gtk/MainWindow.vala:1062
+#: Gtk/MainWindow.vala:1052
 msgid "Enable scheduled snapshots to protect your system"
 msgstr "여러분의 시스템 보호를 위해 스냅샷 스케줄을 실행하세요"
 
@@ -831,7 +798,7 @@ msgstr "오류"
 msgid "Error running Rsync"
 msgstr ""
 
-#: Gtk/SetupWizardWindow.vala:99 Gtk/BackupWindow.vala:81
+#: Gtk/SetupWizardWindow.vala:99 Gtk/BackupWindow.vala:82
 msgid "Estimate"
 msgstr "어림잡기"
 
@@ -1026,6 +993,10 @@ msgstr "연결된 장치 해제에 실패했습니다!"
 msgid "Failed to write file"
 msgstr "파일 쓰기 실패했습니다"
 
+#: Utility/Gtk/DonationWindow.vala:105
+msgid "Feature Requests"
+msgstr ""
+
 #: Gtk/RsyncLogBox.vala:122
 msgid "File (snapshot)"
 msgstr "스냅샷을 지웁니다"
@@ -1084,7 +1055,7 @@ msgstr "장치 이름 혹은 번호를 입력하십시오"
 msgid "Filters"
 msgstr "필터"
 
-#: Gtk/SetupWizardWindow.vala:205 Gtk/BackupWindow.vala:96
+#: Gtk/SetupWizardWindow.vala:205 Gtk/BackupWindow.vala:97
 #: Gtk/DeleteWindow.vala:103
 msgid "Finish"
 msgstr "마치기"
@@ -1192,6 +1163,12 @@ msgid ""
 msgstr ""
 "이 요건들을 수락하실 수 없으시다면, 이후의 과정을 실행하지 말아 주십시오!"
 
+#: Utility/Gtk/DonationWindow.vala:70
+msgid ""
+"If you find this application useful, consider making a donation to support "
+"the development."
+msgstr ""
+
 #: Gtk/ExcludeBox.vala:54
 msgid "Include / Exclude Patterns"
 msgstr "패턴 포함 / 제외"
@@ -1217,13 +1194,13 @@ msgstr "잘못된 스냅샷"
 msgid "Invalid command line arguments"
 msgstr "사용 불가능한 명령어 인수입니다"
 
-#: Gtk/MainWindow.vala:824
+#: Gtk/MainWindow.vala:817
 msgid "Invalid snapshot"
 msgstr "잘못된 스냅샷"
 
-#: Utility/Gtk/DonationWindow.vala:97
-msgid "Issue Tracker ~ Report Issues, Request Features, Ask Questions"
-msgstr "이슈 트렉커 ~ 이슈 리포트, 기능 요구, 물어보기"
+#: Utility/Gtk/DonationWindow.vala:94
+msgid "Issue Tracker"
+msgstr ""
 
 #: Gtk/ExcludeBox.vala:272
 msgid "Items Not Selected"
@@ -1333,7 +1310,7 @@ msgstr "마지막 매주 스냅샷을 만든 지 일주일이 넘었습니다"
 msgid "Last weekly snapshot not found"
 msgstr "마지막 매주 스냅샷을 찾을 수 없습니다"
 
-#: Gtk/MainWindow.vala:1043
+#: Gtk/MainWindow.vala:1033
 #, c-format
 msgid "Latest snapshot"
 msgstr "최근 스냅샷"
@@ -1359,16 +1336,16 @@ msgstr "장치 목록을 봅니다"
 msgid "List snapshots"
 msgstr "스냅샷 목록을 봅니다"
 
-#: Gtk/MainWindow.vala:994
+#: Gtk/MainWindow.vala:984
 msgid "Live USB Mode (Restore Only)"
 msgstr "라이브 USB 모드 (복원 전용)"
 
-#: Gtk/SetupWizardWindow.vala:104 Gtk/BackupWindow.vala:86
+#: Gtk/SetupWizardWindow.vala:104 Gtk/BackupWindow.vala:87
 #: Gtk/SettingsWindow.vala:89
 msgid "Location"
 msgstr "위치"
 
-#: Gtk/MainWindow.vala:459
+#: Gtk/MainWindow.vala:452
 msgid "Main window closed by user"
 msgstr "주창이 사용자에 의해 닫혔습니다"
 
@@ -1376,7 +1353,7 @@ msgstr "주창이 사용자에 의해 닫혔습니다"
 msgid "Mark for Deletion"
 msgstr "삭제 표시"
 
-#: Gtk/MainWindow.vala:641
+#: Gtk/MainWindow.vala:634
 msgid "Marked for deletion"
 msgstr "삭제 표시됨"
 
@@ -1384,7 +1361,7 @@ msgstr "삭제 표시됨"
 msgid "Maximum backups exceeded for backup level"
 msgstr "최대 백업이 백업 단계를 초과했습니다"
 
-#: Gtk/MainWindow.vala:208
+#: Gtk/MainWindow.vala:218
 msgid "Menu"
 msgstr "메뉴"
 
@@ -1426,7 +1403,7 @@ msgstr "장착"
 msgid "Moved system subvolume to snapshot directory"
 msgstr "스냅샷 디렉토리로 옮긴 시스템 서브 볼륨"
 
-#: Gtk/MainWindow.vala:800
+#: Gtk/MainWindow.vala:793
 msgid "Multiple snapshots selected"
 msgstr "여러 개의 스냅샷이 선택되었습니다"
 
@@ -1435,7 +1412,7 @@ msgstr "여러 개의 스냅샷이 선택되었습니다"
 msgid "Name"
 msgstr "이름"
 
-#: Gtk/SetupWizardWindow.vala:197 Gtk/BackupWindow.vala:160
+#: Gtk/SetupWizardWindow.vala:197 Gtk/BackupWindow.vala:161
 #: Gtk/DeleteWindow.vala:162 Gtk/RestoreWindow.vala:198
 msgid "Next"
 msgstr "다음"
@@ -1448,16 +1425,16 @@ msgstr "아니요"
 msgid "No Change"
 msgstr "그대로 두기"
 
-#: Gtk/MainWindow.vala:615 Gtk/DeleteWindow.vala:341
+#: Gtk/MainWindow.vala:608 Gtk/DeleteWindow.vala:341
 msgid "No Snapshots Selected"
 msgstr "스냅샷을 선택하지 않으셨습니다"
 
-#: Gtk/MainWindow.vala:1067
+#: Gtk/MainWindow.vala:1057
 msgid "No snapshots available"
 msgstr "사용 가능한 스냅샷이 없습니다"
 
 #: Console/AppConsole.vala:320 Core/SnapshotRepo.vala:898
-#: Gtk/MainWindow.vala:1011
+#: Gtk/MainWindow.vala:1001
 msgid "No snapshots found"
 msgstr "스냅샷이 없습니다"
 
@@ -1465,7 +1442,7 @@ msgstr "스냅샷이 없습니다"
 msgid "No snapshots found on device"
 msgstr "이 장치에서 스냅샷을 찾을 수 없습니다"
 
-#: Gtk/MainWindow.vala:553
+#: Gtk/MainWindow.vala:546
 msgid "No snapshots on device"
 msgstr "장치에 스냅샷이 없습니다"
 
@@ -1473,11 +1450,11 @@ msgstr "장치에 스냅샷이 없습니다"
 msgid "No snapshots on this device"
 msgstr "이 장치에는 스냅샷이 없습니다"
 
-#: Gtk/MainWindow.vala:793
+#: Gtk/MainWindow.vala:786
 msgid "No snapshots selected"
 msgstr "스냅샷이 선택되지 않았습니다"
 
-#: Gtk/MainWindow.vala:1044 Gtk/MainWindow.vala:1046
+#: Gtk/MainWindow.vala:1034 Gtk/MainWindow.vala:1036
 msgid "None"
 msgstr "없음"
 
@@ -1537,7 +1514,7 @@ msgstr ""
 msgid "Older log files removed"
 msgstr "오래된 로그파일들이 지워졌습니다"
 
-#: Gtk/MainWindow.vala:1045
+#: Gtk/MainWindow.vala:1035
 msgid "Oldest snapshot"
 msgstr "가장 오래된 스냅샷"
 
@@ -1551,7 +1528,7 @@ msgid ""
 msgstr ""
 "현재는 @ 와 @home 서브 볼륨으로 된 우분투 형식의 레이아웃만 지원합니다."
 
-#: Gtk/MainWindow.vala:209
+#: Gtk/MainWindow.vala:219
 msgid "Open Menu"
 msgstr "메뉴 열기"
 
@@ -1627,7 +1604,7 @@ msgstr "관리자로서 프로그램을 사용하여주십시오('sudo' 혹은 '
 msgid "Please save your work and close all applications."
 msgstr "작업을 저장하시고 모든 프로그램을 닫아주십시오."
 
-#: Gtk/MainWindow.vala:695
+#: Gtk/MainWindow.vala:688
 msgid "Please select a snapshot to view the log!"
 msgstr "로그를 보기 위한 스냅샷을 하나 선택해주십시오!"
 
@@ -1639,7 +1616,7 @@ msgstr "GRUB 장치를 선택해주세요"
 msgid "Please wait a few minutes and try again."
 msgstr "잠시 기다렸다 다시 시도해 주세요"
 
-#: Gtk/MainWindow.vala:762
+#: Gtk/MainWindow.vala:755
 msgid "Please wait for snapshots to be deleted."
 msgstr "스냅샷이 지워질 때까지 기다려주세요"
 
@@ -1656,7 +1633,7 @@ msgstr "목록를 채우고 있습니다..."
 msgid "Preparing..."
 msgstr "준비하고 있습니다..."
 
-#: Gtk/SetupWizardWindow.vala:189 Gtk/BackupWindow.vala:152
+#: Gtk/SetupWizardWindow.vala:189 Gtk/BackupWindow.vala:153
 #: Gtk/DeleteWindow.vala:154 Gtk/RestoreWindow.vala:190
 msgid "Previous"
 msgstr "이전"
@@ -1898,7 +1875,7 @@ msgstr "일정 관리"
 msgid "Scheduled snapshot in progress..."
 msgstr "스냅샷 스케줄을 진행하고 있습니다..."
 
-#: Core/Main.vala:1147 Gtk/MainWindow.vala:1061 Gtk/ScheduleBox.vala:312
+#: Core/Main.vala:1147 Gtk/MainWindow.vala:1051 Gtk/ScheduleBox.vala:312
 msgid "Scheduled snapshots are disabled"
 msgstr "스냅샷 스케줄이 해제됐습니다"
 
@@ -1935,7 +1912,7 @@ msgstr "GRUB 장치를 선택하십시오"
 msgid "Select Path"
 msgstr "경로 선택"
 
-#: Gtk/MainWindow.vala:694
+#: Gtk/MainWindow.vala:687
 msgid "Select Snapshot"
 msgstr "스냅샷 선택"
 
@@ -1964,7 +1941,7 @@ msgstr "대상 장치 선택"
 msgid "Select a partition on this disk"
 msgstr "이 디스크에서 파티션 선택하기"
 
-#: Gtk/MainWindow.vala:801
+#: Gtk/MainWindow.vala:794
 msgid "Select a single snapshot to restore"
 msgstr "복원할 스냅샷을 하나 선택하세요"
 
@@ -1976,11 +1953,11 @@ msgstr "루트 파일 시스템 (/)을 위한 장치를 선택하세요"
 msgid "Select another device or free up some space"
 msgstr "다른 장치를 선택하거나 공간을 늘리세요"
 
-#: Gtk/MainWindow.vala:547 Gtk/MainWindow.vala:554
+#: Gtk/MainWindow.vala:540 Gtk/MainWindow.vala:547
 msgid "Select another device to delete snasphots"
 msgstr "스냅샷을 지울 다른 장치를 선택하세요"
 
-#: Gtk/MainWindow.vala:481
+#: Gtk/MainWindow.vala:474
 msgid "Select another device?"
 msgstr "다른 장치를 선택하시겠습니까?"
 
@@ -2028,7 +2005,7 @@ msgstr "선택한 항목은 목록에서 지워집니다"
 msgid "Select the snapshot device"
 msgstr "스냅샷 장치를 선택하세요"
 
-#: Gtk/MainWindow.vala:794
+#: Gtk/MainWindow.vala:787
 msgid "Select the snapshot to restore"
 msgstr "복원할 스냅샷을 선택하세요"
 
@@ -2036,7 +2013,7 @@ msgstr "복원할 스냅샷을 선택하세요"
 msgid "Select the snapshots to be deleted"
 msgstr "지울 스냅샷을 선택하세요"
 
-#: Gtk/MainWindow.vala:616
+#: Gtk/MainWindow.vala:609
 msgid "Select the snapshots to mark for deletion"
 msgstr "지움 표시할 스냅샷을 선택하세요"
 
@@ -2072,7 +2049,7 @@ msgstr "선택한 스냅샷 장치는 시스템 디스크가 아닙니다"
 msgid "Selected snapshot is marked for deletion"
 msgstr "선택한 스냅샷에 삭제 표시했습니다"
 
-#: Gtk/MainWindow.vala:825
+#: Gtk/MainWindow.vala:818
 msgid "Selected snapshot is marked for deletion and cannot be restored"
 msgstr "선택한 스냅샷은 삭제 표시가 있어서 복원할 수 없습니다"
 
@@ -2159,7 +2136,7 @@ msgstr "GRUB2 재설치를 넘깁니다"
 msgid "Snapshot"
 msgstr "스냅샷"
 
-#: Gtk/MainWindow.vala:564
+#: Gtk/MainWindow.vala:557
 #, c-format
 msgid ""
 "Snapshot '%s' is being used by the system and cannot be deleted. Restart the "
@@ -2177,7 +2154,7 @@ msgstr "스냅샷이 만들어졌습니다"
 msgid "Snapshot Levels"
 msgstr "스냅샷 레벨 선택하기"
 
-#: Gtk/MainWindow.vala:761
+#: Gtk/MainWindow.vala:754
 msgid "Snapshot deletion in progress..."
 msgstr "스냅샷을 지우고 있습니다..."
 
@@ -2215,7 +2192,7 @@ msgstr "스냅샷은 시스템을 다시 시작하고 난 후에 활성화됩니
 msgid "Snapshot(s) Deleted"
 msgstr "스냅샷을 지웠습니다"
 
-#: Gtk/MainWindow.vala:310 Gtk/DeleteWindow.vala:89
+#: Gtk/MainWindow.vala:320 Gtk/DeleteWindow.vala:89
 msgid "Snapshots"
 msgstr "스냅샷"
 
@@ -2284,7 +2261,7 @@ msgid ""
 "locations are not supported."
 msgstr ""
 
-#: Gtk/MainWindow.vala:1006
+#: Gtk/MainWindow.vala:996
 msgid "Snapshots available for restore"
 msgstr "복원 가능한 스냅샷"
 
@@ -2302,7 +2279,7 @@ msgstr ""
 msgid "Snapshots cannot be created in Live CD mode"
 msgstr "라이브 CD 모드에서는 스냅샷이 만들어지지 않습니다"
 
-#: Gtk/MainWindow.vala:1053
+#: Gtk/MainWindow.vala:1043
 msgid "Snapshots will be created at selected intervals"
 msgstr "설정한 스케줄대로 스냅샷이 만들어지게 됩니다"
 
@@ -2316,7 +2293,7 @@ msgstr ""
 "디스크 공간이 충분하다면 설정한 스케줄대로 스냅샷을 만들어지게 됩니다 (> 1 "
 "GB)"
 
-#: Gtk/MainWindow.vala:642
+#: Gtk/MainWindow.vala:635
 msgid "Snapshots will be removed during the next scheduled run"
 msgstr "다음 스케줄을 실행하는 동안 스냅샷이 지워집니다"
 
@@ -2364,6 +2341,11 @@ msgstr "볼륨"
 msgid "Summary"
 msgstr "요약"
 
+#: Utility/Gtk/DonationWindow.vala:84
+#, fuzzy
+msgid "Support"
+msgstr "지원되지 않는 것입니다"
+
 #: Console/AppConsole.vala:377
 msgid "Switch to BTRFS mode (default: config)"
 msgstr "BTRFS 모드로 전환 (기본: 설정값)"
@@ -2393,7 +2375,7 @@ msgstr "구문"
 msgid "System"
 msgstr "시스템"
 
-#: Gtk/MainWindow.vala:951
+#: Gtk/MainWindow.vala:941
 msgid "System Restore Utility"
 msgstr "시스템 복원 도구"
 
@@ -2460,6 +2442,16 @@ msgstr "대상 파티션에 지원하지 않는 서브 볼륨 레이아웃 있�
 msgid "There are no snapshots on this device"
 msgstr "이 장치에는 스냅샷이 없습니다"
 
+#: Utility/Gtk/DonationWindow.vala:109
+msgid ""
+"This application was created for my own use in my spare time, and it's not "
+"practical for me to work for free, on every change that is requested. If you "
+"need new features or changes to the application, consider making a donation "
+"to sponsor the work. If you are a developer, consider contributing to the "
+"project, by submitting code changes for issues and features in the issue "
+"tracker."
+msgstr ""
+
 #: Utility/Device.vala:1379
 msgid "This device is not encrypted"
 msgstr "이 장치는 암호화되어있지 않습니다"
@@ -2472,7 +2464,14 @@ msgstr ""
 "이 소프트웨어는 아무런 보증기간이 없으며 개발자는 이 프로그램을 사용하며 발생"
 "하는 어떤 문제도 책임지지 않습니다."
 
-#: Gtk/MainWindow.vala:1041 Gtk/MainWindow.vala:1052
+#: Utility/Gtk/DonationWindow.vala:66
+msgid ""
+"This software is free for personal and commercial use. It is distributed in "
+"the hope that it is useful but without any warranty. See the GNU General "
+"Public License v2 or later for more information"
+msgstr ""
+
+#: Gtk/MainWindow.vala:1031 Gtk/MainWindow.vala:1042
 msgid "Timeshift is active"
 msgstr "타임시프트가 작동합니다"
 
@@ -2571,6 +2570,12 @@ msgstr "GRUB 메뉴를 업데이트하고 있습니다..."
 msgid "Updating bootloader configuration..."
 msgstr "부트로더 설정을 업데이트하고 있습니다..."
 
+#: Utility/Gtk/DonationWindow.vala:88
+msgid ""
+"Use the issue tracker for reporting issues, asking questions, and requesting "
+"features. Please avoid reporting issues by email."
+msgstr ""
+
 #: Utility/Device.vala:1954
 #, c-format
 msgid "Used"
@@ -2615,7 +2620,7 @@ msgstr "만들기 로그 보기"
 msgid "View Rsync Log for Restore"
 msgstr "복원 로그 보기"
 
-#: Gtk/MainWindow.vala:378
+#: Gtk/MainWindow.vala:380
 msgid "View TimeShift Logs"
 msgstr "타임시프트 로그 보기"
 
@@ -2631,11 +2636,6 @@ msgstr "주의"
 msgid "Web Browsers"
 msgstr "웹 브라우저"
 
-#: Utility/Gtk/DonationWindow.vala:113
-#, c-format
-msgid "Website"
-msgstr "웹 사이트"
-
 #: Gtk/ScheduleBox.vala:82 Gtk/SnapshotListBox.vala:301
 msgid "Weekly"
 msgstr "매주"
@@ -2648,9 +2648,9 @@ msgstr "매주 스냅샷 만들기에 실패했습니다!"
 msgid "Weekly snapshots are enabled"
 msgstr "매주 스냅샷 만들기를 실행합니다"
 
-#: Utility/Gtk/DonationWindow.vala:105
-msgid "Wiki ~ Documentation & Help"
-msgstr "Wiki ~ 문서 목록 & 도움말"
+#: Utility/Gtk/DonationWindow.vala:99
+msgid "Wiki"
+msgstr ""
 
 #: Gtk/BackupFinishBox.vala:63 Gtk/DeleteFinishBox.vala:63
 msgid "With Errors"
@@ -2746,6 +2746,59 @@ msgstr "알싱크가 오류를 실행했습니다"
 #: Core/SnapshotRepo.vala:831
 msgid "un-tagged"
 msgstr "태그 되지 않은"
+
+#, fuzzy
+#~ msgid "Donation Plugins"
+#~ msgstr "기부"
+
+#, fuzzy
+#~ msgid "Donate ($5)"
+#~ msgstr "기부하기"
+
+#, fuzzy
+#~ msgid "Get Support ($10)"
+#~ msgstr "지원되지 않는 것입니다"
+
+#~ msgid ""
+#~ "Did you find this software useful?\n"
+#~ "\n"
+#~ "You can buy me a coffee or make a donation via PayPal to show your "
+#~ "support. Or just drop me an email and say Hi. This application is "
+#~ "completely free and will continue to remain that way. Your contributions "
+#~ "will help in keeping this project alive and improving it further.\n"
+#~ "\n"
+#~ "Feel free to send me an email if you find any issues in this application "
+#~ "or if you need any changes. Suggestions and feedback are always welcome.\n"
+#~ "\n"
+#~ "Thanks,\n"
+#~ "Tony George\n"
+#~ "(teejeetech@gmail.com)"
+#~ msgstr ""
+#~ "이 프로그램 쓸만하시던가요?\n"
+#~ "\n"
+#~ "제게 커피를 한 잔 사시거나 페이팔로 기부를 하시는 것으로 후원하는 마음을 "
+#~ "보여주실 수 있습니다. 또는 안녕하세요라는 이 메일 한 통 보내셔도 좋구요. "
+#~ "이 프로그램은 완전히 무료이며 앞으로도 무료일겁니다. 여러분의 공헌으로 이 "
+#~ "프로젝트는 살아가고 발전해 나가게 될 겁니다.\n"
+#~ "\n"
+#~ "이 프로그램에 문제를 제기하시거나 바꿀게 있다면 부담 갖지 마시고 이메일 보"
+#~ "내세요. 제안이나 피드백은 언제나 환영입니다.\n"
+#~ "\n"
+#~ "감사합니다,\n"
+#~ "Tony George\n"
+#~ "(teejeetech@gmail.com)"
+
+#~ msgid "Donate with PayPal"
+#~ msgstr "페이팔로 기부하기"
+
+#~ msgid "Issue Tracker ~ Report Issues, Request Features, Ask Questions"
+#~ msgstr "이슈 트렉커 ~ 이슈 리포트, 기능 요구, 물어보기"
+
+#~ msgid "Website"
+#~ msgstr "웹 사이트"
+
+#~ msgid "Wiki ~ Documentation & Help"
+#~ msgstr "Wiki ~ 문서 목록 & 도움말"
 
 #~ msgid "Code Contributions"
 #~ msgstr "기여"

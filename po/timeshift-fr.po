@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: timeshift\n"
 "Report-Msgid-Bugs-To: teejeetech@gmail.com\n"
-"POT-Creation-Date: 2018-08-26 21:06+0530\n"
+"POT-Creation-Date: 2018-09-05 21:57+0530\n"
 "PO-Revision-Date: 2017-11-10 17:05+0000\n"
 "Last-Translator: Fr-coord <Unknown>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -84,7 +84,7 @@ msgstr ""
 msgid "Aborted."
 msgstr "Abandon."
 
-#: Gtk/MainWindow.vala:393
+#: Gtk/MainWindow.vala:386
 msgid "About"
 msgstr "À Propos"
 
@@ -208,7 +208,7 @@ msgstr "Artistes"
 msgid "Authors"
 msgstr "Auteurs"
 
-#: Gtk/MainWindow.vala:346
+#: Gtk/MainWindow.vala:356
 msgid "Available"
 msgstr "Disponible"
 
@@ -256,7 +256,7 @@ msgstr "Retour"
 msgid "Backend"
 msgstr "Backend"
 
-#: Console/AppConsole.vala:356 Gtk/BackupWindow.vala:91
+#: Console/AppConsole.vala:356 Gtk/BackupWindow.vala:92
 msgid "Backup"
 msgstr "Sauvegarder"
 
@@ -268,7 +268,7 @@ msgstr "Périphérique de sauvegarde"
 msgid "Backup device not specified!"
 msgstr "Le périphérique de sauvegarde n'a pas été spécifié !"
 
-#: Utility/Gtk/DonationWindow.vala:89
+#: Utility/Gtk/DonationWindow.vala:79
 msgid "Become a Patron"
 msgstr "Devenir mécène"
 
@@ -324,7 +324,7 @@ msgid "Building file list..."
 msgstr "Calcul de la liste de fichiers..."
 
 #: Utility/GtkHelper.vala:122 Utility/Gtk/CustomMessageDialog.vala:172
-#: Gtk/SetupWizardWindow.vala:214 Gtk/BackupWindow.vala:177
+#: Gtk/SetupWizardWindow.vala:214 Gtk/BackupWindow.vala:178
 #: Gtk/DeleteWindow.vala:187 Gtk/RestoreWindow.vala:206
 #: Gtk/RestoreWindow.vala:215
 msgid "Cancel"
@@ -347,7 +347,7 @@ msgstr ""
 "autre instantané, pour porter le système dans un état cohérent. Cliquez Oui "
 "pour confirmer."
 
-#: Gtk/MainWindow.vala:563
+#: Gtk/MainWindow.vala:556
 msgid "Cannot Delete Live Snapshot"
 msgstr "Impossible de supprimer l'instantané live"
 
@@ -402,8 +402,8 @@ msgstr "Clonage"
 msgid "Cloning system..."
 msgstr "Clonage du système..."
 
-#: Utility/Gtk/AboutWindow.vala:326 Utility/Gtk/DonationWindow.vala:121
-#: Gtk/RsyncLogBox.vala:266 Gtk/BackupWindow.vala:168
+#: Utility/Gtk/AboutWindow.vala:326 Utility/Gtk/DonationWindow.vala:117
+#: Gtk/RsyncLogBox.vala:266 Gtk/BackupWindow.vala:169
 #: Gtk/BootOptionsWindow.vala:106 Gtk/DeleteWindow.vala:170
 #: Gtk/RestoreWindow.vala:508
 msgid "Close"
@@ -482,7 +482,7 @@ msgstr ""
 msgid "Create"
 msgstr "Créer"
 
-#: Gtk/BackupWindow.vala:61
+#: Gtk/BackupWindow.vala:62
 msgid "Create Snapshot"
 msgstr "Créer un instantané"
 
@@ -518,7 +518,7 @@ msgstr "Créer un instantané si planifié"
 msgid "Create snapshot of current system"
 msgstr "Créer un instantané du système courant"
 
-#: Gtk/MainWindow.vala:1068
+#: Gtk/MainWindow.vala:1058
 msgid ""
 "Create snapshots manually or enable scheduled snapshots to protect your "
 "system"
@@ -719,38 +719,6 @@ msgstr "Périphériques avec des systèmes de fichiers compatibles avec Linux"
 msgid "Devices with Windows file systems are not supported (NTFS, FAT, etc)."
 msgstr ""
 
-#: Utility/Gtk/DonationWindow.vala:61
-msgid ""
-"Did you find this software useful?\n"
-"\n"
-"You can buy me a coffee or make a donation via PayPal to show your support. "
-"Or just drop me an email and say Hi. This application is completely free and "
-"will continue to remain that way. Your contributions will help in keeping "
-"this project alive and improving it further.\n"
-"\n"
-"Feel free to send me an email if you find any issues in this application or "
-"if you need any changes. Suggestions and feedback are always welcome.\n"
-"\n"
-"Thanks,\n"
-"Tony George\n"
-"(teejeetech@gmail.com)"
-msgstr ""
-"Vous avez trouvé ce logiciel utile ?\n"
-"\n"
-"Vous pouvez m'offrir un café ou me faire un don via PayPal pour me montrer "
-"votre soutien. Ou vous pouvez simplement m'envoyer un courriel pour me dire "
-"bonjour. Cette application est totalement libre et continuera à rester comme "
-"telle. Vos contributions aideront à garder vivant ce projet et à l'améliorer "
-"encore plus.\n"
-"\n"
-"N'hésitez pas à m'envoyer un courriel si vous trouvez des anomalies dans "
-"cette application ou si vous avez besoin de certains changements. Les "
-"suggestions et les commentaires sont toujours les bienvenus.\n"
-"\n"
-"Merci,\n"
-"Tony George\n"
-"(teejeetech@gmail.com)"
-
 #: Utility/TeeJee.FileSystem.vala:518
 msgid "Dir not found"
 msgstr "Dossier non trouvé"
@@ -775,13 +743,10 @@ msgstr "Distribution"
 msgid "Documentation"
 msgstr "Dons"
 
-#: Utility/Gtk/DonationWindow.vala:42 Gtk/MainWindow.vala:388
+#: Utility/Gtk/DonationWindow.vala:43 Utility/Gtk/DonationWindow.vala:76
+#: Gtk/MainWindow.vala:209 Gtk/MainWindow.vala:210
 msgid "Donate"
 msgstr "Faire un don"
-
-#: Utility/Gtk/DonationWindow.vala:81
-msgid "Donate with PayPal"
-msgstr "Faire un don via PayPal"
 
 #: Utility/Gtk/AboutWindow.vala:465
 msgid "Donations"
@@ -791,7 +756,7 @@ msgstr "Dons"
 msgid "Enable BTRFS qgroups (recommended)"
 msgstr ""
 
-#: Gtk/MainWindow.vala:1062
+#: Gtk/MainWindow.vala:1052
 msgid "Enable scheduled snapshots to protect your system"
 msgstr "Activez les instantanés programmés pour protéger votre système"
 
@@ -844,7 +809,7 @@ msgstr "Erreur"
 msgid "Error running Rsync"
 msgstr ""
 
-#: Gtk/SetupWizardWindow.vala:99 Gtk/BackupWindow.vala:81
+#: Gtk/SetupWizardWindow.vala:99 Gtk/BackupWindow.vala:82
 msgid "Estimate"
 msgstr "Estimation"
 
@@ -1040,6 +1005,10 @@ msgstr "Erreur lors du démontage du périphérique"
 msgid "Failed to write file"
 msgstr "Impossible d'écrire le fichier"
 
+#: Utility/Gtk/DonationWindow.vala:105
+msgid "Feature Requests"
+msgstr ""
+
 #: Gtk/RsyncLogBox.vala:122
 msgid "File (snapshot)"
 msgstr "Supprimer l'instantané"
@@ -1100,7 +1069,7 @@ msgstr "Saisissez le nom ou le numéro du périphérique"
 msgid "Filters"
 msgstr "Filtres"
 
-#: Gtk/SetupWizardWindow.vala:205 Gtk/BackupWindow.vala:96
+#: Gtk/SetupWizardWindow.vala:205 Gtk/BackupWindow.vala:97
 #: Gtk/DeleteWindow.vala:103
 msgid "Finish"
 msgstr "Terminer"
@@ -1208,6 +1177,12 @@ msgid ""
 "point!"
 msgstr "Si vous refusez ces conditions, veuillez ne pas aller pas plus loin !"
 
+#: Utility/Gtk/DonationWindow.vala:70
+msgid ""
+"If you find this application useful, consider making a donation to support "
+"the development."
+msgstr ""
+
 #: Gtk/ExcludeBox.vala:54
 msgid "Include / Exclude Patterns"
 msgstr "Patterns d'inclusion/exclusion"
@@ -1233,15 +1208,13 @@ msgstr "Instantané non-valide"
 msgid "Invalid command line arguments"
 msgstr "Arguments de ligne de commande invalides"
 
-#: Gtk/MainWindow.vala:824
+#: Gtk/MainWindow.vala:817
 msgid "Invalid snapshot"
 msgstr "Snapshot invalide"
 
-#: Utility/Gtk/DonationWindow.vala:97
-msgid "Issue Tracker ~ Report Issues, Request Features, Ask Questions"
+#: Utility/Gtk/DonationWindow.vala:94
+msgid "Issue Tracker"
 msgstr ""
-"Gestionnaires de problèmes ~ Signaler des problèmes, demander des fonctions, "
-"poser des questions"
 
 #: Gtk/ExcludeBox.vala:272
 msgid "Items Not Selected"
@@ -1355,7 +1328,7 @@ msgstr "Le dernier cliché hebdomadaire est daté de plus d'une semaine"
 msgid "Last weekly snapshot not found"
 msgstr "Le dernier cliché hebdomadaire est introuvable"
 
-#: Gtk/MainWindow.vala:1043
+#: Gtk/MainWindow.vala:1033
 #, c-format
 msgid "Latest snapshot"
 msgstr "Dernier instantané"
@@ -1381,16 +1354,16 @@ msgstr "Lister les périphériques"
 msgid "List snapshots"
 msgstr "Lister les instantanés"
 
-#: Gtk/MainWindow.vala:994
+#: Gtk/MainWindow.vala:984
 msgid "Live USB Mode (Restore Only)"
 msgstr "Mode Live USB (seulement pour la restauration)"
 
-#: Gtk/SetupWizardWindow.vala:104 Gtk/BackupWindow.vala:86
+#: Gtk/SetupWizardWindow.vala:104 Gtk/BackupWindow.vala:87
 #: Gtk/SettingsWindow.vala:89
 msgid "Location"
 msgstr "Emplacement"
 
-#: Gtk/MainWindow.vala:459
+#: Gtk/MainWindow.vala:452
 msgid "Main window closed by user"
 msgstr "Fenêtre principale fermée par l'utilisateur"
 
@@ -1398,7 +1371,7 @@ msgstr "Fenêtre principale fermée par l'utilisateur"
 msgid "Mark for Deletion"
 msgstr "Marquer pour suppression"
 
-#: Gtk/MainWindow.vala:641
+#: Gtk/MainWindow.vala:634
 msgid "Marked for deletion"
 msgstr "Marqué pour suppression"
 
@@ -1406,7 +1379,7 @@ msgstr "Marqué pour suppression"
 msgid "Maximum backups exceeded for backup level"
 msgstr "Nombre de sauvegardes dépassés pour le type de sauvegarde"
 
-#: Gtk/MainWindow.vala:208
+#: Gtk/MainWindow.vala:218
 msgid "Menu"
 msgstr "Menu"
 
@@ -1448,7 +1421,7 @@ msgstr "Monter"
 msgid "Moved system subvolume to snapshot directory"
 msgstr "Sous-volume système déplacé vers le dossier de l'instantané"
 
-#: Gtk/MainWindow.vala:800
+#: Gtk/MainWindow.vala:793
 msgid "Multiple snapshots selected"
 msgstr "Plusieurs instantanés sélectionnés"
 
@@ -1457,7 +1430,7 @@ msgstr "Plusieurs instantanés sélectionnés"
 msgid "Name"
 msgstr "Nom"
 
-#: Gtk/SetupWizardWindow.vala:197 Gtk/BackupWindow.vala:160
+#: Gtk/SetupWizardWindow.vala:197 Gtk/BackupWindow.vala:161
 #: Gtk/DeleteWindow.vala:162 Gtk/RestoreWindow.vala:198
 msgid "Next"
 msgstr "Suivant"
@@ -1470,16 +1443,16 @@ msgstr "Non"
 msgid "No Change"
 msgstr "Aucun changement"
 
-#: Gtk/MainWindow.vala:615 Gtk/DeleteWindow.vala:341
+#: Gtk/MainWindow.vala:608 Gtk/DeleteWindow.vala:341
 msgid "No Snapshots Selected"
 msgstr "Aucun cliché sélectionné"
 
-#: Gtk/MainWindow.vala:1067
+#: Gtk/MainWindow.vala:1057
 msgid "No snapshots available"
 msgstr "Aucun instantané disponible"
 
 #: Console/AppConsole.vala:320 Core/SnapshotRepo.vala:898
-#: Gtk/MainWindow.vala:1011
+#: Gtk/MainWindow.vala:1001
 msgid "No snapshots found"
 msgstr "Aucun instantané trouvé"
 
@@ -1487,7 +1460,7 @@ msgstr "Aucun instantané trouvé"
 msgid "No snapshots found on device"
 msgstr "Aucun instantané trouvé sur le périphérique"
 
-#: Gtk/MainWindow.vala:553
+#: Gtk/MainWindow.vala:546
 msgid "No snapshots on device"
 msgstr "Aucun cliché sur ce périphérique"
 
@@ -1495,11 +1468,11 @@ msgstr "Aucun cliché sur ce périphérique"
 msgid "No snapshots on this device"
 msgstr "Aucun instantané sur ce périphérique"
 
-#: Gtk/MainWindow.vala:793
+#: Gtk/MainWindow.vala:786
 msgid "No snapshots selected"
 msgstr "Aucun instantané sélectionné"
 
-#: Gtk/MainWindow.vala:1044 Gtk/MainWindow.vala:1046
+#: Gtk/MainWindow.vala:1034 Gtk/MainWindow.vala:1036
 msgid "None"
 msgstr "Aucun"
 
@@ -1561,7 +1534,7 @@ msgstr ""
 msgid "Older log files removed"
 msgstr "Les anciens fichiers de journalisation ont été supprimés"
 
-#: Gtk/MainWindow.vala:1045
+#: Gtk/MainWindow.vala:1035
 msgid "Oldest snapshot"
 msgstr "Instantanés plus vieux"
 
@@ -1576,7 +1549,7 @@ msgstr ""
 "Seules les configurations type ubuntu avec des sous-volumes @ et @home sont "
 "actuellement pris en charge."
 
-#: Gtk/MainWindow.vala:209
+#: Gtk/MainWindow.vala:219
 msgid "Open Menu"
 msgstr "Ouvrir le menu"
 
@@ -1657,7 +1630,7 @@ msgstr ""
 msgid "Please save your work and close all applications."
 msgstr "Veuillez enregistrer votre travail et fermer toutes vos applications."
 
-#: Gtk/MainWindow.vala:695
+#: Gtk/MainWindow.vala:688
 msgid "Please select a snapshot to view the log!"
 msgstr "Veuillez sélectionner un cliché pour afficher le journal !"
 
@@ -1669,7 +1642,7 @@ msgstr "Veuillez sélectionner le périphérique GRUB"
 msgid "Please wait a few minutes and try again."
 msgstr "Veuillez attendre quelques minutes puis essayez de nouveau."
 
-#: Gtk/MainWindow.vala:762
+#: Gtk/MainWindow.vala:755
 msgid "Please wait for snapshots to be deleted."
 msgstr "Veuillez attendre que les instantanés soient supprimés."
 
@@ -1686,7 +1659,7 @@ msgstr "Génération de la liste ..."
 msgid "Preparing..."
 msgstr "Préparation..."
 
-#: Gtk/SetupWizardWindow.vala:189 Gtk/BackupWindow.vala:152
+#: Gtk/SetupWizardWindow.vala:189 Gtk/BackupWindow.vala:153
 #: Gtk/DeleteWindow.vala:154 Gtk/RestoreWindow.vala:190
 msgid "Previous"
 msgstr "Précédent"
@@ -1936,7 +1909,7 @@ msgstr "Planning"
 msgid "Scheduled snapshot in progress..."
 msgstr "Instantané programmé en cours..."
 
-#: Core/Main.vala:1147 Gtk/MainWindow.vala:1061 Gtk/ScheduleBox.vala:312
+#: Core/Main.vala:1147 Gtk/MainWindow.vala:1051 Gtk/ScheduleBox.vala:312
 msgid "Scheduled snapshots are disabled"
 msgstr "Les clichés planifiés sont désactivés"
 
@@ -1974,7 +1947,7 @@ msgstr "Sélectionner le périphérique GRUB"
 msgid "Select Path"
 msgstr "Sélectionner le chemin"
 
-#: Gtk/MainWindow.vala:694
+#: Gtk/MainWindow.vala:687
 msgid "Select Snapshot"
 msgstr "Sélectionner un cliché"
 
@@ -2003,7 +1976,7 @@ msgstr "Veuillez sélectionner le périphérique cible"
 msgid "Select a partition on this disk"
 msgstr "Sélectionner une partition sur ce disque"
 
-#: Gtk/MainWindow.vala:801
+#: Gtk/MainWindow.vala:794
 msgid "Select a single snapshot to restore"
 msgstr "Sélectionnez l'instantané à restaurer"
 
@@ -2016,11 +1989,11 @@ msgstr ""
 msgid "Select another device or free up some space"
 msgstr "Sélectionnez un autre périphérique ou libérez de l'espace"
 
-#: Gtk/MainWindow.vala:547 Gtk/MainWindow.vala:554
+#: Gtk/MainWindow.vala:540 Gtk/MainWindow.vala:547
 msgid "Select another device to delete snasphots"
 msgstr "Sélectionnez un autre périphérique pour supprimer des instantanés"
 
-#: Gtk/MainWindow.vala:481
+#: Gtk/MainWindow.vala:474
 msgid "Select another device?"
 msgstr "Sélectionner un autre périphérique ?"
 
@@ -2068,7 +2041,7 @@ msgstr "Sélectionnez les éléments à supprimer de la liste"
 msgid "Select the snapshot device"
 msgstr "Sélectionner le périphérique pour les snapshots"
 
-#: Gtk/MainWindow.vala:794
+#: Gtk/MainWindow.vala:787
 msgid "Select the snapshot to restore"
 msgstr "Sélectionner le snapshot à restaurer"
 
@@ -2076,7 +2049,7 @@ msgstr "Sélectionner le snapshot à restaurer"
 msgid "Select the snapshots to be deleted"
 msgstr "Sélectionnez les instantanés à supprimer"
 
-#: Gtk/MainWindow.vala:616
+#: Gtk/MainWindow.vala:609
 msgid "Select the snapshots to mark for deletion"
 msgstr "Sélectionnez les instantanés à marquer pour la suppression"
 
@@ -2113,7 +2086,7 @@ msgstr ""
 msgid "Selected snapshot is marked for deletion"
 msgstr "L'instantané sélectionné est marqué pour suppression"
 
-#: Gtk/MainWindow.vala:825
+#: Gtk/MainWindow.vala:818
 msgid "Selected snapshot is marked for deletion and cannot be restored"
 msgstr ""
 "L'instantané sélectionné est marqué pour suppression et ne peut pas être "
@@ -2204,7 +2177,7 @@ msgstr "Ne pas réinstaller GRUB2"
 msgid "Snapshot"
 msgstr "Cliché"
 
-#: Gtk/MainWindow.vala:564
+#: Gtk/MainWindow.vala:557
 #, c-format
 msgid ""
 "Snapshot '%s' is being used by the system and cannot be deleted. Restart the "
@@ -2222,7 +2195,7 @@ msgstr "Instantané créé"
 msgid "Snapshot Levels"
 msgstr "Sélectionnez les niveaux des instantanés"
 
-#: Gtk/MainWindow.vala:761
+#: Gtk/MainWindow.vala:754
 msgid "Snapshot deletion in progress..."
 msgstr "Suppression en cours..."
 
@@ -2260,7 +2233,7 @@ msgstr "L'instantané sera actif après redémarrage du système."
 msgid "Snapshot(s) Deleted"
 msgstr "Instantané(s) supprimé(s)"
 
-#: Gtk/MainWindow.vala:310 Gtk/DeleteWindow.vala:89
+#: Gtk/MainWindow.vala:320 Gtk/DeleteWindow.vala:89
 msgid "Snapshots"
 msgstr "Instantanés"
 
@@ -2335,7 +2308,7 @@ msgid ""
 "locations are not supported."
 msgstr ""
 
-#: Gtk/MainWindow.vala:1006
+#: Gtk/MainWindow.vala:996
 msgid "Snapshots available for restore"
 msgstr "Instantanés disponibles pour la restauration"
 
@@ -2354,7 +2327,7 @@ msgstr ""
 msgid "Snapshots cannot be created in Live CD mode"
 msgstr "Les instantanés ne peuvent pas être créés en mode Live CD"
 
-#: Gtk/MainWindow.vala:1053
+#: Gtk/MainWindow.vala:1043
 msgid "Snapshots will be created at selected intervals"
 msgstr "Les instantanés seront créés aux intervalles de temps sélectionnés"
 
@@ -2366,7 +2339,7 @@ msgstr ""
 "Les instantanés seront créés aux intervalles de temps sélectionnés si le "
 "disque des instantanés a assez d'espace (> 1 Go)"
 
-#: Gtk/MainWindow.vala:642
+#: Gtk/MainWindow.vala:635
 msgid "Snapshots will be removed during the next scheduled run"
 msgstr ""
 "Les instantanés seront supprimés pendant le prochain lancement programmé."
@@ -2416,6 +2389,11 @@ msgstr "Volume"
 msgid "Summary"
 msgstr "Résumé"
 
+#: Utility/Gtk/DonationWindow.vala:84
+#, fuzzy
+msgid "Support"
+msgstr "Non pris en charge"
+
 #: Console/AppConsole.vala:377
 msgid "Switch to BTRFS mode (default: config)"
 msgstr "Passer en mode BTRFS (par défaut : config)"
@@ -2445,7 +2423,7 @@ msgstr "Syntaxe"
 msgid "System"
 msgstr "Système"
 
-#: Gtk/MainWindow.vala:951
+#: Gtk/MainWindow.vala:941
 msgid "System Restore Utility"
 msgstr "Utilitaire de restauration système"
 
@@ -2514,6 +2492,16 @@ msgstr "La partition cible dispose d'un sous volume non supporté"
 msgid "There are no snapshots on this device"
 msgstr "Il n'y a pas d' instantanés sur ce périphérique"
 
+#: Utility/Gtk/DonationWindow.vala:109
+msgid ""
+"This application was created for my own use in my spare time, and it's not "
+"practical for me to work for free, on every change that is requested. If you "
+"need new features or changes to the application, consider making a donation "
+"to sponsor the work. If you are a developer, consider contributing to the "
+"project, by submitting code changes for issues and features in the issue "
+"tracker."
+msgstr ""
+
 #: Utility/Device.vala:1379
 msgid "This device is not encrypted"
 msgstr "Ce périphérique n'est pas crypté"
@@ -2526,7 +2514,14 @@ msgstr ""
 "Ce logiciel est livré sans AUCUNE garantie et l'auteur ne prend aucune "
 "responsabilité pour les dégâts occasionnés par l'utilisation de ce programme."
 
-#: Gtk/MainWindow.vala:1041 Gtk/MainWindow.vala:1052
+#: Utility/Gtk/DonationWindow.vala:66
+msgid ""
+"This software is free for personal and commercial use. It is distributed in "
+"the hope that it is useful but without any warranty. See the GNU General "
+"Public License v2 or later for more information"
+msgstr ""
+
+#: Gtk/MainWindow.vala:1031 Gtk/MainWindow.vala:1042
 msgid "Timeshift is active"
 msgstr "Timeshift est actif"
 
@@ -2627,6 +2622,12 @@ msgstr "Mise à jour du menu GRUB en cours..."
 msgid "Updating bootloader configuration..."
 msgstr "Mise à jour de la configuration du chargeur de démarrage en cours..."
 
+#: Utility/Gtk/DonationWindow.vala:88
+msgid ""
+"Use the issue tracker for reporting issues, asking questions, and requesting "
+"features. Please avoid reporting issues by email."
+msgstr ""
+
 #: Utility/Device.vala:1954
 #, c-format
 msgid "Used"
@@ -2673,7 +2674,7 @@ msgstr "Voir le journal de création"
 msgid "View Rsync Log for Restore"
 msgstr "Voir le journal de restauration"
 
-#: Gtk/MainWindow.vala:378
+#: Gtk/MainWindow.vala:380
 msgid "View TimeShift Logs"
 msgstr "Afficher les journaux de TimeShift"
 
@@ -2689,11 +2690,6 @@ msgstr "Avertissement"
 msgid "Web Browsers"
 msgstr "Navigateurs web"
 
-#: Utility/Gtk/DonationWindow.vala:113
-#, c-format
-msgid "Website"
-msgstr "Site web"
-
 #: Gtk/ScheduleBox.vala:82 Gtk/SnapshotListBox.vala:301
 msgid "Weekly"
 msgstr "Hebdomadaire"
@@ -2706,9 +2702,9 @@ msgstr "Cliché hebdomadaire en erreur !"
 msgid "Weekly snapshots are enabled"
 msgstr "Les clichés hebdomadaires sont activés"
 
-#: Utility/Gtk/DonationWindow.vala:105
-msgid "Wiki ~ Documentation & Help"
-msgstr "Wiki ~ Documentation et aide"
+#: Utility/Gtk/DonationWindow.vala:99
+msgid "Wiki"
+msgstr ""
 
 #: Gtk/BackupFinishBox.vala:63 Gtk/DeleteFinishBox.vala:63
 msgid "With Errors"
@@ -2805,6 +2801,63 @@ msgstr "rsync a retourné une erreur"
 #: Core/SnapshotRepo.vala:831
 msgid "un-tagged"
 msgstr "non marqué"
+
+#, fuzzy
+#~ msgid "Donation Plugins"
+#~ msgstr "Dons"
+
+#, fuzzy
+#~ msgid "Donate ($5)"
+#~ msgstr "Faire un don"
+
+#, fuzzy
+#~ msgid "Get Support ($10)"
+#~ msgstr "Non pris en charge"
+
+#~ msgid ""
+#~ "Did you find this software useful?\n"
+#~ "\n"
+#~ "You can buy me a coffee or make a donation via PayPal to show your "
+#~ "support. Or just drop me an email and say Hi. This application is "
+#~ "completely free and will continue to remain that way. Your contributions "
+#~ "will help in keeping this project alive and improving it further.\n"
+#~ "\n"
+#~ "Feel free to send me an email if you find any issues in this application "
+#~ "or if you need any changes. Suggestions and feedback are always welcome.\n"
+#~ "\n"
+#~ "Thanks,\n"
+#~ "Tony George\n"
+#~ "(teejeetech@gmail.com)"
+#~ msgstr ""
+#~ "Vous avez trouvé ce logiciel utile ?\n"
+#~ "\n"
+#~ "Vous pouvez m'offrir un café ou me faire un don via PayPal pour me "
+#~ "montrer votre soutien. Ou vous pouvez simplement m'envoyer un courriel "
+#~ "pour me dire bonjour. Cette application est totalement libre et "
+#~ "continuera à rester comme telle. Vos contributions aideront à garder "
+#~ "vivant ce projet et à l'améliorer encore plus.\n"
+#~ "\n"
+#~ "N'hésitez pas à m'envoyer un courriel si vous trouvez des anomalies dans "
+#~ "cette application ou si vous avez besoin de certains changements. Les "
+#~ "suggestions et les commentaires sont toujours les bienvenus.\n"
+#~ "\n"
+#~ "Merci,\n"
+#~ "Tony George\n"
+#~ "(teejeetech@gmail.com)"
+
+#~ msgid "Donate with PayPal"
+#~ msgstr "Faire un don via PayPal"
+
+#~ msgid "Issue Tracker ~ Report Issues, Request Features, Ask Questions"
+#~ msgstr ""
+#~ "Gestionnaires de problèmes ~ Signaler des problèmes, demander des "
+#~ "fonctions, poser des questions"
+
+#~ msgid "Website"
+#~ msgstr "Site web"
+
+#~ msgid "Wiki ~ Documentation & Help"
+#~ msgstr "Wiki ~ Documentation et aide"
 
 #~ msgid "Code Contributions"
 #~ msgstr "Contributions"
