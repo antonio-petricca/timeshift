@@ -922,9 +922,12 @@ public class Main : GLib.Object{
 	}
 
 	public bool live_system(){
-		//return true;
+// < Antonio Petricca @ 2018>
+
 		//AP return (sys_root == null);
 		return false;
+		
+// < Antonio Petricca @ 2018>
 	}
 
 	// backup
