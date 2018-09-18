@@ -3337,6 +3337,12 @@ public class Main : GLib.Object{
 				
 				// skip loop devices - Fedora Live uses loop devices containing ext4-formatted lvm volumes
 				if ((pi.type == "loop") || (pi.has_parent() && (pi.parent.type == "loop"))){
+					// <Antonio Petricca@ 2018>					
+					if ((app_mode == "")||(LOG_DEBUG)){
+						log_debug("Mount point \"%s\" is a loopback.".printf(mp.mount_point));
+					}
+					// </Antonio Petricca@ 2018>					
+					
 					continue;
 				}
 
