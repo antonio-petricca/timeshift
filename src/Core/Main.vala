@@ -927,7 +927,7 @@ public class Main : GLib.Object{
 		//AP return (sys_root == null);
 		return false;
 		
-// < Antonio Petricca @ 2018>
+// </Antonio Petricca @ 2018>
 	}
 
 	// backup
