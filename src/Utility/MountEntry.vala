@@ -12,11 +12,33 @@ public class MountEntry : GLib.Object{
 	public Device device = null;
 	public string mount_point = "";
 	public string mount_options = "";
+
+	// < Petricca @ 2018>
+
+	public bool read_only = false;
+
+	// </ Antonio Petricca @ 2018>
 	
 	public MountEntry(Device? device, string mount_point, string mount_options){
 		this.device = device;
 		this.mount_point = mount_point;
 		this.mount_options = mount_options;
+
+		// < Petricca @ 2018>
+
+		foreach (string option in mount_options.split(",")) {
+			option = option.strip();
+
+			if ("ro" == option) {
+				this.read_only = true;
+				break;
+			} else if ("rw" == option) {
+				this.read_only = false;
+				break;
+			} 
+		}
+
+		// </ Antonio Petricca @ 2018>
 	}
 
 	public string subvolume_name(){

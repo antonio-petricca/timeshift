@@ -922,12 +922,17 @@ public class Main : GLib.Object{
 	}
 
 	public bool live_system(){
-// < Antonio Petricca @ 2018>
+		// <Antonio Petricca @ 2018>
 
-		//AP return (sys_root == null);
-		return false;
-		
-// </Antonio Petricca @ 2018>
+		bool is_live = (sys_root == null);
+
+		if ((app_mode == "")||(LOG_DEBUG)){
+			log_debug("Live system = %s".printf(is_live.to_string()));
+		}
+
+		// </ Antonio Petricca @ 2018>	
+
+		return is_live;
 	}
 
 	// backup
@@ -3332,18 +3337,39 @@ public class Main : GLib.Object{
 		sys_home = null;
 
 		foreach(var pi in partitions){
+			// <Antonio Petricca @ 2018>					
+			
+			if ((app_mode == "")||(LOG_DEBUG)){
+				log_debug("Partition \"%s\" on device \"%s\" : read-only = %s.".printf(
+					pi.name,
+					pi.device, 
+					pi.read_only.to_string()
+				));
+			}
+
+			if ( pi.read_only ) { 
+				continue;
+			}
+
+			// </ Antonio Petricca @ 2018>	
 			
 			foreach(var mp in pi.mount_points){
 				
 				// skip loop devices - Fedora Live uses loop devices containing ext4-formatted lvm volumes
 				if ((pi.type == "loop") || (pi.has_parent() && (pi.parent.type == "loop"))){
-					// <Antonio Petricca@ 2018>					
-					if ((app_mode == "")||(LOG_DEBUG)){
-						log_debug("Mount point \"%s\" is a loopback.".printf(mp.mount_point));
-					}
-					// </Antonio Petricca@ 2018>					
+					// <Antonio Petricca @ 2018>
 					
-					continue;
+					if ((app_mode == "")||(LOG_DEBUG)){
+						log_debug("Mount point \"%s\" : read-only = %s.".printf(mp.mount_point, mp.read_only.to_string()));
+					}
+
+					if ( mp.read_only ) { 
+						continue;
+					}
+
+					// </ Antonio Petricca @ 2018>					
+					
+					//continue;
 				}
 
 				if (mp.mount_point == "/"){
