@@ -16,3 +16,6 @@ release/*.run
 .git
 *~
 po-lp/
+
+.vscode
+po/
