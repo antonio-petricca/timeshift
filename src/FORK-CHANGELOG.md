@@ -1,5 +1,7 @@
 # Fork changelog
 
+## Done
+
 - **Main.vala**
   - Allowed writable loopback devices.
 - **BackupDeviceBox.vala**
@@ -8,3 +10,9 @@
   - Added UUID column.
 - **SettingsWindow.vala**
   - Extended width to 640 to fit the added UUID column.
+
+## Todo
+
+- Add LVM partitions without repetitions.
+- Show right free disk space.
+- Fix snapshot partition click selection.
