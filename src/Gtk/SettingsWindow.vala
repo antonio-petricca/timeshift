@@ -46,12 +46,10 @@ class SettingsWindow : Gtk.Window{
 
 	private uint tmr_init;
 
-	// < Antonio Petricca @ 2018>
-	
+/* AP: { */	
 	//private int def_width = 500;
 	private int def_width = 640;
-
-	// </ Antonio Petricca @ 2018>
+/* AP: } */
 
 	private int def_height = 500;
 	

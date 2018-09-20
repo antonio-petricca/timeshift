@@ -44,11 +44,9 @@ endif
 
 symbols=$(shell echo "${vte_symbol} ${gtk3_symbol} ${xapp_symbol}")
 
-# < Antonio Petricca @ 2018 >
-
+# AP: {
 debug_flags=
-
-# </ Antonio Petricca @ 2018 >
+# AP: }
 
 all:
 
@@ -167,9 +165,7 @@ uninstall:
 	rm -f "$(DESTDIR)$(sharedir)/appdata/${app_name}.appdata.xml" 
 	rm -f "$(DESTDIR)$(sharedir)/metainfo/${app_name}.appdata.xml"
 
-# < Antonio Petricca @ 2018 >
-
+# AP: {
 debug: debug_flags=-g --save-temps
 debug: all
-
-# </ Antonio Petricca @ 2018 >
+# AP: }

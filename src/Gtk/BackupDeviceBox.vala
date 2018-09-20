@@ -170,27 +170,22 @@ class BackupDeviceBox : Gtk.Box{
 				(cell as Gtk.CellRendererText).text = dev.description_full_free();
 			}*/
 
-			// < Antonio Petricca @ 2018>
-
+/* AP: { */
 			//if (dev.type == "disk"){
 			
 			if (
 				(dev.type != "disk") ||
 				(dev.type != "lvm" )
 			)
-			{
-			
-			// </ Antonio Petricca @ 2018>
+			{	
+/* AP: } */
 
 				var txt = "%s %s".printf(dev.model, dev.vendor).strip();
 				if (txt.length == 0){
-					// < Antonio Petricca @ 2018>
-
-					//txt = "%s Disk".printf(format_file_size(dev.size_bytes));
-					
+/* AP: { */
+					//txt = "%s Disk".printf(format_file_size(dev.size_bytes));			
 					txt = dev.name;
-			
-					// </ Antonio Petricca @ 2018>
+/* AP: } */
 				}
 				(cell as Gtk.CellRendererText).text = txt.strip();
 			}
@@ -201,8 +196,7 @@ class BackupDeviceBox : Gtk.Box{
 			//(cell as Gtk.CellRendererText).sensitive = (dev.type != "disk");
 		});
 
-		// < Antonio Petricca @ 2018>
-		
+/* AP: { */		
 		// UUID
 		
 		col = add_column_text(tv_devices, _("UUID"), out cell_text);
@@ -212,9 +206,8 @@ class BackupDeviceBox : Gtk.Box{
 			model.get (iter, 0, out dev, -1);
 			(cell as Gtk.CellRendererText).text = dev.uuid;
 		});
+/* AP: } */
 
-		// </ Antonio Petricca @ 2018>
-		
 		// type
 		
 		col = add_column_text(tv_devices, _("Type"), out cell_text);
@@ -619,8 +612,7 @@ class BackupDeviceBox : Gtk.Box{
 
 		foreach(var disk in App.partitions) {
 
-			// <Antonio Petricca @ 2018>
-
+/* AP: { */
 			if (LOG_DEBUG) {
 				log_debug("Disk \"%s\" : type = \"%s\".".printf(
 					disk.name, 
@@ -635,9 +627,7 @@ class BackupDeviceBox : Gtk.Box{
 				(disk.type != "lvm" )
 			)
 				{ continue; }
-
-			// </ Antonio Petricca @ 2018>
-			
+/* AP: } */			
 
 			model.append(out iter0, null);
 			model.set(iter0, 0, disk, -1);
