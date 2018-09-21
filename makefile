@@ -12,3 +12,6 @@ install:
 	
 uninstall:
 	cd src; make uninstall
+
+run:
+	sudo ./src/timeshift-gtk --debug
