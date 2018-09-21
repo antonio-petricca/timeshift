@@ -922,15 +922,13 @@ public class Main : GLib.Object{
 	}
 
 	public bool live_system(){
-/* AP: { */
-
 		bool is_live = (sys_root == null);
 
+//#region [LightLime]
 		if ((app_mode == "")||(LOG_DEBUG)){
 			log_debug("Live system = %s".printf(is_live.to_string()));
 		}
-
-/* AP: } */
+///#endregion
 
 		return is_live;
 	}
@@ -3337,7 +3335,7 @@ public class Main : GLib.Object{
 		sys_home = null;
 
 		foreach(var pi in partitions){
-/* AP: { */					
+//#region [LightLime]					
 			if ((app_mode == "")||(LOG_DEBUG)){
 				log_debug("Partition \"%s\" on device \"%s\" : read-only = %s.".printf(
 					pi.name,
@@ -3349,13 +3347,13 @@ public class Main : GLib.Object{
 			if ( pi.read_only ) { 
 				continue;
 			}
-/* AP: } */
+///#endregion
 			
 			foreach(var mp in pi.mount_points){
 				
 				// skip loop devices - Fedora Live uses loop devices containing ext4-formatted lvm volumes
 				if ((pi.type == "loop") || (pi.has_parent() && (pi.parent.type == "loop"))){
-/* AP: { */
+//#region [LightLime]
 					if ((app_mode == "")||(LOG_DEBUG)){
 						log_debug("Mount point \"%s\" : read-only = %s.".printf(mp.mount_point, mp.read_only.to_string()));
 					}
@@ -3363,9 +3361,11 @@ public class Main : GLib.Object{
 					if ( mp.read_only ) { 
 						continue;
 					}
-/* AP: } */				
-					
+///#endregion				
+			
+//#region [Red]
 					//continue;
+//#endregion
 				}
 
 				if (mp.mount_point == "/"){

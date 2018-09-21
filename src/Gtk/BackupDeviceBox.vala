@@ -170,33 +170,42 @@ class BackupDeviceBox : Gtk.Box{
 				(cell as Gtk.CellRendererText).text = dev.description_full_free();
 			}*/
 
-/* AP: { */
-			//if (dev.type == "disk"){
-			
-			if (
-				(dev.type != "disk") ||
-				(dev.type != "lvm" )
-			)
-			{	
-/* AP: } */
+//#region [LightRed]
+			/*if (dev.type == "disk"){
 
 				var txt = "%s %s".printf(dev.model, dev.vendor).strip();
 				if (txt.length == 0){
-/* AP: { */
-					//txt = "%s Disk".printf(format_file_size(dev.size_bytes));			
-					txt = dev.name;
-/* AP: } */
+					txt = "%s Disk".printf(format_file_size(dev.size_bytes));			
 				}
 				(cell as Gtk.CellRendererText).text = txt.strip();
 			}
 			else {
 				(cell as Gtk.CellRendererText).text = dev.kname;
-			}
+			}*/
+//#endregion
 
+//#region [LightLime]
+			if (
+				(dev.type != "disk") ||
+				(dev.type != "lvm" )
+			)
+			{	
+				var txt = "%s %s".printf(dev.model, dev.vendor).strip();
+				if (txt.length == 0){		
+					txt = dev.name;
+				}
+				
+				(cell as Gtk.CellRendererText).text = txt.strip();
+			}
+			else {
+				(cell as Gtk.CellRendererText).text = dev.kname;
+			}
+			
 			//(cell as Gtk.CellRendererText).sensitive = (dev.type != "disk");
 		});
+//#endregion
 
-/* AP: { */		
+//#region [LightLime]		
 		// UUID
 		
 		col = add_column_text(tv_devices, _("UUID"), out cell_text);
@@ -206,7 +215,7 @@ class BackupDeviceBox : Gtk.Box{
 			model.get (iter, 0, out dev, -1);
 			(cell as Gtk.CellRendererText).text = dev.uuid;
 		});
-/* AP: } */
+///#endregion
 
 		// type
 		
@@ -611,23 +620,24 @@ class BackupDeviceBox : Gtk.Box{
 		TreeIter iter0;
 
 		foreach(var disk in App.partitions) {
+//#region [LightRed]
+			//if (disk.type != "disk") { continue; }
+//#endregion
 
-/* AP: { */
+//#region [LightLime]
 			if (LOG_DEBUG) {
 				log_debug("Disk \"%s\" : type = \"%s\".".printf(
 					disk.name, 
 					disk.type
 				));
 			}
-
-			//if (disk.type != "disk") { continue; }
 			
 			if (
 				(disk.type != "disk") &&
 				(disk.type != "lvm" )
 			)
 				{ continue; }
-/* AP: } */			
+//#endregion
 
 			model.append(out iter0, null);
 			model.set(iter0, 0, disk, -1);

@@ -46,10 +46,13 @@ class SettingsWindow : Gtk.Window{
 
 	private uint tmr_init;
 
-/* AP: { */	
+//#region [LightRed]	
 	//private int def_width = 500;
+///#endregion
+
+//#region [LightLime]	
 	private int def_width = 640;
-/* AP: } */
+//#endregion
 
 	private int def_height = 500;
 	

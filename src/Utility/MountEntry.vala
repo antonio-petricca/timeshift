@@ -13,16 +13,16 @@ public class MountEntry : GLib.Object{
 	public string mount_point = "";
 	public string mount_options = "";
 
-/* AP: { */
+//#region [LightLime]
 	public bool read_only = false;
-/* AP: } */
+///#endregion
 	
 	public MountEntry(Device? device, string mount_point, string mount_options){
 		this.device = device;
 		this.mount_point = mount_point;
 		this.mount_options = mount_options;
 
-/* AP: { */
+//#region [LightLime]
 		foreach (string option in mount_options.split(",")) {
 			option = option.strip();
 
@@ -34,7 +34,7 @@ public class MountEntry : GLib.Object{
 				break;
 			} 
 		}
-/* AP: } */
+///#endregion
 	}
 
 	public string subvolume_name(){
