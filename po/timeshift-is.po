@@ -1,0 +1,2801 @@
+# Icelandic translation for linuxmint
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the linuxmint package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+# Sveinn í Felli <sv1@fellsnet.is>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: teejeetech@gmail.com\n"
+"POT-Creation-Date: 2018-09-05 21:57+0530\n"
+"PO-Revision-Date: 2017-11-22 11:42+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
+"Language-Team: Icelandic <is@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-02-03 14:28+0000\n"
+"X-Generator: Launchpad (build 18544)\n"
+"X-Launchpad-Export-Date: 2017-11-23 10:47+0000\n"
+"X-Generator: Launchpad (build 18509)\n"
+
+#: Console/AppConsole.vala:614
+#, c-format
+msgid ""
+"\n"
+"Press ENTER to continue..."
+msgstr ""
+"\n"
+"Ýttu á ENTER til að halda áfram..."
+
+#: Core/SnapshotRepo.vala:641
+#, c-format
+msgid "%d snapshots, %s free"
+msgstr "%d skyndiafrit, %s laust"
+
+#: Console/AppConsole.vala:915
+#, c-format
+msgid "'%s' will be on '%s'"
+msgstr "'%s' mun verða á '%s'"
+
+#: Console/AppConsole.vala:912
+#, c-format
+msgid "'%s' will be on root device"
+msgstr "'%s' mun verða á rótartæki"
+
+#: Gtk/BootOptionsBox.vala:118
+msgid "(Re)install GRUB2 on:"
+msgstr "(Endur)setja upp GRUB-ræsistjórann á:"
+
+#: Core/Main.vala:362
+msgid "** Uninstalled Timeshift BTRFS **"
+msgstr "** Fjarlægði Timeshift BTRFS **"
+
+#: Core/Main.vala:3342
+msgid "/ is mapped to device"
+msgstr "/ er varpað á tækið"
+
+#: Core/Main.vala:3364
+msgid "/boot is mapped to device"
+msgstr "/boot er varpað á tækið"
+
+#: Core/Main.vala:3375
+msgid "/boot/efi is mapped to device"
+msgstr "/boot/efi er varpað á tækið"
+
+#: Core/Main.vala:3353
+msgid "/home is mapped to device"
+msgstr "/home er varpað á tækið"
+
+#: Gtk/SnapshotListBox.vala:290
+msgid "<b>Comments</b> (double-click to edit)"
+msgstr "<b>Athugasemdir</b> (tvísmelltu til að breyta)"
+
+#: Gtk/ScheduleBox.vala:168
+msgid ""
+"A maintenance task runs once every hour and creates snapshots as needed."
+msgstr ""
+
+#: Console/AppConsole.vala:699 Console/AppConsole.vala:763
+#: Console/AppConsole.vala:895 Console/AppConsole.vala:990
+#: Console/AppConsole.vala:1035 Console/AppConsole.vala:1076
+#: Console/AppConsole.vala:1094
+msgid "Aborted."
+msgstr "Hætt við."
+
+#: Gtk/MainWindow.vala:386
+msgid "About"
+msgstr "Um hugbúnaðinn"
+
+#: Gtk/RsyncLogBox.vala:472
+msgid "Action"
+msgstr "Staðsetning"
+
+#: Gtk/ExcludeBox.vala:219
+msgid "Add"
+msgstr "Bæta við"
+
+#: Gtk/ExcludeBox.vala:233
+msgid "Add Files"
+msgstr "Bæta við skrám"
+
+#: Gtk/ExcludeBox.vala:239
+msgid "Add Folders"
+msgstr "Bæta við möppum"
+
+#: Gtk/ExcludeBox.vala:219
+msgid "Add custom pattern"
+msgstr "Bæta við sérsniðnum mynstrum"
+
+#: Gtk/ExcludeBox.vala:239
+msgid "Add directories"
+msgstr "Bæta við möppum"
+
+#: Gtk/ExcludeBox.vala:233
+msgid "Add files"
+msgstr "Bæta við skrám"
+
+#: Console/AppConsole.vala:360
+msgid "Add tags to snapshot (default: O)"
+msgstr "Bæta merkjum við skyndiafrit (sjálfgefið: O)"
+
+#: Utility/CronTab.vala:312
+msgid "Added cron task"
+msgstr "Bætti við cron-verkefni"
+
+#: Gtk/AppGtk.vala:131
+msgid "Admin Access Required"
+msgstr "Kerfisstjóraaðgangur nauðsynlegur"
+
+#: Gtk/AppGtk.vala:126
+msgid "Admin access is required to backup and restore system files."
+msgstr ""
+"Kerfisstjóraaðgangur nauðsynlegur til að geta tekið öryggisafrit af eða "
+"endurheimt kerfisskrár."
+
+#: Gtk/RsyncLogBox.vala:363
+msgid "All Files"
+msgstr "Bæta við skrám"
+
+#: Gtk/SnapshotBackendBox.vala:188
+msgid ""
+"All files are copied when first snapshot is created. Subsequent snapshots "
+"are incremental. Unchanged files will be hard-linked from the previous "
+"snapshot if available."
+msgstr ""
+
+#: Gtk/ExcludeMessageWindow.vala:130
+msgid "All other files and folders are excluded."
+msgstr "Allar aðrar skrár og möppur eru útilokaðar."
+
+#: Gtk/RestoreDeviceBox.vala:500
+msgid ""
+"An encrypted device is selected for root file system (/). The boot directory "
+"(/boot) must be mounted on a non-encrypted device for the system to boot "
+"successfully.\n"
+"\n"
+"Either select a non-encrypted device for boot directory or select a non-"
+"encrypted device for root filesystem."
+msgstr ""
+
+#: Core/Main.vala:249
+msgid "Another instance of Timeshift is creating a snapshot."
+msgstr "Annað eintak af TimeShift er að búa til skyndiafrit."
+
+#: Utility/AppLock.vala:49
+msgid "Another instance of this application is running"
+msgstr "Annað eintak þessa forrits er þegar í keyrslu"
+
+#: Core/Main.vala:253
+msgid "Another instance of timeshift is currently running!"
+msgstr "Annað eintak af TimeShift er þegar í gangi!"
+
+#: Console/AppConsole.vala:376
+msgid "Answer YES to all confirmation prompts"
+msgstr "Svara JÁ við öllum staðfestingum"
+
+#: Core/Main.vala:3179
+msgid "App config loaded"
+msgstr "Stillingaskrám forrits hlaðið inn"
+
+#: Core/Main.vala:3076
+msgid "App config saved"
+msgstr "Stillingaskrár forrits vistaðar"
+
+#: Console/AppConsole.vala:102
+msgid "Application needs admin access."
+msgstr "Forritið þarf kerfisstjórnunaraðgang."
+
+#: Core/Main.vala:3519
+msgid "Application will exit"
+msgstr "Forritið mun hætta"
+
+#: Core/Main.vala:378
+msgid "Application will exit."
+msgstr "Forritið mun hætta."
+
+#: Utility/Gtk/AboutWindow.vala:433
+msgid "Artists"
+msgstr "Listamenn"
+
+#: Utility/Gtk/AboutWindow.vala:417
+msgid "Authors"
+msgstr "Höfundar"
+
+#: Gtk/MainWindow.vala:356
+msgid "Available"
+msgstr "Tiltækt"
+
+#: Gtk/SnapshotBackendBox.vala:94
+msgid "BTRFS"
+msgstr "BTRFS"
+
+#: Gtk/SnapshotBackendBox.vala:165
+msgid "BTRFS Snapshots"
+msgstr "BTRFS skyndiafrit"
+
+#: Gtk/SnapshotBackendBox.vala:119
+msgid "BTRFS Tools Not Found"
+msgstr "Fann ekki BTRFS-tólin"
+
+#: Core/Main.vala:2041 Core/Main.vala:2045
+msgid "BTRFS device is not mounted"
+msgstr "BTRFS-tækið er ekki tengt í skráakerfi"
+
+#: Gtk/BackupDeviceBox.vala:98
+#, fuzzy
+msgid ""
+"BTRFS snapshots are saved on system partition. Other partitions are not "
+"supported."
+msgstr "Önnur forrit (næsta síða)"
+
+#: Gtk/FinishBox.vala:92
+msgid ""
+"BTRFS snapshots are saved on the same disk from which it is created. If the "
+"system disk fails, snapshots will be lost along with the system. Save "
+"snapshots to an external non-system disk in RSYNC mode to guard against disk "
+"failures."
+msgstr ""
+
+#: Utility/Gtk/AboutWindow.vala:349 Utility/Gtk/AboutWindow.vala:381
+msgid "Back"
+msgstr "Til baka"
+
+#: Gtk/SetupWizardWindow.vala:94
+msgid "Backend"
+msgstr "Bakendi"
+
+#: Console/AppConsole.vala:356 Gtk/BackupWindow.vala:92
+msgid "Backup"
+msgstr "Öryggisafrit"
+
+#: Core/Main.vala:2017
+msgid "Backup Device"
+msgstr "Tæki fyrir öryggisafrit"
+
+#: Core/Main.vala:2012
+msgid "Backup device not specified!"
+msgstr "Ekkert öryggisafritunartæki var tiltekið!"
+
+#: Utility/Gtk/DonationWindow.vala:79
+msgid "Become a Patron"
+msgstr "Gerstu stuðningsaðili"
+
+#: Gtk/RestoreExcludeBox.vala:91
+msgid "Bittorrent Clients"
+msgstr "Bittorrent-forrit"
+
+#: Gtk/ScheduleBox.vala:136 Gtk/SnapshotListBox.vala:298
+msgid "Boot"
+msgstr "Í ræsingu"
+
+#: Gtk/RestoreDeviceBox.vala:499
+msgid "Boot device not selected"
+msgstr "Ekkert ræsitæki valið"
+
+#: Core/Main.vala:1017
+msgid "Boot snapshot failed!"
+msgstr ""
+
+#: Gtk/ScheduleBox.vala:169
+msgid ""
+"Boot snapshots are created with a delay of 10 minutes after system startup."
+msgstr ""
+
+#: Core/Main.vala:998
+msgid "Boot snapshots are enabled"
+msgstr ""
+
+#: Gtk/BootOptionsWindow.vala:49
+msgid "Bootloader Options"
+msgstr "Valkostir ræsistjóra"
+
+#: Gtk/RestoreDeviceBox.vala:411
+msgid "Bootloader Options (Advanced)"
+msgstr "Valkostir ræsistjóra (ítarlegt)"
+
+#: Gtk/MainWindow.vala:171
+msgid "Browse"
+msgstr "Flakka"
+
+#: Gtk/SnapshotListBox.vala:336
+msgid "Browse Files"
+msgstr "Flakka um skrár"
+
+#: Gtk/MainWindow.vala:172
+msgid "Browse selected snapshot"
+msgstr "Vafra um valið skyndiafrit"
+
+#: Core/Main.vala:2499
+msgid "Building file list..."
+msgstr "Bý til lista yfir skrár..."
+
+#: Utility/GtkHelper.vala:122 Utility/Gtk/CustomMessageDialog.vala:172
+#: Gtk/SetupWizardWindow.vala:214 Gtk/BackupWindow.vala:178
+#: Gtk/DeleteWindow.vala:187 Gtk/RestoreWindow.vala:206
+#: Gtk/RestoreWindow.vala:215
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: Gtk/RestoreWindow.vala:221
+msgid "Cancel restore?"
+msgstr "Hætta við að endurheimta?"
+
+#: Gtk/RestoreWindow.vala:223
+msgid ""
+"Cancelling the restore process will leave the target system in an "
+"inconsistent state. The system may fail to boot or you may run into various "
+"issues. After cancelling, you need to restore another snapshot, to bring the "
+"system to a consistent state. Click Yes to confirm."
+msgstr ""
+
+#: Gtk/MainWindow.vala:556
+msgid "Cannot Delete Live Snapshot"
+msgstr ""
+
+#: Gtk/RsyncLogBox.vala:380 Gtk/RsyncLogBox.vala:383 Gtk/RsyncLogBox.vala:567
+#: Gtk/RsyncLogBox.vala:588 Gtk/RestoreBox.vala:125 Gtk/BackupBox.vala:87
+msgid "Changed"
+msgstr "Breytt"
+
+#: Gtk/RestoreBox.vala:127 Gtk/BackupBox.vala:89
+msgid "Changed items:"
+msgstr "Breytt atriði:"
+
+#: Gtk/RestoreWindow.vala:104
+msgid "Checking Restore Actions (Dry Run)"
+msgstr ""
+
+#: Core/Main.vala:2732
+msgid "Checking file systems for errors..."
+msgstr "Athuga hvort villur eru í skráakerfi..."
+
+#: Gtk/RsyncLogBox.vala:390 Gtk/RestoreBox.vala:130 Gtk/BackupBox.vala:92
+#, c-format
+msgid "Checksum"
+msgstr "Gátsumma"
+
+#: Core/Main.vala:2388
+msgid "Cleaning up..."
+msgstr "Hreinsa til..."
+
+#: Gtk/UsersBox.vala:92 Gtk/ExcludeBox.vala:84
+msgid "Click to edit. Drag and drop to re-order."
+msgstr "Smelltu til að breyta. Dragðu og slepptu til að endurraða."
+
+#: Gtk/ExcludeBox.vala:59
+#, fuzzy
+msgid "Click to edit. Drag-drop to re-order."
+msgstr "Smelltu til að breyta. Dragðu og slepptu til að endurraða."
+
+#: Gtk/RestoreWindow.vala:69
+msgid "Clone System"
+msgstr "Klóna kerfið"
+
+#: Console/AppConsole.vala:364
+msgid "Clone current system"
+msgstr "Klóna núverandi kerfi"
+
+#: Gtk/RestoreFinishBox.vala:68
+msgid "Cloning"
+msgstr "Klónun"
+
+#: Core/Main.vala:2782
+msgid "Cloning system..."
+msgstr "Klóna kerfið..."
+
+#: Utility/Gtk/AboutWindow.vala:326 Utility/Gtk/DonationWindow.vala:117
+#: Gtk/RsyncLogBox.vala:266 Gtk/BackupWindow.vala:169
+#: Gtk/BootOptionsWindow.vala:106 Gtk/DeleteWindow.vala:170
+#: Gtk/RestoreWindow.vala:508
+msgid "Close"
+msgstr "Loka"
+
+#: Gtk/RestoreFinishBox.vala:106 Gtk/BackupFinishBox.vala:70
+#: Gtk/FinishBox.vala:101 Gtk/DeleteFinishBox.vala:71
+msgid "Close window to exit"
+msgstr "Loka glugga til að fara út"
+
+#: Core/Main.vala:347
+msgid "Commands listed below are not available on this system"
+msgstr "Skipanir taldar upp hér fyrir neðan eru ekki tiltækar á þessu kerfi"
+
+#: Gtk/SnapshotListBox.vala:224
+msgid "Comments"
+msgstr "Athugasemdir"
+
+#: Core/Main.vala:2775 Gtk/RestoreBox.vala:74 Gtk/RestoreBox.vala:187
+msgid "Comparing Files (Dry Run)..."
+msgstr ""
+
+#: Core/Main.vala:2541
+msgid "Comparing files with rsync..."
+msgstr "Samstilli skrár með rsync..."
+
+#: Gtk/RestoreFinishBox.vala:50 Gtk/RestoreFinishBox.vala:75
+#: Gtk/BackupFinishBox.vala:50 Gtk/DeleteFinishBox.vala:50
+msgid "Completed"
+msgstr "Frágengið"
+
+#: Gtk/RestoreFinishBox.vala:78
+msgid "Completed With Errors"
+msgstr "Lokið en með villum"
+
+#: Gtk/RsyncLogBox.vala:87 Gtk/RestoreWindow.vala:109
+msgid "Confirm Actions"
+msgstr ""
+
+#: Console/AppConsole.vala:1069
+#, c-format
+msgid "Continue with restore? (y/n): "
+msgstr "Halda áfram með endurheimtingu? (j/n): "
+
+#: Utility/Gtk/AboutWindow.vala:425
+#, fuzzy
+msgid "Contributors"
+msgstr "Framlög frá"
+
+#: Console/AppConsole.vala:835 Console/AppConsole.vala:966
+msgid "Could not find device"
+msgstr "Fann ekki tæki"
+
+#: Utility/Device.vala:1307
+#, c-format
+msgid "Could not find file"
+msgstr "Fann ekki skrá"
+
+#: Console/AppConsole.vala:732
+msgid "Could not find snapshot"
+msgstr "Fann ekki skyndiafrit"
+
+#: Core/Main.vala:2946
+msgid "Could not find system subvolume"
+msgstr ""
+
+#: Core/Main.vala:2974
+msgid "Could not find system subvolumes for creating pre-restore snapshot"
+msgstr ""
+
+#: Gtk/RsyncLogBox.vala:366 Gtk/RsyncLogBox.vala:571 Gtk/MainWindow.vala:141
+#, c-format
+msgid "Create"
+msgstr "Búa til"
+
+#: Gtk/BackupWindow.vala:62
+msgid "Create Snapshot"
+msgstr "Búa til skyndiafrit"
+
+#: Gtk/ScheduleBox.vala:136
+msgid "Create one per boot"
+msgstr "Búðu til eitt í hverri ræsingu"
+
+#: Gtk/ScheduleBox.vala:100
+msgid "Create one per day"
+msgstr "Búðu til eitt á hverjum degi"
+
+#: Gtk/ScheduleBox.vala:118
+msgid "Create one per hour"
+msgstr "Búðu til eitt á hverri klukkustund"
+
+#: Gtk/ScheduleBox.vala:64
+msgid "Create one per month"
+msgstr "Búðu til eitt í mánuði"
+
+#: Gtk/ScheduleBox.vala:82
+msgid "Create one per week"
+msgstr "Búðu til eitt í viku"
+
+#: Console/AppConsole.vala:358
+msgid "Create snapshot (even if not scheduled)"
+msgstr "Búa til skyndiafrit (jafnvel þótt það sé ekki á áætlun)"
+
+#: Console/AppConsole.vala:357
+msgid "Create snapshot if scheduled"
+msgstr "Búa til skyndiafrit ef það er á áætlun"
+
+#: Gtk/MainWindow.vala:142
+msgid "Create snapshot of current system"
+msgstr "Búa til skyndiafrit af núverandi kerfi"
+
+#: Gtk/MainWindow.vala:1058
+msgid ""
+"Create snapshots manually or enable scheduled snapshots to protect your "
+"system"
+msgstr ""
+
+#: Gtk/SnapshotBackendBox.vala:95
+#, fuzzy
+msgid "Create snapshots using BTRFS"
+msgstr "Búa til skyndiafrit með RSYNC"
+
+#: Gtk/SnapshotBackendBox.vala:78
+msgid "Create snapshots using RSYNC tool and hard-links"
+msgstr "Búa til skyndiafrit með RSYNC og föstum tengjum (hard-links)"
+
+#: Gtk/RsyncLogBox.vala:366 Gtk/RsyncLogBox.vala:571 Gtk/RsyncLogBox.vala:592
+#: Gtk/RestoreBox.vala:123 Gtk/BackupBox.vala:85
+#, c-format
+msgid "Created"
+msgstr "Búið til"
+
+#: Core/Snapshot.vala:430
+msgid "Created control file"
+msgstr "Bjó til stýriskrá"
+
+#: Utility/TeeJee.FileSystem.vala:351
+msgid "Created directory"
+msgstr "Bjó til möppu"
+
+#: Core/Main.vala:2996
+msgid "Created pre-restore snapshot"
+msgstr ""
+
+#: Core/Main.vala:1499
+msgid "Created subvolume snapshot"
+msgstr ""
+
+#: Gtk/BackupBox.vala:71
+msgid "Creating Snapshot..."
+msgstr "Bý til skyndiafrit..."
+
+#: Core/Main.vala:1437
+msgid "Creating new backup..."
+msgstr "Bý til nýtt öryggisafrit..."
+
+#: Core/Main.vala:1283
+msgid "Creating new snapshot..."
+msgstr "Bý til nýtt skyndiafrit..."
+
+#: Core/Main.vala:2924
+msgid "Creating pre-restore snapshot from system subvolumes..."
+msgstr ""
+
+#: Utility/Gtk/AboutWindow.vala:321 Utility/Gtk/AboutWindow.vala:387
+msgid "Credits"
+msgstr "Þakkir"
+
+#: Core/Main.vala:3518
+msgid "Critical Error"
+msgstr "Alvarleg villa"
+
+#: Utility/CronTab.vala:136
+msgid "Cron job added"
+msgstr "Bætti við cron-verki"
+
+#: Utility/CronTab.vala:217
+msgid "Cron job removed"
+msgstr "Fjarlægði cron-verk"
+
+#: Utility/CronTab.vala:304
+msgid "Cron task exists"
+msgstr "Cron-verkefni er til"
+
+#: Gtk/ScheduleBox.vala:100 Gtk/SnapshotListBox.vala:300
+msgid "Daily"
+msgstr "Daglega"
+
+#: Core/Main.vala:1077
+msgid "Daily snapshot failed!"
+msgstr "Daglegt skyndiafrit mistókst!"
+
+#: Core/Main.vala:1058
+msgid "Daily snapshots are enabled"
+msgstr "Dagleg skyndiafrit eru virk"
+
+#: Core/Main.vala:2111
+msgid "Data will be modified on following devices:"
+msgstr "Gögnum verður breytt á eftirfarandi tækjum:"
+
+#: Console/AppConsole.vala:370 Gtk/RsyncLogBox.vala:370
+#: Gtk/RsyncLogBox.vala:575 Gtk/MainWindow.vala:161
+#: Gtk/SnapshotListBox.vala:322 Gtk/DeleteWindow.vala:98
+#, c-format
+msgid "Delete"
+msgstr "Eyða"
+
+#: Gtk/DeleteWindow.vala:62
+msgid "Delete Snapshots"
+msgstr "Eyða skyndiafritum"
+
+#: Console/AppConsole.vala:372
+msgid "Delete all snapshots"
+msgstr "Eyða öllum skyndiafritum"
+
+#: Gtk/MainWindow.vala:162
+msgid "Delete selected snapshot"
+msgstr "Eyða völdu skyndiafriti"
+
+#: Console/AppConsole.vala:371
+msgid "Delete snapshot"
+msgstr "Eyða skyndiafriti"
+
+#: Gtk/RsyncLogBox.vala:370 Gtk/RsyncLogBox.vala:575 Gtk/RsyncLogBox.vala:596
+#: Gtk/RestoreBox.vala:124 Gtk/BackupBox.vala:86
+#, c-format
+msgid "Deleted"
+msgstr "Eytt"
+
+#: Utility/TeeJee.FileSystem.vala:381
+msgid "Deleted directory"
+msgstr "Eyddi möppu"
+
+#: Core/Subvolume.vala:154 Core/Main.vala:2903 Core/Main.vala:2907
+#, c-format
+msgid "Deleted subvolume"
+msgstr ""
+
+#: Gtk/DeleteBox.vala:58
+msgid "Deleting Snapshots..."
+msgstr "Eyði skyndiafritum..."
+
+#: Core/Subvolume.vala:141
+#, c-format
+msgid "Deleting subvolume"
+msgstr ""
+
+#: Gtk/RestoreExcludeBox.vala:105
+msgid "Deluge, Transmission"
+msgstr "Deluge, Transmission"
+
+#: Console/AppConsole.vala:427 Console/AppConsole.vala:543
+msgid "Description"
+msgstr "Lýsing"
+
+#: Core/Subvolume.vala:168
+#, c-format
+msgid "Destroyed qgroup"
+msgstr "Eyddi qgroup"
+
+#: Core/Subvolume.vala:158
+#, c-format
+msgid "Destroying qgroup"
+msgstr "Eyði qgroup"
+
+#: Utility/Device.vala:1930 Utility/Device.vala:1940
+#: Console/AppConsole.vala:455 Console/AppConsole.vala:494
+#: Console/AppConsole.vala:542 Core/SnapshotRepo.vala:76
+#: Core/SnapshotRepo.vala:683 Core/SnapshotRepo.vala:686 Core/Main.vala:2114
+#: Core/Main.vala:2146 Gtk/RestoreDeviceBox.vala:97
+#, c-format
+msgid "Device"
+msgstr "Tæki"
+
+#: Utility/Device.vala:1389
+msgid "Device is unlocked"
+msgstr "Tæki er ólæst"
+
+#: Utility/Device.vala:1284 Utility/Device.vala:1346
+msgid "Device name is empty!"
+msgstr "Heiti tækis er autt!"
+
+#: Console/AppConsole.vala:664 Core/SnapshotRepo.vala:560 Core/Main.vala:3232
+msgid "Device not found"
+msgstr "Tæki fannst ekki"
+
+#: Gtk/BackupDeviceBox.vala:97
+#, c-format
+msgid "Devices displayed above have BTRFS file systems."
+msgstr "Tæki með Linux-skráakerfum"
+
+#: Gtk/BackupDeviceBox.vala:104
+#, c-format
+msgid "Devices displayed above have Linux file systems."
+msgstr "Tæki með Linux-skráakerfum"
+
+#: Gtk/RestoreDeviceBox.vala:84
+msgid "Devices from which snapshot was created are pre-selected."
+msgstr ""
+
+#: Console/AppConsole.vala:326
+msgid "Devices with Linux file systems"
+msgstr "Tæki með Linux-skráakerfum"
+
+#: Gtk/BackupDeviceBox.vala:105
+msgid "Devices with Windows file systems are not supported (NTFS, FAT, etc)."
+msgstr ""
+
+#: Utility/TeeJee.FileSystem.vala:518
+msgid "Dir not found"
+msgstr "Mappa fannst ekki"
+
+#: Core/SnapshotRepo.vala:982
+msgid "Directory not found"
+msgstr "Mappa fannst ekki"
+
+#: Core/Main.vala:2206 Gtk/RestoreSummaryBox.vala:64
+msgid "Disclaimer"
+msgstr "Fyrirvari"
+
+#: Gtk/BackupDeviceBox.vala:127
+msgid "Disk"
+msgstr "Diskur"
+
+#: Core/Main.vala:226
+msgid "Distribution"
+msgstr "Dreifing"
+
+#: Utility/Gtk/AboutWindow.vala:449
+msgid "Documentation"
+msgstr "Gjafir"
+
+#: Utility/Gtk/DonationWindow.vala:43 Utility/Gtk/DonationWindow.vala:76
+#: Gtk/MainWindow.vala:209 Gtk/MainWindow.vala:210
+msgid "Donate"
+msgstr "Styrkja"
+
+#: Utility/Gtk/AboutWindow.vala:465
+msgid "Donations"
+msgstr "Gjafir"
+
+#: Gtk/UsersBox.vala:357
+msgid "Enable BTRFS qgroups (recommended)"
+msgstr ""
+
+#: Gtk/MainWindow.vala:1052
+msgid "Enable scheduled snapshots to protect your system"
+msgstr ""
+
+#: Core/Main.vala:4030 Core/Main.vala:4070
+msgid "Enabled subvolume quota support"
+msgstr ""
+
+#: Utility/Device.vala:1453
+msgid "Encrypted Device"
+msgstr "Dulritað tæki"
+
+#: Gtk/UsersBox.vala:236
+msgid "Encrypted Home Directory"
+msgstr "Dulrituð heimamappa"
+
+#: Console/AppConsole.vala:885
+#, c-format
+msgid "Enter device name or number"
+msgstr "Settu inn heiti tækis eða númer"
+
+#: Console/AppConsole.vala:683 Console/AppConsole.vala:1014
+#, c-format
+msgid "Enter device name or number (a=Abort)"
+msgstr "Settu inn heiti tækis eða númer (a=Hætta við)"
+
+#: Utility/Device.vala:1454
+#, c-format
+msgid "Enter passphrase to unlock '%s'"
+msgstr "Settu inn lykilorð til að aflæsa '%s'"
+
+#: Utility/GtkHelper.vala:805
+msgid "Enter path or browse for directory"
+msgstr "Settu inn slóð eða vafraðu í möppu"
+
+#: Console/AppConsole.vala:755
+#, c-format
+msgid "Enter snapshot number (a=Abort, p=Previous, n=Next)"
+msgstr "Settu inn númer skyndiafrits (a=Hætta við, p=Fyrra, n=Næsta)"
+
+#: Gtk/ExcludeBox.vala:225
+msgid "Enter the pattern to exclude (Ex: *.mp3, *.bak)"
+msgstr "Settu inn skráamynstur sem á að hunsa (t.d.: *.mp3, *.bak)"
+
+#: Utility/GtkHelper.vala:18 Gtk/RestoreDeviceBox.vala:534
+msgid "Error"
+msgstr "Villa"
+
+#: Gtk/RestoreWindow.vala:488
+msgid "Error running Rsync"
+msgstr ""
+
+#: Gtk/SetupWizardWindow.vala:99 Gtk/BackupWindow.vala:82
+msgid "Estimate"
+msgstr "Áætla"
+
+#: Gtk/EstimateBox.vala:56
+msgid "Estimating System Size..."
+msgstr "Áætla stærð kerfis..."
+
+#: Core/Main.vala:1279
+msgid "Estimating system size..."
+msgstr "Áætla stærð kerfis..."
+
+#: Console/AppConsole.vala:386
+msgid "Examples"
+msgstr "Dæmi"
+
+#: Gtk/UsersBox.vala:136
+msgid "Exclude All"
+msgstr "Undanskilja forrit"
+
+#: Gtk/ExcludeAppsBox.vala:51 Gtk/RestoreExcludeBox.vala:55
+msgid "Exclude Application Settings"
+msgstr "Undanskilja forritastillingar"
+
+#: Gtk/RestoreWindow.vala:99
+msgid "Exclude Apps"
+msgstr "Undanskilja forrit"
+
+#: Gtk/ExcludeMessageWindow.vala:70
+msgid "Exclude List"
+msgstr "Útilokunarlisti"
+
+#: Gtk/ExcludeListSummaryWindow.vala:49
+msgid "Exclude List Summary"
+msgstr "Samantekt útilokunarlista"
+
+#: Gtk/ExcludeBox.vala:224
+msgid "Exclude Pattern"
+msgstr "Útilokunarmynstur"
+
+#: Gtk/ExcludeMessageWindow.vala:56
+msgid "Excluded Directories"
+msgstr "Undanskildar möppur"
+
+#: Core/Main.vala:1567
+msgid "Expected values: O, B, H, D, W, M"
+msgstr "Væntanleg gildi: O, B, H, D, W, M"
+
+#: Utility/CronTab.vala:132
+msgid "Failed to add cron job"
+msgstr "Tókst ekki að bæta við cron-verki"
+
+#: Utility/TeeJee.FileSystem.vala:191
+msgid "Failed to copy file"
+msgstr "Mistókst að afrita skrá"
+
+#: Utility/TeeJee.FileSystem.vala:354 Utility/TeeJee.FileSystem.vala:362
+msgid "Failed to create directory"
+msgstr "Mistókst að búa til möppu"
+
+#: Core/Main.vala:1405
+msgid "Failed to create new snapshot"
+msgstr "Mistókst að búa til nýtt skyndiafrit"
+
+#: Core/Main.vala:1255
+msgid "Failed to create snapshot"
+msgstr "Mistókst að búa til skyndiafrit"
+
+#: Core/Main.vala:1495
+msgid "Failed to create subvolume snapshot"
+msgstr ""
+
+#: Core/SnapshotRepo.vala:1023
+msgid "Failed to create symlinks"
+msgstr "Mistókst að búa til tákntengi"
+
+#: Utility/TeeJee.FileSystem.vala:384
+msgid "Failed to delete directory"
+msgstr "Mistókst að eyða möppu"
+
+#: Utility/TeeJee.FileSystem.vala:100
+msgid "Failed to delete file"
+msgstr "Mistókst að eyða skrá"
+
+#: Core/Subvolume.vala:150
+msgid "Failed to delete snapshot subvolume"
+msgstr ""
+
+#: Core/SnapshotRepo.vala:1049
+msgid "Failed to delete symlinks"
+msgstr "Mistókst að eyða tákntengjum"
+
+#: Core/Subvolume.vala:164
+msgid "Failed to destroy qgroup"
+msgstr ""
+
+#: Core/Main.vala:4055
+msgid "Failed to enable subvolume quota"
+msgstr ""
+
+#: Core/Main.vala:3733 Core/Main.vala:3739
+msgid "Failed to estimate system size"
+msgstr "Ekki tókst að áætla stærð kerfis"
+
+#: Utility/CronTab.vala:257
+msgid "Failed to export crontab file"
+msgstr ""
+
+#: Console/AppConsole.vala:698 Console/AppConsole.vala:762
+#: Console/AppConsole.vala:894 Console/AppConsole.vala:989
+#: Console/AppConsole.vala:1034 Console/AppConsole.vala:1075
+msgid "Failed to get input from user in 3 attempts"
+msgstr ""
+
+#: Utility/Device.vala:723
+msgid "Failed to get partition list"
+msgstr "Tókst ekki að sækja lista yfir disksneiðar"
+
+#: Core/Main.vala:3315
+msgid "Failed to get partition list."
+msgstr "Tókst ekki að sækja lista yfir disksneiðar."
+
+#: Utility/CronTab.vala:240
+msgid "Failed to install crontab file"
+msgstr ""
+
+#: Gtk/RestoreDeviceBox.vala:535
+msgid "Failed to mount devices"
+msgstr "Mistókst að tengja tæki í skráakerfi"
+
+#: Utility/TeeJee.FileSystem.vala:210
+msgid "Failed to move file"
+msgstr "Mistókst að færa skrá"
+
+#: Core/Main.vala:2961
+msgid "Failed to move system subvolume to snapshot directory"
+msgstr ""
+
+#: Core/Main.vala:3863
+msgid "Failed to query subvolume list"
+msgstr ""
+
+#: Core/Main.vala:3947
+msgid "Failed to query subvolume quota"
+msgstr ""
+
+#: Utility/CronTab.vala:50
+msgid "Failed to read cron tab"
+msgstr "Mistókst að lesa cron-flipann"
+
+#: Utility/TeeJee.FileSystem.vala:148
+msgid "Failed to read file"
+msgstr "Mistókst að lesa skrá"
+
+#: Core/SnapshotRepo.vala:969
+msgid "Failed to remove"
+msgstr "Mistókst að fjarlægja"
+
+#: Utility/CronTab.vala:213
+msgid "Failed to remove cron job"
+msgstr "Mistókst að fjarlægja cron-verk"
+
+#: Core/Snapshot.vala:530 Core/Snapshot.vala:542 Core/Snapshot.vala:550
+msgid "Failed to remove snapshot"
+msgstr "Mistókst að fjarlægja skyndiafrit"
+
+#: Core/Main.vala:4094
+msgid "Failed to rescan subvolume quota"
+msgstr ""
+
+#: Core/Subvolume.vala:202
+msgid "Failed to restore system subvolume"
+msgstr ""
+
+#: Core/Main.vala:1355
+msgid "Failed to save exclude list"
+msgstr "Tókst ekki að vista útilokunarlista"
+
+#: Utility/Device.vala:1380 Utility/Device.vala:1434 Utility/Device.vala:1459
+#: Utility/Device.vala:1480 Utility/Device.vala:1500
+msgid "Failed to unlock device"
+msgstr "Mistókst að aflæsa tæki"
+
+#: Utility/Device.vala:1731
+msgid "Failed to unmount"
+msgstr "Mistókst að aftengja"
+
+#: Core/Main.vala:3519
+msgid "Failed to unmount device!"
+msgstr "Mistókst að aftengja tæki!"
+
+#: Utility/TeeJee.FileSystem.vala:175
+msgid "Failed to write file"
+msgstr "Mistókst að skrifa skrá"
+
+#: Utility/Gtk/DonationWindow.vala:105
+msgid "Feature Requests"
+msgstr ""
+
+#: Gtk/RsyncLogBox.vala:122
+msgid "File (snapshot)"
+msgstr "Eyða skyndiafriti"
+
+#: Gtk/RsyncLogBox.vala:119
+msgid "File (system)"
+msgstr "Skráakerfi"
+
+#: Gtk/ExcludeMessageWindow.vala:98
+msgid "File Pattern"
+msgstr "Skráamynstur"
+
+#: Gtk/BackupBox.vala:80
+msgid "File and directory counts:"
+msgstr "Fjöldi skráa og mappa:"
+
+#: Utility/TeeJee.FileSystem.vala:671 Utility/TeeJee.FileSystem.vala:720
+msgid "File is missing"
+msgstr "Skrá vantar"
+
+#: Utility/TeeJee.FileSystem.vala:205 Utility/TeeJee.FileSystem.vala:547
+#: Utility/CronTab.vala:225 Utility/RsyncTask.vala:296
+msgid "File not found"
+msgstr "Skrá fannst ekki"
+
+#: Gtk/ExcludeListSummaryWindow.vala:62
+msgid ""
+"Files &amp; directories matching the patterns below will be excluded. "
+"Patterns starting with a + will include the item instead of excluding."
+msgstr ""
+
+#: Gtk/SnapshotBackendBox.vala:192
+msgid "Files and directories can be excluded to save disk space."
+msgstr "Hægt er að undanskilja skrár og möppur til að spara pláss."
+
+#: Gtk/RestoreBox.vala:119
+msgid "Files and directory counts:"
+msgstr "Fjöldi skráa og mappa:"
+
+#: Gtk/ExcludeMessageWindow.vala:76
+msgid "Files matching the following patterns will be excluded"
+msgstr "Skrár sem samsvara eftirfarandi mynstri verða undanskildar"
+
+#: Utility/Device.vala:1948
+#, c-format
+msgid "Filesystem"
+msgstr "Skráakerfi"
+
+#: Gtk/RsyncLogBox.vala:302
+msgid "Filter by name or path"
+msgstr "Settu inn heiti tækis eða númer"
+
+#: Gtk/SettingsWindow.vala:100
+msgid "Filters"
+msgstr "Síur"
+
+#: Gtk/SetupWizardWindow.vala:205 Gtk/BackupWindow.vala:97
+#: Gtk/DeleteWindow.vala:103
+msgid "Finish"
+msgstr "Ljúka"
+
+#: Gtk/SetupWizardWindow.vala:120 Gtk/RestoreWindow.vala:130
+msgid "Finished"
+msgstr "Lokið"
+
+#: Gtk/RestoreExcludeBox.vala:78
+msgid "Firefox, Chromium, Chrome, Opera, Epiphany, Midori"
+msgstr "Firefox, Chromium, Chrome, Opera, Epiphany, Midori"
+
+#: Core/SnapshotRepo.vala:667
+msgid "First snapshot requires:"
+msgstr "Fyrsta skyndiafrit krefst:"
+
+#: Core/Main.vala:2894
+msgid "Found existing pre-restore snapshot"
+msgstr ""
+
+#: Gtk/BackupDeviceBox.vala:215
+msgid "Free"
+msgstr "Laust"
+
+#: Core/SnapshotRepo.vala:77 Core/SnapshotRepo.vala:147
+msgid "Free space"
+msgstr "Laust pláss"
+
+#: Console/AppConsole.vala:1043
+msgid "GRUB Device"
+msgstr "GRUB-ræsitæki"
+
+#: Gtk/RestoreDeviceBox.vala:511
+msgid "GRUB device not selected"
+msgstr "GRUB-ræsitæki ekki valið"
+
+#: Console/AppConsole.vala:1048
+msgid "GRUB will NOT be reinstalled"
+msgstr "GRUB verður EKKI sett upp aftur"
+
+#: Core/Main.vala:2348
+msgid "Generating initramfs..."
+msgstr "Útbý initramfs..."
+
+#: Console/AppConsole.vala:374
+msgid "Global"
+msgstr "Víðvært"
+
+#: Gtk/RsyncLogBox.vala:400 Gtk/RestoreBox.vala:135 Gtk/BackupBox.vala:97
+#, c-format
+msgid "Group"
+msgstr "Hópur"
+
+#: Gtk/ExcludeMessageWindow.vala:129
+msgid ""
+"Hidden files and folders are included by default since they contain user-"
+"specific configuration files."
+msgstr ""
+
+#: Gtk/DeleteWindow.vala:178
+msgid "Hide"
+msgstr "Fela"
+
+#: Console/AppConsole.vala:381
+msgid "Hide rsync output"
+msgstr "Fela rsync-frálag"
+
+#: Gtk/DeleteWindow.vala:179
+msgid "Hide this window (files will be deleted in background)"
+msgstr "Fela þennan glugga (skrám verður eytt í bakgrunni)"
+
+#: Gtk/UsersBox.vala:120
+msgid "Home"
+msgstr "Heim"
+
+#: Gtk/ExcludeMessageWindow.vala:116
+msgid "Home Directory"
+msgstr "Heimamappa"
+
+#: Gtk/ScheduleBox.vala:118 Gtk/SnapshotListBox.vala:299
+msgid "Hourly"
+msgstr "Hverja klukkustund"
+
+#: Core/Main.vala:1047
+msgid "Hourly snapshot failed!"
+msgstr "Klukkustundar skyndiafrit mistókst!"
+
+#: Core/Main.vala:1028
+msgid "Hourly snapshots are enabled"
+msgstr "Skyndiafrit á klukkustundar fresti eru virk"
+
+#: Gtk/RestoreFinishBox.vala:102
+msgid ""
+"If the restored system fails to boot, then boot from the Live CD/USB, "
+"install Timeshift, and try restoring another snapshot."
+msgstr ""
+
+#: Core/Main.vala:2212
+msgid ""
+"If these terms are not acceptable to you, please do not proceed beyond this "
+"point!"
+msgstr ""
+
+#: Utility/Gtk/DonationWindow.vala:70
+msgid ""
+"If you find this application useful, consider making a donation to support "
+"the development."
+msgstr ""
+
+#: Gtk/ExcludeBox.vala:54
+msgid "Include / Exclude Patterns"
+msgstr "Mynstur fyrir innifela / útiloka"
+
+#: Gtk/UsersBox.vala:340
+msgid "Include @home subvolume in backups"
+msgstr ""
+
+#: Gtk/UsersBox.vala:266
+msgid "Include All"
+msgstr "Undanskilja forrit"
+
+#: Gtk/UsersBox.vala:194
+msgid "Include Hidden"
+msgstr "Hafa með falin atriði"
+
+#: Core/Main.vala:2026
+msgid "Invalid Snapshot"
+msgstr "Ógilt skyndiafrit"
+
+#: Console/AppConsole.vala:251
+#, c-format
+msgid "Invalid command line arguments"
+msgstr "Ógild viðföng á skipanalínu"
+
+#: Gtk/MainWindow.vala:817
+msgid "Invalid snapshot"
+msgstr "Ógilt skyndiafrit"
+
+#: Utility/Gtk/DonationWindow.vala:94
+msgid "Issue Tracker"
+msgstr ""
+
+#: Gtk/ExcludeBox.vala:272
+msgid "Items Not Selected"
+msgstr "Atriði ekki valin"
+
+#: Gtk/ScheduleBox.vala:283
+msgid "Keep"
+msgstr "Halda"
+
+#: Gtk/RestoreExcludeBox.vala:112
+msgid ""
+"Keep configuration files for bittorrent clients like Deluge, Transmission, "
+"etc. If un-checked, previous configuration files will be restored from "
+"snapshot."
+msgstr ""
+"Halda stillingaskrám fyrir torrent-forrit á borð við Deluge, Transmission, o."
+"s.frv. Ef ekki er merkt við þetta, verða fyrri stillingaskrár endurheimtar "
+"úr skyndiafriti."
+
+#: Gtk/RestoreExcludeBox.vala:85
+msgid ""
+"Keep configuration files for web browsers like Firefox and Chrome. If un-"
+"checked, previous configuration files will be restored from snapshot"
+msgstr ""
+"Halda stillingaskrám fyrir vafra á borð við Firefox og Chrome. Ef ekki er "
+"merkt við þetta, verða fyrri stillingaskrár endurheimtar úr skyndiafriti"
+
+#: Gtk/RestoreDeviceBox.vala:244
+msgid "Keep on Root Device"
+msgstr "Halda á rótartæki"
+
+#: Gtk/RestoreDeviceBox.vala:229
+msgid "Keep this mount path on the root filesystem"
+msgstr ""
+
+#: Gtk/SnapshotListBox.vala:519
+msgid "LIVE"
+msgstr "LIVE"
+
+#: Utility/Device.vala:1949 Console/AppConsole.vala:459
+#: Console/AppConsole.vala:498 Gtk/BackupDeviceBox.vala:254
+#, c-format
+msgid "Label"
+msgstr "Skýring"
+
+#: Core/Main.vala:1010
+#, c-format
+msgid "Last boot snapshot is %d hours old"
+msgstr "Síðasta boot-skyndiafrit er %d klst gamalt"
+
+#: Core/Main.vala:1005
+msgid "Last boot snapshot is older than system start time"
+msgstr "Síðasta boot-skyndiafrit er eldra en ræsitími kerfisins"
+
+#: Core/Main.vala:1001
+msgid "Last boot snapshot not found"
+msgstr "Síðasta boot-skyndiafrit fannst ekki"
+
+#: Core/Main.vala:1070
+#, c-format
+msgid "Last daily snapshot is %d hours old"
+msgstr "Síðasta daglegt-skyndiafrit er %d klst gamalt"
+
+#: Core/Main.vala:1065
+msgid "Last daily snapshot is more than 1 day old"
+msgstr "Síðasta daglegt-skyndiafrit er meira en dagsgamalt"
+
+#: Core/Main.vala:1061
+msgid "Last daily snapshot not found"
+msgstr "Síðasta daglegt-skyndiafrit fannst ekki"
+
+#: Core/Main.vala:1040
+#, c-format
+msgid "Last hourly snapshot is %d minutes old"
+msgstr "Síðasta klukkustundar-skyndiafrit er %d mínútna gamalt"
+
+#: Core/Main.vala:1035
+msgid "Last hourly snapshot is more than 1 hour old"
+msgstr "Síðasta klukkustundar-skyndiafrit er meira en klukkustundargamalt"
+
+#: Core/Main.vala:1031
+msgid "Last hourly snapshot not found"
+msgstr "Síðasta klukkustundar-skyndiafrit fannst ekki"
+
+#: Core/Main.vala:1130
+#, c-format
+msgid "Last monthly snapshot is %d days old"
+msgstr "Síðasta mánaðarlegt-skyndiafrit er %d daga gamalt"
+
+#: Core/Main.vala:1125
+msgid "Last monthly snapshot is more than 1 month old"
+msgstr "Síðasta mánaðarlegt-skyndiafrit er meira en mánaðargamalt"
+
+#: Core/Main.vala:1121
+msgid "Last monthly snapshot not found"
+msgstr "Síðasta mánaðarlegt-skyndiafrit fannst ekki"
+
+#: Core/Main.vala:1100
+#, c-format
+msgid "Last weekly snapshot is %d days old"
+msgstr "Síðasta vikulegt-skyndiafrit er %d daga gamalt"
+
+#: Core/Main.vala:1095
+msgid "Last weekly snapshot is more than 1 week old"
+msgstr "Síðasta vikulegt-skyndiafrit er meira en vikugamalt"
+
+#: Core/Main.vala:1091
+msgid "Last weekly snapshot not found"
+msgstr "Síðasta vikulegt-skyndiafrit fannst ekki"
+
+#: Gtk/MainWindow.vala:1033
+#, c-format
+msgid "Latest snapshot"
+msgstr "Síðasta skyndiafrit"
+
+#: Utility/Gtk/AboutWindow.vala:316 Utility/Gtk/AboutWindow.vala:356
+msgid "License"
+msgstr ""
+
+#: Core/Main.vala:1344
+#, c-format
+msgid "Linking from snapshot"
+msgstr ""
+
+#: Console/AppConsole.vala:352
+msgid "List"
+msgstr "Listi"
+
+#: Console/AppConsole.vala:354
+msgid "List devices"
+msgstr "Telja upp tæki"
+
+#: Console/AppConsole.vala:353
+msgid "List snapshots"
+msgstr "Telja upp skyndiafrit"
+
+#: Gtk/MainWindow.vala:984
+msgid "Live USB Mode (Restore Only)"
+msgstr "Live USB-keyrsla (aðeins endurheimta)"
+
+#: Gtk/SetupWizardWindow.vala:104 Gtk/BackupWindow.vala:87
+#: Gtk/SettingsWindow.vala:89
+msgid "Location"
+msgstr "Staðsetning"
+
+#: Gtk/MainWindow.vala:452
+msgid "Main window closed by user"
+msgstr "Aðalglugga lokað af notanda"
+
+#: Gtk/SnapshotListBox.vala:329
+msgid "Mark for Deletion"
+msgstr "Merkja til eyðingar"
+
+#: Gtk/MainWindow.vala:634
+msgid "Marked for deletion"
+msgstr "Merkt til eyðingar"
+
+#: Core/SnapshotRepo.vala:711 Core/SnapshotRepo.vala:748
+msgid "Maximum backups exceeded for backup level"
+msgstr ""
+
+#: Gtk/MainWindow.vala:218
+msgid "Menu"
+msgstr "Valmynd"
+
+#: Gtk/UsersBox.vala:354
+msgid "Miscellaneous"
+msgstr ""
+
+#: Core/Main.vala:235
+msgid "Missing Dependencies"
+msgstr "Kerfisákvæði vantar"
+
+#: Core/SnapshotRepo.vala:689
+#, c-format
+msgid "Mode"
+msgstr "Hamur"
+
+#: Utility/Device.vala:1932
+#, c-format
+msgid "Model"
+msgstr "Gerð"
+
+#: Gtk/ScheduleBox.vala:64 Gtk/SnapshotListBox.vala:302
+msgid "Monthly"
+msgstr "Mánaðarlega"
+
+#: Core/Main.vala:1118
+msgid "Monthly snapshot are enabled"
+msgstr "Mánaðarleg skyndiafrit eru virk"
+
+#: Core/Main.vala:1137
+msgid "Monthly snapshot failed!"
+msgstr "Mánaðarlegt skyndiafrit mistókst!"
+
+#: Core/Main.vala:2113 Core/Main.vala:2146
+msgid "Mount"
+msgstr "Setja upp"
+
+#: Core/Main.vala:2968
+msgid "Moved system subvolume to snapshot directory"
+msgstr ""
+
+#: Gtk/MainWindow.vala:793
+msgid "Multiple snapshots selected"
+msgstr "Mörg skyndiafrit valin"
+
+#: Console/AppConsole.vala:425 Gtk/RsyncLogBox.vala:492
+#: Gtk/BackupDeviceBox.vala:235
+msgid "Name"
+msgstr "Heiti"
+
+#: Gtk/SetupWizardWindow.vala:197 Gtk/BackupWindow.vala:161
+#: Gtk/DeleteWindow.vala:162 Gtk/RestoreWindow.vala:198
+msgid "Next"
+msgstr "Næsta"
+
+#: Utility/Gtk/CustomMessageDialog.vala:177
+msgid "No"
+msgstr "Nei"
+
+#: Gtk/RestoreBox.vala:122 Gtk/BackupBox.vala:84
+msgid "No Change"
+msgstr "Engin breyting"
+
+#: Gtk/MainWindow.vala:608 Gtk/DeleteWindow.vala:341
+msgid "No Snapshots Selected"
+msgstr "Engin skyndiafrit valin"
+
+#: Gtk/MainWindow.vala:1057
+msgid "No snapshots available"
+msgstr "Engin skyndiafrit tiltæk"
+
+#: Console/AppConsole.vala:320 Core/SnapshotRepo.vala:898
+#: Gtk/MainWindow.vala:1001
+msgid "No snapshots found"
+msgstr "Engin skyndiafrit fundust"
+
+#: Console/AppConsole.vala:741
+msgid "No snapshots found on device"
+msgstr "Engin skyndiafrit fundust á tækinu"
+
+#: Gtk/MainWindow.vala:546
+msgid "No snapshots on device"
+msgstr "Engin skyndiafrit á tækinu"
+
+#: Core/SnapshotRepo.vala:665
+msgid "No snapshots on this device"
+msgstr "Engin skyndiafrit á þessu tæki"
+
+#: Gtk/MainWindow.vala:786
+msgid "No snapshots selected"
+msgstr "Engin skyndiafrit valin"
+
+#: Gtk/MainWindow.vala:1034 Gtk/MainWindow.vala:1036
+msgid "None"
+msgstr "Ekkert"
+
+#: Core/Subvolume.vala:184
+#, fuzzy, c-format
+msgid "Not Found"
+msgstr "Mappa fannst ekki"
+
+#: Core/SnapshotRepo.vala:683
+msgid "Not Selected"
+msgstr "Ekki valið"
+
+#: Core/Main.vala:379
+msgid "Not Supported"
+msgstr "Ekki stutt"
+
+#: Core/SnapshotRepo.vala:629 Core/SnapshotRepo.vala:656
+msgid "Not enough disk space"
+msgstr "Ekki nægilegt diskapláss"
+
+#: Console/AppConsole.vala:397 Gtk/FinishBox.vala:55
+msgid "Notes"
+msgstr "Minnispunktar"
+
+#: Core/Main.vala:1147
+msgid "Nothing to do!"
+msgstr "Ekkert til að gera!"
+
+#: Console/AppConsole.vala:423 Console/AppConsole.vala:453
+#: Console/AppConsole.vala:492 Console/AppConsole.vala:540
+msgid "Num"
+msgstr "Fjöldi"
+
+#: Gtk/ScheduleBox.vala:282
+msgid ""
+"Number of snapshots to keep.\n"
+"Older snapshots will be removed once this limit is exceeded."
+msgstr ""
+
+#: Utility/GtkHelper.vala:121 Utility/Gtk/CustomMessageDialog.vala:167
+#: Utility/Gtk/CustomMessageDialog.vala:171
+#: Gtk/ExcludeListSummaryWindow.vala:84
+msgid "OK"
+msgstr "Í lagi"
+
+#: Gtk/SnapshotBackendBox.vala:179
+msgid ""
+"OS must be installed on a BTRFS partition with Ubuntu-type subvolume layout "
+"(@ and @home subvolumes). Other layouts are not supported."
+msgstr ""
+
+#: Core/Main.vala:4201
+msgid "Older log files removed"
+msgstr "Eldri atvikaskrár fjarlægðar"
+
+#: Gtk/MainWindow.vala:1035
+msgid "Oldest snapshot"
+msgstr "Elsta skyndiafrit"
+
+#: Gtk/SnapshotListBox.vala:297
+msgid "On demand (manual)"
+msgstr ""
+
+#: Core/Main.vala:377 Core/Main.vala:3432 Gtk/RestoreDeviceBox.vala:525
+msgid ""
+"Only ubuntu-type layouts with @ and @home subvolumes are currently supported."
+msgstr ""
+
+#: Gtk/MainWindow.vala:219
+msgid "Open Menu"
+msgstr "Opna valmynd"
+
+#: Core/Main.vala:3214
+msgid ""
+"Option --snapshot-device should not be specified for creating snapshots in "
+"BTRFS mode"
+msgstr ""
+
+#: Console/AppConsole.vala:350 Gtk/AppGtk.vala:114
+msgid "Options"
+msgstr "Valkostir"
+
+#: Gtk/RestoreExcludeBox.vala:118
+msgid "Other applications (next page)"
+msgstr "Önnur forrit (næsta síða)"
+
+#: Gtk/RsyncLogBox.vala:398 Gtk/RestoreBox.vala:134 Gtk/BackupBox.vala:96
+#, c-format
+msgid "Owner"
+msgstr "Eigandi"
+
+#: Utility/Device.vala:1944
+#, c-format
+msgid "Parent Device"
+msgstr "Yfirtæki"
+
+#: Core/Main.vala:2469 Core/Main.vala:2560 Gtk/RsyncLogBox.vala:222
+msgid "Parsing log file..."
+msgstr "Þátta atvikaskrá..."
+
+#: Gtk/RestoreDeviceBox.vala:524
+msgid "Partition has an unsupported subvolume layout."
+msgstr ""
+
+#: Core/SnapshotRepo.vala:688 Gtk/RestoreDeviceBox.vala:93
+#, c-format
+msgid "Path"
+msgstr "Slóð"
+
+#: Gtk/ExcludeBox.vala:162
+msgid "Pattern"
+msgstr "Mynstur"
+
+#: Gtk/RsyncLogBox.vala:396 Gtk/RestoreBox.vala:133 Gtk/BackupBox.vala:95
+#, c-format
+msgid "Permissions"
+msgstr "Heimildir"
+
+#: Core/Main.vala:254
+msgid "Please check if you have multiple windows open."
+msgstr "Athugaðu hvort þú sért með marga glugga opna."
+
+#: Core/Main.vala:2244
+msgid "Please do not interrupt the restore process!"
+msgstr "Endilega - ekki trufla endurheimtingarferlið!"
+
+#: Core/Main.vala:348
+msgid "Please install required packages and try running TimeShift again"
+msgstr "Settu upp nauðsynlega pakka og reyndu svo að keyra TimeShift aftur"
+
+#: Gtk/AppGtk.vala:127
+msgid "Please re-run the application as admin (using 'sudo' or 'su')"
+msgstr "Keyrðu forritið aftur sem kerfisstjóri (með 'sudo' eða 'su')"
+
+#: Console/AppConsole.vala:103
+msgid "Please run the application as admin (using 'sudo' or 'su')"
+msgstr "Keyrðu forritið sem kerfisstjóri (með 'sudo' eða 'su')"
+
+#: Core/Main.vala:2194
+msgid "Please save your work and close all applications."
+msgstr "Vistaðu skrárnar þínar og lokaðu öllum forritum."
+
+#: Gtk/MainWindow.vala:688
+msgid "Please select a snapshot to view the log!"
+msgstr "Veldu skyndiafrit til að sjá atvikaskrána!"
+
+#: Gtk/RestoreDeviceBox.vala:512
+msgid "Please select the GRUB device"
+msgstr "Veldu GRUB-ræsitækið"
+
+#: Core/Main.vala:250
+msgid "Please wait a few minutes and try again."
+msgstr "Bíddu í nokkrar mínútur og reyndu svo aftur."
+
+#: Gtk/MainWindow.vala:755
+msgid "Please wait for snapshots to be deleted."
+msgstr "Bíddu aðeins á meðan skyndiafritum er eytt."
+
+#: Gtk/EstimateBox.vala:66
+msgid "Please wait..."
+msgstr ""
+
+#: Gtk/RsyncLogBox.vala:188
+msgid "Populating list..."
+msgstr "Fylli lista..."
+
+#: Core/Main.vala:1579 Gtk/RsyncLogBox.vala:232 Gtk/DeleteBox.vala:68
+#: Gtk/RestoreBox.vala:88 Gtk/BackupBox.vala:114
+msgid "Preparing..."
+msgstr "Undirbý..."
+
+#: Gtk/SetupWizardWindow.vala:189 Gtk/BackupWindow.vala:153
+#: Gtk/DeleteWindow.vala:154 Gtk/RestoreWindow.vala:190
+msgid "Previous"
+msgstr "Fyrra"
+
+#: Gtk/AppGtk.vala:116
+msgid "Print debug information"
+msgstr "Birta villuleitarupplýsingar"
+
+#: Core/Main.vala:3794
+msgid "Query completed"
+msgstr "Fyrirspurn lokið"
+
+#: Core/Main.vala:3777
+msgid "Querying subvolume info..."
+msgstr ""
+
+#: Gtk/SnapshotBackendBox.vala:77
+msgid "RSYNC"
+msgstr "RSYNC"
+
+#: Gtk/SnapshotBackendBox.vala:184
+msgid "RSYNC Snapshots"
+msgstr "RSYNC-skyndiafrit"
+
+#: Gtk/BootOptionsBox.vala:137
+msgid ""
+"Re-generates initramfs for all installed kernels. This is generally not "
+"needed. Select this only if the restored system fails to boot."
+msgstr ""
+
+#: Console/AppConsole.vala:983
+#, c-format
+msgid "Re-install GRUB2 bootloader?"
+msgstr "Setja GRUB2-ræsistjóra upp aftur?"
+
+#: Core/Main.vala:2307
+msgid "Re-installing GRUB2 bootloader..."
+msgstr "Set aftur upp GRUB2-ræsistjóra..."
+
+#: Gtk/BootOptionsBox.vala:120
+msgid "Re-installs the GRUB2 bootloader on the selected device."
+msgstr "Setur aftur upp GRUB2-ræsistjóra á valið tæki."
+
+#: Gtk/RsyncLogBox.vala:181
+#, c-format
+msgid "Read %'d of %'d lines..."
+msgstr "Las %'d af %'d línum..."
+
+#: Core/Main.vala:2400
+msgid "Rebooting system..."
+msgstr "Endurræsi kerfið..."
+
+#: Gtk/RestoreExcludeBox.vala:61 Gtk/RestoreExcludeBox.vala:91
+#, c-format
+msgid "Recommended"
+msgstr "Mælt er með þessu"
+
+#: Gtk/BackupDeviceBox.vala:65 Gtk/RestoreDeviceBox.vala:70
+msgid "Refresh"
+msgstr "Endurlesa"
+
+#: Gtk/BackupDeviceBox.vala:106
+msgid "Remote and network locations are not supported."
+msgstr "Önnur forrit (næsta síða)"
+
+#: Gtk/ExcludeBox.vala:253
+msgid "Remove"
+msgstr "Fjarlægja"
+
+#: Core/SnapshotRepo.vala:975 Core/Main.vala:1617 Core/Main.vala:1628
+#: Core/Main.vala:4197 Core/Snapshot.vala:509
+#, c-format
+msgid "Removed"
+msgstr "Fjarlægt"
+
+#: Utility/CronTab.vala:341
+msgid "Removed cron task"
+msgstr "Fjarlægði cron-verkefni"
+
+#: Core/Main.vala:3582
+#, c-format
+msgid "Removed mount directory: '%s'"
+msgstr "Fjarlægði tengimöppuna: '%s'"
+
+#: Core/Snapshot.vala:555
+msgid "Removed snapshot"
+msgstr "Fjarlægði skyndiafrit"
+
+#: Core/Snapshot.vala:484
+msgid "Removing"
+msgstr "Fjarlægi"
+
+#: Core/Snapshot.vala:521
+msgid "Removing snapshot"
+msgstr "Fjarlægi skyndiafrit"
+
+#: Core/SnapshotRepo.vala:831 Core/SnapshotRepo.vala:850
+#: Core/SnapshotRepo.vala:868 Core/SnapshotRepo.vala:882
+#, c-format
+msgid "Removing snapshots"
+msgstr "Fjarlægi skyndiafrit"
+
+#: Gtk/UsersBox.vala:360
+msgid ""
+"Required for displaying shared and unshared size for snapshots in the main "
+"window"
+msgstr ""
+
+#: Console/AppConsole.vala:362 Gtk/RestoreFinishBox.vala:71
+#: Gtk/RsyncLogBox.vala:377 Gtk/RsyncLogBox.vala:567 Gtk/MainWindow.vala:151
+#: Gtk/RestoreWindow.vala:125
+msgid "Restore"
+msgstr "Endurheimta"
+
+#: Gtk/UsersBox.vala:329
+#, fuzzy
+msgid "Restore @home subvolume"
+msgstr "Endurheimtingu lokið"
+
+#: Gtk/RestoreWindow.vala:89
+msgid "Restore Device"
+msgstr "Endurheimta tæki"
+
+#: Gtk/RestoreWindow.vala:94
+msgid "Restore Exclude"
+msgstr "Endurheimta útilokanir"
+
+#: Gtk/RestoreWindow.vala:69
+msgid "Restore Snapshot"
+msgstr "Endurheimta skyndiafrit"
+
+#: Core/Main.vala:2809 Core/Main.vala:2851
+msgid "Restore completed"
+msgstr "Endurheimtingu lokið"
+
+#: Gtk/MainWindow.vala:152
+msgid "Restore selected snapshot"
+msgstr "Endurheimta valið skyndiafrit"
+
+#: Console/AppConsole.vala:363
+msgid "Restore snapshot"
+msgstr "Endurheimta skyndiafrit"
+
+#: Gtk/RestoreFinishBox.vala:96
+msgid "Restored subvolumes will become active after system is restarted."
+msgstr ""
+
+#: Core/Subvolume.vala:206
+msgid "Restored system subvolume"
+msgstr ""
+
+#: Gtk/RestoreBox.vala:77 Gtk/RestoreBox.vala:190
+msgid "Restoring Snapshot..."
+msgstr "Endurheimti skyndiafrit..."
+
+#: Gtk/FinishBox.vala:85
+msgid ""
+"Restoring a snapshot will replace system subvolumes, and system subvolumes "
+"currently in use will be preserved as a new snapshot. If required, this "
+"snapshot can be restored later to 'undo' the restore."
+msgstr ""
+
+#: Core/Main.vala:2778
+msgid "Restoring snapshot..."
+msgstr "Endurheimti skyndiafrit..."
+
+#: Gtk/FinishBox.vala:88
+msgid ""
+"Restoring snapshots only replaces system files and settings. Non-hidden "
+"files and directories in user home directories will not be touched. This "
+"behaviour can be changed by adding a filter to include these files. Included "
+"files will be backed up when snapshot is created, and replaced when snapshot "
+"is restored."
+msgstr ""
+
+#: Utility/Device.vala:1934
+#, c-format
+msgid "Revision"
+msgstr "Breyting"
+
+#: Gtk/RestoreDeviceBox.vala:452
+msgid "Root device not selected"
+msgstr "Rótartæki ekki valið"
+
+#: Gtk/RsyncLogWindow.vala:49
+msgid "Rsync Log Viewer"
+msgstr "Atvikaskoðari"
+
+#: Gtk/AppGtk.vala:119
+#, c-format
+msgid "Run 'timeshift' for the command-line version of this tool"
+msgstr "Keyrðu 'timeshift' fyrir skipanalínuútgáfuna af þessu verkfæri"
+
+#: Console/AppConsole.vala:382
+msgid "Run in non-interactive mode"
+msgstr "Keyra í ekki-gagnvirkum ham"
+
+#: Core/Main.vala:186
+msgid "Running"
+msgstr "Í gangi"
+
+#: Gtk/FinishBox.vala:95
+msgid ""
+"Save snapshots to an external disk instead of the system disk to guard "
+"against drive failures."
+msgstr ""
+
+#: Gtk/FinishBox.vala:97
+msgid ""
+"Saving snapshots to a non-system disk allows you to format and re-install "
+"the OS on the system disk without losing snapshots stored on it. You can "
+"even install another Linux distribution and later roll-back the previous "
+"distribution by restoring a snapshot."
+msgstr ""
+
+#: Core/Main.vala:1285 Core/Main.vala:1439 Core/Main.vala:1441
+msgid "Saving to device"
+msgstr "Vista á tæki"
+
+#: Gtk/SetupWizardWindow.vala:109 Gtk/SettingsWindow.vala:92
+msgid "Schedule"
+msgstr "Áætlun"
+
+#: Core/Main.vala:257
+msgid "Scheduled snapshot in progress..."
+msgstr ""
+
+#: Core/Main.vala:1147 Gtk/MainWindow.vala:1051 Gtk/ScheduleBox.vala:312
+msgid "Scheduled snapshots are disabled"
+msgstr ""
+
+#: Gtk/FinishBox.vala:78
+msgid "Scheduled snapshots are disabled. It's recommended to enable it."
+msgstr ""
+
+#: Gtk/ScheduleBox.vala:305
+msgid "Scheduled snapshots are enabled"
+msgstr ""
+
+#: Gtk/FinishBox.vala:75
+msgid ""
+"Scheduled snapshots are enabled. Snapshots will be created automatically for "
+"selected levels."
+msgstr ""
+
+#: Console/AppConsole.vala:871
+#, c-format
+msgid "Select '%s' device (default = %s)"
+msgstr "Veldu '%s' tæki (sjálfgefið = %s)"
+
+#: Console/AppConsole.vala:690 Core/SnapshotRepo.vala:593
+msgid "Select BTRFS system disk with root subvolume (@)"
+msgstr ""
+
+#: Console/AppConsole.vala:999
+msgid "Select GRUB device"
+msgstr "Veldu GRUB-ræsitæki"
+
+#: Utility/GtkHelper.vala:815
+msgid "Select Path"
+msgstr "Veldu slóð"
+
+#: Gtk/MainWindow.vala:687
+msgid "Select Snapshot"
+msgstr "Veldu skyndiafrit"
+
+#: Gtk/ScheduleBox.vala:57
+msgid "Select Snapshot Levels"
+msgstr "Veldu stig skyndiafrits"
+
+#: Gtk/BackupDeviceBox.vala:56
+msgid "Select Snapshot Location"
+msgstr "Veldu staðsetningu skyndiafrits"
+
+#: Gtk/SnapshotBackendBox.vala:62
+msgid "Select Snapshot Type"
+msgstr "Veldu gerð skyndiafrits"
+
+#: Gtk/DeleteWindow.vala:85
+msgid "Select Snapshots"
+msgstr "Veldu skyndiafrit"
+
+#: Gtk/RestoreDeviceBox.vala:61
+msgid "Select Target Device"
+msgstr "Veldu úttakstæki"
+
+#: Gtk/BackupDeviceBox.vala:410
+#, c-format
+msgid "Select a partition on this disk"
+msgstr "Veldu disksneið á þessum diski"
+
+#: Gtk/MainWindow.vala:794
+msgid "Select a single snapshot to restore"
+msgstr "Veldu stakt skyndiafrit til að endurheimta"
+
+#: Gtk/RestoreDeviceBox.vala:481
+msgid "Select another device for root file system (/)"
+msgstr "Veldu annað tæki undir rót skráakerfis (/)"
+
+#: Core/SnapshotRepo.vala:632 Core/SnapshotRepo.vala:659
+msgid "Select another device or free up some space"
+msgstr "Veldu annað tæki eða losaðu um svolítið pláss"
+
+#: Gtk/MainWindow.vala:540 Gtk/MainWindow.vala:547
+msgid "Select another device to delete snasphots"
+msgstr "Veldu annað tæki til að eyða skyndiafritum"
+
+#: Gtk/MainWindow.vala:474
+msgid "Select another device?"
+msgstr "Velja annað tæki?"
+
+#: Gtk/RestoreExcludeBox.vala:57
+msgid "Select applications to exclude from restore"
+msgstr ""
+
+#: Console/AppConsole.vala:673
+msgid "Select backup device"
+msgstr "Veldu tæki fyrir öryggisafrit"
+
+#: Gtk/ExcludeBox.vala:433
+msgid "Select directory"
+msgstr "Veldu möppu"
+
+#: Gtk/ExcludeBox.vala:406
+msgid "Select file(s)"
+msgstr "Veldu skrá(r)"
+
+#: Console/AppConsole.vala:747
+msgid "Select snapshot"
+msgstr "Veldu skyndiafrit"
+
+#: Gtk/DeleteWindow.vala:342
+msgid "Select snapshots to delete"
+msgstr "Veldu skyndiafrit til að eyða"
+
+#: Gtk/RestoreDeviceBox.vala:453
+msgid "Select the device for root file system (/)"
+msgstr ""
+
+#: Gtk/RestoreDeviceBox.vala:83
+msgid "Select the devices where files will be restored."
+msgstr ""
+
+#: Gtk/ScheduleBox.vala:313
+msgid "Select the intervals for creating snapshots"
+msgstr ""
+
+#: Gtk/ExcludeBox.vala:273
+msgid "Select the items to be removed from the list"
+msgstr ""
+
+#: Core/SnapshotRepo.vala:553
+msgid "Select the snapshot device"
+msgstr ""
+
+#: Gtk/MainWindow.vala:787
+msgid "Select the snapshot to restore"
+msgstr ""
+
+#: Gtk/DeleteWindow.vala:87
+msgid "Select the snapshots to be deleted"
+msgstr ""
+
+#: Gtk/MainWindow.vala:609
+msgid "Select the snapshots to mark for deletion"
+msgstr ""
+
+#: Gtk/RestoreDeviceBox.vala:79
+msgid "Select the target devices where system will be cloned."
+msgstr ""
+
+#: Core/Main.vala:3242
+msgid "Selected default snapshot device"
+msgstr ""
+
+#: Core/Main.vala:3193 Core/Main.vala:3197
+msgid "Selected default snapshot type"
+msgstr ""
+
+#: Gtk/BackupDeviceBox.vala:388
+msgid "Selected device does not have BTRFS partition"
+msgstr ""
+
+#: Gtk/BackupDeviceBox.vala:385
+msgid "Selected device does not have Linux partition"
+msgstr ""
+
+#: Core/SnapshotRepo.vala:146
+msgid "Selected snapshot device"
+msgstr ""
+
+#: Console/AppConsole.vala:689 Core/SnapshotRepo.vala:592
+msgid "Selected snapshot device is not a system disk"
+msgstr ""
+
+#: Core/Main.vala:2027
+msgid "Selected snapshot is marked for deletion"
+msgstr ""
+
+#: Gtk/MainWindow.vala:818
+msgid "Selected snapshot is marked for deletion and cannot be restored"
+msgstr ""
+
+#: Gtk/UsersBox.vala:238
+msgid ""
+"Selected user has an encrypted home directory. It's not possible to include "
+"only hidden files."
+msgstr ""
+
+#: Utility/Device.vala:1933
+#, c-format
+msgid "Serial"
+msgstr "Raðnúmer"
+
+#: Core/Main.vala:214
+msgid "Session log file"
+msgstr "Atvikaskrá setu"
+
+#: Console/AppConsole.vala:359
+msgid "Set snapshot description"
+msgstr "Setja lýsingu skyndiafrits"
+
+#: Gtk/MainWindow.vala:181 Gtk/MainWindow.vala:182 Gtk/SettingsWindow.vala:55
+msgid "Settings"
+msgstr "Stillingar"
+
+#: Gtk/MainWindow.vala:192
+msgid "Settings wizard"
+msgstr "Stillingaleiðarvísir"
+
+#: Gtk/FinishBox.vala:58
+msgid "Setup Complete"
+msgstr "Uppsetningu lokið"
+
+#: Gtk/SetupWizardWindow.vala:64
+msgid "Setup Wizard"
+msgstr "Uppsetningarleiðarvísir"
+
+#: Console/AppConsole.vala:379
+msgid "Show additional debug messages"
+msgstr "Sýna viðbótaraflúsunarúttak"
+
+#: Console/AppConsole.vala:383 Gtk/AppGtk.vala:117
+msgid "Show all options"
+msgstr "Birta alla valkosti"
+
+#: Gtk/RestoreExcludeBox.vala:121
+msgid "Show more applications to exclude on the next page"
+msgstr ""
+
+#: Console/AppConsole.vala:380
+msgid "Show rsync output (default)"
+msgstr "Birta rsync-frálag (sjálfgefið)"
+
+#: Utility/Device.vala:1936 Utility/Device.vala:1951
+#: Console/AppConsole.vala:457 Console/AppConsole.vala:496
+#: Gtk/RsyncLogBox.vala:392 Gtk/RestoreBox.vala:131
+#: Gtk/BackupDeviceBox.vala:202 Gtk/BackupBox.vala:93
+#: Gtk/SnapshotListBox.vala:174
+#, c-format
+msgid "Size"
+msgstr "Stærð"
+
+#: Gtk/SnapshotBackendBox.vala:177
+msgid ""
+"Size of BTRFS snapshots are initially zero. As system files gradually change "
+"with time, data gets written to new data blocks which take up disk space "
+"(copy-on-write). Files in the snapshot continue to point to original data "
+"blocks."
+msgstr ""
+
+#: Console/AppConsole.vala:368
+msgid "Skip GRUB2 reinstall"
+msgstr "Sleppa enduruppsetningu GRUB2"
+
+#: Core/SnapshotRepo.vala:714 Core/SnapshotRepo.vala:752 Core/Main.vala:2032
+#: Gtk/SnapshotListBox.vala:95
+#, c-format
+msgid "Snapshot"
+msgstr "Skyndiafrit"
+
+#: Gtk/MainWindow.vala:557
+#, c-format
+msgid ""
+"Snapshot '%s' is being used by the system and cannot be deleted. Restart the "
+"system to activate the restored snapshot."
+msgstr ""
+
+#: Gtk/BackupFinishBox.vala:60
+msgid "Snapshot Created"
+msgstr "Búið að gera skyndiafrit"
+
+#: Gtk/SnapshotListBox.vala:296
+#, c-format
+msgid "Snapshot Levels"
+msgstr "Veldu stig skyndiafrits"
+
+#: Gtk/MainWindow.vala:754
+msgid "Snapshot deletion in progress..."
+msgstr "Eyðing skyndiafrits í vinnslu..."
+
+#: Core/SnapshotRepo.vala:470
+#, c-format
+msgid "Snapshot device"
+msgstr "Tæki fyrir skyndiafrit"
+
+#: Console/AppConsole.vala:663 Core/SnapshotRepo.vala:559
+msgid "Snapshot device not available"
+msgstr "Tæki fyrir skyndiafrit er ekki tiltækt"
+
+#: Console/AppConsole.vala:659 Core/SnapshotRepo.vala:552
+msgid "Snapshot device not selected"
+msgstr "Tæki fyrir skyndiafrit er ekki valið"
+
+#: Core/SnapshotRepo.vala:474
+#, c-format
+msgid "Snapshot location"
+msgstr "Staðsetning skyndiafrits"
+
+#: Core/Main.vala:1252
+msgid "Snapshot saved successfully"
+msgstr "Tókst að vista skyndiafrit"
+
+#: Core/Main.vala:2022
+msgid "Snapshot to restore not specified!"
+msgstr "Ekki er tiltekið hvaða skyndiafrit á að endurheimta!"
+
+#: Core/Main.vala:2855
+msgid "Snapshot will become active after system is rebooted."
+msgstr ""
+
+#: Gtk/DeleteFinishBox.vala:60
+msgid "Snapshot(s) Deleted"
+msgstr "Skyndiafrit(um) eytt"
+
+#: Gtk/MainWindow.vala:320 Gtk/DeleteWindow.vala:89
+msgid "Snapshots"
+msgstr "Skyndiafrit"
+
+#: Gtk/SnapshotBackendBox.vala:169
+msgid ""
+"Snapshots are created and restored instantly. Snapshot creation is an atomic "
+"transaction at the file system level."
+msgstr ""
+
+#: Gtk/SnapshotBackendBox.vala:186
+msgid ""
+"Snapshots are created by creating copies of system files using rsync, and "
+"hard-linking unchanged files from previous snapshot."
+msgstr ""
+
+#: Gtk/SnapshotBackendBox.vala:167
+msgid ""
+"Snapshots are created using the built-in features of the BTRFS file system."
+msgstr ""
+
+#: Gtk/ScheduleBox.vala:167
+#, c-format
+msgid "Snapshots are not scheduled at fixed times."
+msgstr "Tæki fyrir skyndiafrit er ekki valið"
+
+#: Gtk/SnapshotBackendBox.vala:173
+msgid ""
+"Snapshots are perfect, byte-for-byte copies of the system. Nothing is "
+"excluded."
+msgstr ""
+
+#: Gtk/SnapshotBackendBox.vala:171
+msgid ""
+"Snapshots are restored by replacing system subvolumes. Since files are never "
+"copied, deleted or overwritten, there is no risk of data loss. The existing "
+"system is preserved as a new snapshot after restore."
+msgstr ""
+
+#: Gtk/SnapshotBackendBox.vala:175
+msgid ""
+"Snapshots are saved on the same disk from which they are created (system "
+"disk). Storage on other disks is not supported. If system disk fails then "
+"snapshots stored on it will be lost along with the system."
+msgstr ""
+
+#: Gtk/BackupDeviceBox.vala:107
+msgid ""
+"Snapshots are saved to /timeshift on selected partition. Other locations are "
+"not supported."
+msgstr ""
+
+#: Gtk/BackupDeviceBox.vala:99
+msgid ""
+"Snapshots are saved to /timeshift-btrfs on selected partition. Other "
+"locations are not supported."
+msgstr ""
+
+#: Gtk/MainWindow.vala:996
+msgid "Snapshots available for restore"
+msgstr "Skyndiafrit tiltæk fyrir endurheimtingu"
+
+#: Gtk/SnapshotBackendBox.vala:190
+msgid ""
+"Snapshots can be saved to any disk formatted with a Linux file system. "
+"Saving snapshots to non-system or external disk allows the system to be "
+"restored even if system disk is damaged or re-formatted."
+msgstr ""
+
+#: Console/AppConsole.vala:283
+msgid "Snapshots cannot be created in Live CD mode"
+msgstr ""
+
+#: Gtk/MainWindow.vala:1043
+msgid "Snapshots will be created at selected intervals"
+msgstr ""
+
+#: Gtk/ScheduleBox.vala:306
+msgid ""
+"Snapshots will be created at selected intervals if snapshot disk has enough "
+"space (> 1 GB)"
+msgstr ""
+
+#: Gtk/MainWindow.vala:635
+msgid "Snapshots will be removed during the next scheduled run"
+msgstr ""
+
+#: Console/AppConsole.vala:375
+msgid "Specify backup device (default: config)"
+msgstr "Tilgreindu tæki fyrir öryggisafritun (sjálfgefið: config)"
+
+#: Console/AppConsole.vala:367
+msgid "Specify device for installing GRUB2 bootloader"
+msgstr "Tilgreindu á hvaða tæki eigi að setja upp GRUB2 ræsistjóra"
+
+#: Console/AppConsole.vala:365
+msgid "Specify snapshot to restore"
+msgstr "Tiltaktu hvaða skyndiafrit á að endurheimta"
+
+#: Console/AppConsole.vala:366
+msgid "Specify target device"
+msgstr "Tilgreindu úttakstæki"
+
+#: Core/SnapshotRepo.vala:480 Gtk/RsyncLogBox.vala:472
+#, c-format
+msgid "Status"
+msgstr "Staða"
+
+#: Gtk/ScheduleBox.vala:154
+msgid "Stop cron emails for scheduled tasks"
+msgstr ""
+
+#: Utility/TeeJee.Process.vala:511
+msgid "Stopped"
+msgstr "Stöðvað"
+
+#: Core/Subvolume.vala:189
+#, c-format
+msgid "Subvolume exists at destination"
+msgstr ""
+
+#: Gtk/SnapshotListBox.vala:275
+#, fuzzy, c-format
+msgid "Subvolumes"
+msgstr "Gagnahirsla"
+
+#: Gtk/ExcludeAppsBox.vala:135 Gtk/ExcludeBox.vala:258
+#: Gtk/RestoreWindow.vala:120
+msgid "Summary"
+msgstr "Samantekt"
+
+#: Utility/Gtk/DonationWindow.vala:84
+#, fuzzy
+msgid "Support"
+msgstr "Ekki stutt"
+
+#: Console/AppConsole.vala:377
+msgid "Switch to BTRFS mode (default: config)"
+msgstr "Skipta í BTRFS-ham (sjálfgefið: config)"
+
+#: Console/AppConsole.vala:378
+msgid "Switch to RSYNC mode (default: config)"
+msgstr "Skipta í RSYNC-ham (sjálfgefið: config)"
+
+#: Core/SnapshotRepo.vala:1029
+msgid "Symlinks updated"
+msgstr "Tákntengi uppfærð"
+
+#: Core/Main.vala:2382
+msgid "Synching file systems..."
+msgstr "Samstilli skráakerfi..."
+
+#: Core/Main.vala:1361 Core/Main.vala:2544 Core/Main.vala:2785
+msgid "Synching files with rsync..."
+msgstr "Samstilli skrár með rsync..."
+
+#: Gtk/AppGtk.vala:112
+msgid "Syntax"
+msgstr "Málskipun"
+
+#: Utility/Device.vala:1957 Gtk/SnapshotListBox.vala:127
+#, c-format
+msgid "System"
+msgstr "Kerfi"
+
+#: Gtk/MainWindow.vala:941
+msgid "System Restore Utility"
+msgstr "Kerfis-endurheimtingartól"
+
+#: Gtk/FinishBox.vala:82
+msgid "System can be rolled-back to a previous date by restoring a snapshot."
+msgstr ""
+
+#: Core/Main.vala:2245
+msgid "System will reboot after files are restored"
+msgstr "Kerfið mun enduræsa eftir að skrár hafa verið endurheimtar"
+
+#: Core/Main.vala:2195
+msgid "System will reboot after files are restored."
+msgstr "Kerfið mun enduræsa eftir að skrár hafa verið endurheimtar."
+
+#: Core/Main.vala:1221 Core/Main.vala:1262
+msgid "Tagged snapshot"
+msgstr "Merkt skyndiafrit"
+
+#: Console/AppConsole.vala:426 Gtk/SnapshotListBox.vala:151
+msgid "Tags"
+msgstr "Merki"
+
+#: Core/Main.vala:2057
+msgid "Target device is not mounted"
+msgstr "Úttakstækið er ekki tengt í skráakerfið"
+
+#: Gtk/RestoreDeviceBox.vala:480
+msgid "Target device is same as system device"
+msgstr "Úttakstæki er það sama og tæki kerfisins"
+
+#: Core/Main.vala:2051
+msgid "Target device not specified!"
+msgstr "Ekkert úttakstæki var tilgreint!"
+
+#: Gtk/SnapshotBackendBox.vala:118
+msgid ""
+"The 'btrfs' command is not available on your system. Install the 'btrfs-"
+"tools' package and try again."
+msgstr ""
+
+#: Gtk/ScheduleBox.vala:156
+msgid ""
+"The cron service sends the output of scheduled tasks as an email to the "
+"current user. Select this option to suppress the emails for cron tasks "
+"created by Timeshift."
+msgstr ""
+
+#: Core/Main.vala:376
+msgid "The system partition has an unsupported subvolume layout."
+msgstr ""
+
+#: Core/Main.vala:3431
+msgid "The target partition has an unsupported subvolume layout."
+msgstr ""
+
+#: Gtk/BackupDeviceBox.vala:512
+#, c-format
+msgid "There are no snapshots on this device"
+msgstr "Það eru engin skyndiafrit á þessu tæki"
+
+#: Utility/Gtk/DonationWindow.vala:109
+msgid ""
+"This application was created for my own use in my spare time, and it's not "
+"practical for me to work for free, on every change that is requested. If you "
+"need new features or changes to the application, consider making a donation "
+"to sponsor the work. If you are a developer, consider contributing to the "
+"project, by submitting code changes for issues and features in the issue "
+"tracker."
+msgstr ""
+
+#: Utility/Device.vala:1379
+msgid "This device is not encrypted"
+msgstr "Þetta tæki er ekki dulritað"
+
+#: Core/Main.vala:2211
+msgid ""
+"This software comes without absolutely NO warranty and the author takes no "
+"responsibility for any damage arising from the use of this program."
+msgstr ""
+"Þessi hugbúnaður er með nákvæmlega ENGRI ábyrgð og hefur höfundurinn ekkert "
+"með það að gera ef einhverjar skemmdir hljótast af notkun hans."
+
+#: Utility/Gtk/DonationWindow.vala:66
+msgid ""
+"This software is free for personal and commercial use. It is distributed in "
+"the hope that it is useful but without any warranty. See the GNU General "
+"Public License v2 or later for more information"
+msgstr ""
+
+#: Gtk/MainWindow.vala:1031 Gtk/MainWindow.vala:1042
+msgid "Timeshift is active"
+msgstr "TimeShift er virkt"
+
+#: Gtk/RsyncLogBox.vala:394 Gtk/RestoreBox.vala:132 Gtk/BackupBox.vala:94
+#, c-format
+msgid "Timestamp"
+msgstr "Tímamerki"
+
+#: Console/AppConsole.vala:612
+#, c-format
+msgid "To restore with default options, press the ENTER key for all prompts!"
+msgstr ""
+"Til að endurheimta með sjálfgefnum valkostum, ýttu á ENTER-lykilinn við "
+"allar kvaðningar!"
+
+#: Utility/Gtk/AboutWindow.vala:457
+msgid "Tools"
+msgstr ""
+
+#: Utility/Gtk/AboutWindow.vala:441
+msgid "Translations"
+msgstr "Þýðendur"
+
+#: Utility/Device.vala:1947 Console/AppConsole.vala:458
+#: Console/AppConsole.vala:497 Gtk/BackupDeviceBox.vala:190
+#: Gtk/SettingsWindow.vala:86
+#, c-format
+msgid "Type"
+msgstr "Tegund"
+
+#: Utility/Device.vala:1946
+#, c-format
+msgid "UUID"
+msgstr "UUID"
+
+#: Gtk/AppGtk.vala:99
+msgid "Unknown option"
+msgstr "Óþekkt viðfang"
+
+#: Core/Main.vala:1203
+msgid "Unknown snapshot type"
+msgstr "Óþekkt tegund skyndiafrits"
+
+#: Core/Main.vala:1566
+msgid "Unknown value specified for option --tags"
+msgstr ""
+
+#: Utility/Device.vala:1390 Utility/Device.vala:1506
+#, c-format
+msgid "Unlocked device is mapped to '%s'"
+msgstr ""
+
+#: Utility/Device.vala:1505
+msgid "Unlocked successfully"
+msgstr ""
+
+#: Utility/Device.vala:1720
+msgid "Unmounting from"
+msgstr "Aftengi frá"
+
+#: Gtk/SnapshotListBox.vala:199
+msgid "Unshared"
+msgstr "Ekki sameiginlegt"
+
+#: Core/Main.vala:3435 Gtk/RestoreDeviceBox.vala:522
+msgid "Unsupported Subvolume Layout"
+msgstr ""
+
+#: Gtk/BootOptionsBox.vala:150
+msgid "Update GRUB menu"
+msgstr "Uppfæra GRUB-valmynd"
+
+#: Gtk/BootOptionsBox.vala:135
+msgid "Update initramfs"
+msgstr "Uppfæra initramfs"
+
+#: Core/Main.vala:2724
+msgid "Updated /etc/crypttab on target device"
+msgstr "Uppfærði /etc/crypttab á úttakstæki"
+
+#: Core/Main.vala:2644
+msgid "Updated /etc/fstab on target device"
+msgstr "Uppfærði /etc/fstab á úttakstæki"
+
+#: Gtk/BootOptionsBox.vala:152
+msgid ""
+"Updates the GRUB menu entries (recommended). This is safe to run and should "
+"be left selected."
+msgstr ""
+
+#: Core/Main.vala:2365
+msgid "Updating GRUB menu..."
+msgstr "Uppfæri GRUB-valmynd..."
+
+#: Core/Main.vala:2568
+msgid "Updating bootloader configuration..."
+msgstr "Uppfæri stillingar ræsistjóra..."
+
+#: Utility/Gtk/DonationWindow.vala:88
+msgid ""
+"Use the issue tracker for reporting issues, asking questions, and requesting "
+"features. Please avoid reporting issues by email."
+msgstr ""
+
+#: Utility/Device.vala:1954
+#, c-format
+msgid "Used"
+msgstr "Notað"
+
+#: Gtk/SetupWizardWindow.vala:114 Gtk/UsersBox.vala:105
+msgid "User"
+msgstr "Notandi"
+
+#: Gtk/UsersBox.vala:63
+msgid "User Home Directories"
+msgstr "Heimamöppur notenda"
+
+#: Utility/Device.vala:1460
+msgid "User cancelled the password prompt"
+msgstr "Notandinn hætti við innsetningu lykilorðs"
+
+#: Gtk/UsersBox.vala:67
+msgid ""
+"User home directories are excluded by default unless you enable them here"
+msgstr ""
+
+#: Gtk/SettingsWindow.vala:98
+msgid "Users"
+msgstr "Notendur"
+
+#: Gtk/RestoreWindow.vala:114
+#, fuzzy
+msgid "Users Home"
+msgstr "Notendur"
+
+#: Utility/Device.vala:1931
+#, c-format
+msgid "Vendor"
+msgstr "Framleiðandi"
+
+#: Gtk/SnapshotListBox.vala:343
+msgid "View Rsync Log for Create"
+msgstr "Skoða atvikaskrá fyrir gerð"
+
+#: Gtk/SnapshotListBox.vala:350
+msgid "View Rsync Log for Restore"
+msgstr "Skoða atvikaskrá fyrir endurheimtingu"
+
+#: Gtk/MainWindow.vala:380
+msgid "View TimeShift Logs"
+msgstr "Skoða atvikaskrár TimeShift"
+
+#: Gtk/RestoreDeviceBox.vala:101
+msgid "Volume"
+msgstr "Gagnahirsla"
+
+#: Core/Main.vala:2106 Gtk/RestoreSummaryBox.vala:53
+msgid "Warning"
+msgstr "Aðvörun"
+
+#: Gtk/RestoreExcludeBox.vala:61
+msgid "Web Browsers"
+msgstr "Netvafrar"
+
+#: Gtk/ScheduleBox.vala:82 Gtk/SnapshotListBox.vala:301
+msgid "Weekly"
+msgstr "Vikulega"
+
+#: Core/Main.vala:1107
+msgid "Weekly snapshot failed!"
+msgstr "Vikulegt skyndiafrit mistókst!"
+
+#: Core/Main.vala:1088
+msgid "Weekly snapshots are enabled"
+msgstr "Vikuleg skyndiafrit eru virk"
+
+#: Utility/Gtk/DonationWindow.vala:99
+msgid "Wiki"
+msgstr ""
+
+#: Gtk/BackupFinishBox.vala:63 Gtk/DeleteFinishBox.vala:63
+msgid "With Errors"
+msgstr "með villum"
+
+#: Gtk/MainWindow.vala:191
+msgid "Wizard"
+msgstr "Leiðarvísir"
+
+#: Utility/Device.vala:1433 Utility/Device.vala:1479
+msgid "Wrong password"
+msgstr "Rangt lykilorð"
+
+#: Utility/Gtk/CustomMessageDialog.vala:176
+msgid "Yes"
+msgstr "Já"
+
+#: Gtk/RestoreFinishBox.vala:98
+msgid ""
+"You can continue working on the current system. After restart, the current "
+"system will be visible as a new snapshot. This snapshot can be restored "
+"later if required, to 'undo' the restore."
+msgstr ""
+
+#: Gtk/RestoreDeviceBox.vala:413
+msgid ""
+"[Advanced Users Only] Change these settings only if the restored system "
+"fails to boot."
+msgstr ""
+
+#: Console/AppConsole.vala:1011
+#, c-format
+msgid "[ENTER = Default (%s), a = Abort]"
+msgstr "[ENTER = Sjálfgefið (%s), a = Hætt við]"
+
+#: Console/AppConsole.vala:882
+#, c-format
+msgid "[ENTER = Default (%s), r = Root device, a = Abort]"
+msgstr "[ENTER = Sjálfgefið (%s), r = Rótartæki, a = Hætt við]"
+
+#: Utility/AppLock.vala:54
+msgid "[Warning] Deleted invalid lock"
+msgstr ""
+
+#: Core/SnapshotRepo.vala:882
+msgid "all"
+msgstr "allt"
+
+#: Core/Subvolume.vala:201 Core/Main.vala:1494 Core/Main.vala:3862
+#: Core/Main.vala:3946 Core/Main.vala:4054 Core/Main.vala:4093
+msgid "btrfs returned an error"
+msgstr "btrfs skilaði villu"
+
+#: Core/Main.vala:1393 Core/Snapshot.vala:500
+msgid "complete"
+msgstr "lokið"
+
+#: Utility/CronTab.vala:261
+msgid "crontab file exported"
+msgstr "crontab-skrá flutt út"
+
+#: Utility/CronTab.vala:244
+msgid "crontab file installed"
+msgstr "crontab-skrá uppsett"
+
+#: Core/SnapshotRepo.vala:868
+msgid "incomplete"
+msgstr "ófullgert"
+
+#: Core/SnapshotRepo.vala:850
+msgid "marked for deletion"
+msgstr "merkt til eyðingar"
+
+#: Core/Main.vala:1285 Core/Main.vala:1439 Core/Main.vala:1441
+msgid "mounted at path"
+msgstr "tengt í skráakerfi á slóðinni"
+
+#: Core/Main.vala:1393 Core/Snapshot.vala:501 Gtk/DeleteBox.vala:149
+#: Gtk/RestoreBox.vala:237 Gtk/BackupBox.vala:234
+msgid "remaining"
+msgstr "eftir"
+
+#: Core/Main.vala:1404
+msgid "rsync returned an error"
+msgstr "rsync skilaði villu"
+
+#: Core/SnapshotRepo.vala:714 Core/SnapshotRepo.vala:752
+#: Core/SnapshotRepo.vala:831
+msgid "un-tagged"
+msgstr "ómerkt"
+
+#, fuzzy
+#~ msgid "Donation Plugins"
+#~ msgstr "Gjafir"
+
+#, fuzzy
+#~ msgid "Donate ($5)"
+#~ msgstr "Styrkja"
+
+#, fuzzy
+#~ msgid "Get Support ($10)"
+#~ msgstr "Ekki stutt"
+
+#~ msgid "Donate with PayPal"
+#~ msgstr "Styrkja með PayPal"
+
+#~ msgid "Issue Tracker ~ Report Issues, Request Features, Ask Questions"
+#~ msgstr ""
+#~ "Villuskrásetjari (Issue Tracker) ~ tilkynna um villur, biðja um nýja "
+#~ "eiginleika, spyrja spurninga"
+
+#~ msgid "Website"
+#~ msgstr "Vefsvæði"
+
+#~ msgid "Wiki ~ Documentation & Help"
+#~ msgstr "Wiki ~ Handbækur & Hjálp"
+
+#~ msgid "Code Contributions"
+#~ msgstr "Framlög frá"
+
+#, fuzzy
+#~ msgid "Click to edit and drag-drop to re-order"
+#~ msgstr "Smelltu til að breyta. Dragðu og slepptu til að endurraða."
+
+#~ msgid "Editing and Re-Ordering"
+#~ msgstr "Breytingar og endurröðun"
+
+#~ msgid "Info"
+#~ msgstr "Upplýsingar"
+
+#~ msgid "<b>System:</b> Installed Linux distribution"
+#~ msgstr "<b>Kerfi:</b> Uppsett Linux-dreifing"
+
+#~ msgid "<b>Snapshot Date:</b> Date on which snapshot was created"
+#~ msgstr ""
+#~ "<b>Dagsetning skyndiafrits:</b> Dagsetningin þegar skyndiafrit var búið "
+#~ "til"
+
+#~ msgid "Selected snapshot path"
+#~ msgstr "Slóð á valið skyndiafrit"
+
+#~ msgid ""
+#~ "<b>Backup Levels</b>\n"
+#~ "\n"
+#~ "O\tOn demand (manual)\n"
+#~ "B\tBoot\n"
+#~ "H\tHourly\n"
+#~ "D\tDaily\n"
+#~ "W\tWeekly\n"
+#~ "M\tMonthly"
+#~ msgstr ""
+#~ "<b>Stig öryggisafritunar</b>\n"
+#~ "\n"
+#~ "O\tUmbeðið (handvirkt)\n"
+#~ "B\tÍ ræsingu\n"
+#~ "H\tHverja klukkustund\n"
+#~ "D\tDaglega\n"
+#~ "W\tVikulega\n"
+#~ "M\tMánaðarlega"
+
+#~ msgid "Cloning System..."
+#~ msgstr "Klóna kerfið ..."
+
+#~ msgid "Close Window"
+#~ msgstr "Loka glugga"
+
+#~ msgid "Documenters"
+#~ msgstr "Höfundar hjápargagna"
+
+#~ msgid "Include everything"
+#~ msgstr "Hafa allt innifalið"
+
+#~ msgid "Include hidden items"
+#~ msgstr "Hafa með falin atriði"
+
+#~ msgid "Log Viewer"
+#~ msgstr "Atvikaskoðari"
+
+#~ msgid "Refresh Snapshot List"
+#~ msgstr "Endurlesa lista yfir skyndiafrit"
+
+#~ msgid "Third Party Tools"
+#~ msgstr "Verkfæri frá þriðja aðila"
+
+#~ msgid "Translators"
+#~ msgstr "Þýðendur"
+
+#~ msgid "View Log for Create"
+#~ msgstr "Skoða atvikaskrá fyrir gerð"
+
+#~ msgid "View Log for Restore"
+#~ msgstr "Skoða atvikaskrá fyrir endurheimtingu"
+
+#~ msgid "View:"
+#~ msgstr "Skoða:"
+
+#~ msgid "Change"
+#~ msgstr "Breytt"
+
+#~ msgid "Restored"
+#~ msgstr "Endurheimta"
+
+#~ msgid "Review Actions"
+#~ msgstr "Breyting"
+
+#~ msgid "Filter:"
+#~ msgstr "Síur"
+
+#~ msgid "deleted"
+#~ msgstr "Eytt"
+
+#~ msgid ""
+#~ "This program is free for personal and commercial use and comes with "
+#~ "absolutely no warranty. You use this program entirely at your own risk. "
+#~ "The author will not be liable for any damages arising from the use of "
+#~ "this program."
+#~ msgstr ""
+#~ "Þessi hugbúnaður er með nákvæmlega ENGRI ábyrgð og hefur höfundurinn "
+#~ "ekkert með það að gera ef einhverjar skemmdir hljótast af notkun hans."
