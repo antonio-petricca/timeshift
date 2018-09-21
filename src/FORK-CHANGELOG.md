@@ -8,6 +8,8 @@
   - Allowed discovery of LVM partitions.
   - Replaced disk label shown as "disk size" with "partition name". The size is already shown in another column.
   - Added UUID column.
+- **MountEntry.vala**
+  - Added _read_only_ property.
 - **SettingsWindow.vala**
   - Extended width to 640 to fit the added UUID column.
 
