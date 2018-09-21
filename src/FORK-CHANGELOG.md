@@ -2,12 +2,14 @@
 
 ## Done
 
-- **Main.vala**
-  - Allowed writable loopback devices.
 - **BackupDeviceBox.vala**
   - Allowed discovery of LVM partitions.
-  - Replaced disk label shown as "disk size" with "partition name". The size is already shown in another column.
+  - Replaced disk label shown as 'disk size' with 'partition name'. The size is already shown in another column.
   - Added UUID column.
+- **Device.vala**
+  - LVM partitions, splitted among multiple devices, are no more added multiple times.
+- **Main.vala**
+  - Allowed writable loopback devices.
 - **MountEntry.vala**
   - Added _read_only_ property.
 - **SettingsWindow.vala**
@@ -15,6 +17,5 @@
 
 ## Todo
 
-- Add LVM partitions without repetitions.
 - Show right free disk space.
 - Fix snapshot partition click selection.

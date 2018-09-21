@@ -374,12 +374,30 @@ public class Device : GLib.Object{
 
 		//log_debug("Device: get_block_devices_using_lsblk()");
 		
-		/* Returns list of mounted partitions using 'lsblk' command
+		/* Returns list of mounted paùrtitions using 'lsblk' command
 		   Populates device, type, uuid, label */
 
 		test_lsblk_version();
 
 		var list = new Gee.ArrayList<Device>();
+
+//#region [LightLime]
+		/*
+			LVM volumes maybe splitted over multiple volumes, 
+			which share the same KNAME and UUID, so we have 
+			to add it only once.
+
+			E.g.:
+
+				NAME="vg_buddylinux-lv_root" KNAME="dm-0" UUID="c6059848-2c19-459d-8eb8-32e39a8c1af0" TYPE="lvm" FSTYPE="ext4" PKNAME="loop1" MOUNTPOINT="/"
+				NAME="vg_buddylinux-lv_root" KNAME="dm-0" UUID="c6059848-2c19-459d-8eb8-32e39a8c1af0" TYPE="lvm" FSTYPE="ext4" PKNAME="loop4" MOUNTPOINT="/"
+				NAME="vg_buddylinux-lv_root" KNAME="dm-0" UUID="c6059848-2c19-459d-8eb8-32e39a8c1af0" TYPE="lvm" FSTYPE="ext4" PKNAME="loop0" MOUNTPOINT="/"
+				NAME="vg_buddylinux-lv_root" KNAME="dm-0" UUID="c6059848-2c19-459d-8eb8-32e39a8c1af0" TYPE="lvm" FSTYPE="ext4" PKNAME="loop3" MOUNTPOINT="/"
+				NAME="vg_buddylinux-lv_snap" KNAME="dm-1" UUID="b811a0e7-69d0-4786-a514-462553aca3c2" TYPE="lvm" FSTYPE="ext4" PKNAME="loop2" MOUNTPOINT="/media/root/b811a0e7-69d0-4786-a514-462553aca3c2"
+		*/
+
+		var knames_check_list = new Gee.HashSet<string>();
+//#endregion
 
 		string std_out;
 		string std_err;
@@ -434,13 +452,28 @@ public class Device : GLib.Object{
 				}
 
 				if (rex.match (line, 0, out match)){
-
 					Device pi = new Device();
 
 					int pos = 0;
 					
 					pi.name = match.fetch(++pos).strip();
 					pi.kname = match.fetch(++pos).strip();
+
+
+//#region [LightLime]
+					if ( knames_check_list.contains(pi.kname) ) {
+						if (LOG_DEBUG) {
+							log_debug("Device \"%s\" with same kname \"%s\" already added.".printf(
+								pi.name,
+								pi.kname
+							));
+						}
+
+						continue;
+					} else {
+						knames_check_list.add(pi.kname);
+					}
+//#endregion
 					
 					pi.label = match.fetch(++pos); // don't strip; labels can have leading or trailing spaces
 					pi.uuid = match.fetch(++pos).strip();

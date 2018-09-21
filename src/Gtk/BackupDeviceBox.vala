@@ -133,8 +133,13 @@ class BackupDeviceBox : Gtk.Box{
 			Device dev;
 			model.get (iter, 0, out dev, -1);
 
-			(cell as Gtk.CellRendererPixbuf).visible = (dev.type == "disk");
-			
+//#region [LightRed]
+			//(cell as Gtk.CellRendererPixbuf).visible = (dev.type == "disk");	
+//#endregion	
+
+//#region [LightLime]
+			(cell as Gtk.CellRendererPixbuf).visible = ((dev.type == "disk") || (dev.type == "lvm"));	
+//#endregion	
 		});
 
         col.add_attribute(cell_pix, "icon-name", 2);
@@ -146,8 +151,18 @@ class BackupDeviceBox : Gtk.Box{
 
 			(cell as Gtk.CellRendererToggle).active = selected;
 
+//#region [LightRed]
+			/*(cell as Gtk.CellRendererToggle).visible =
+				(dev.size_bytes > 10 * KB) && (dev.type != "disk") && (dev.children.size == 0);*/
+//#endregion
+
+//#region [LightLime]
 			(cell as Gtk.CellRendererToggle).visible =
-				(dev.size_bytes > 10 * KB) && (dev.type != "disk") && (dev.children.size == 0);
+				(dev.size_bytes > 10 * KB) && (
+					((dev.type != "disk") && (dev.children.size == 0)) ||
+					(dev.type != "lvm") 
+				);
+//#endregion
 		});
 
 		//cell_radio.toggled.connect((path)=>{});
@@ -185,9 +200,19 @@ class BackupDeviceBox : Gtk.Box{
 //#endregion
 
 //#region [LightLime]
+			/*if (LOG_DEBUG) {
+				log_debug("Dev: type = %s, name = %s, kname = %s, vendor = %s, model = %s".printf(
+					dev.type,
+					dev.name,
+					dev.kname,
+					dev.vendor,
+					dev.model
+				));
+			}*/
+
 			if (
-				(dev.type != "disk") ||
-				(dev.type != "lvm" )
+				(dev.type == "disk") ||
+				(dev.type == "lvm")
 			)
 			{	
 				var txt = "%s %s".printf(dev.model, dev.vendor).strip();
@@ -200,8 +225,6 @@ class BackupDeviceBox : Gtk.Box{
 			else {
 				(cell as Gtk.CellRendererText).text = dev.kname;
 			}
-			
-			//(cell as Gtk.CellRendererText).sensitive = (dev.type != "disk");
 		});
 //#endregion
 
@@ -259,7 +282,13 @@ class BackupDeviceBox : Gtk.Box{
 					(dev.free_bytes > 0) ? format_file_size(dev.free_bytes, false, "", true, 0) : "";
 			}
 
-			(cell as Gtk.CellRendererText).sensitive = (dev.type != "disk");
+//#region [LightRed]			
+			//cell as Gtk.CellRendererText).sensitive = (dev.type != "disk");
+//#endregion
+
+//#region [LightLime]			
+			(cell as Gtk.CellRendererText).sensitive = ((dev.type != "disk") || (dev.type != "lvm"));
+//#endregion
 		});
 
 		// name
@@ -278,7 +307,13 @@ class BackupDeviceBox : Gtk.Box{
 				(cell as Gtk.CellRendererText).text = dev.partlabel;
 			}
 
-			(cell as Gtk.CellRendererText).sensitive = (dev.type != "disk");
+//#region [LightRed]			
+			//cell as Gtk.CellRendererText).sensitive = (dev.type != "disk");
+//#endregion
+
+//#region [LightLime]			
+			(cell as Gtk.CellRendererText).sensitive = ((dev.type != "disk") || (dev.type != "lvm"));
+//#endregion
 		});
 
 		// label
@@ -297,7 +332,13 @@ class BackupDeviceBox : Gtk.Box{
 				(cell as Gtk.CellRendererText).text = dev.label;
 			}
 
-			(cell as Gtk.CellRendererText).sensitive = (dev.type != "disk");
+//#region [LightRed]			
+			//cell as Gtk.CellRendererText).sensitive = (dev.type != "disk");
+//#endregion
+
+//#region [LightLime]			
+			(cell as Gtk.CellRendererText).sensitive = ((dev.type != "disk") || (dev.type != "lvm"));
+//#endregion
 		});
 		
 		// buffer
