@@ -44,9 +44,9 @@ endif
 
 symbols=$(shell echo "${vte_symbol} ${gtk3_symbol} ${xapp_symbol}")
 
-# AP: {
+#region [LightLime]
 debug_flags=
-# AP: }
+#endregion
 
 all:
 
@@ -90,6 +90,9 @@ clean:
 	rm -rfv ../release/*.{run,deb}
 	rm -rfv *.c *.o *.mo
 	rm -fv ${app_name} ${app_name}-gtk
+#region [LightLime]
+	git checkout ../*.pot ../po/*.po
+#endregion
 	
 install:
 	mkdir -p "$(DESTDIR)$(bindir)"
@@ -165,7 +168,7 @@ uninstall:
 	rm -f "$(DESTDIR)$(sharedir)/appdata/${app_name}.appdata.xml" 
 	rm -f "$(DESTDIR)$(sharedir)/metainfo/${app_name}.appdata.xml"
 
-# AP: {
+#region [LightLime]
 debug: debug_flags=-g --save-temps
 debug: all
-# AP: }
+#endregion
