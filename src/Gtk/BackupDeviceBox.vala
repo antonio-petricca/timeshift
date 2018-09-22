@@ -428,7 +428,16 @@ class BackupDeviceBox : Gtk.Box{
 
 		log_debug("try_change_device: %s".printf(dev.device));
 		
-		if (dev.type == "disk"){
+//#region [LightRed]	
+		//if (dev.type == "disk"){
+//#endregion
+		
+//#region [LightLime]	
+		if (
+			(dev.type == "disk") ||
+			(dev.type == "lvm")
+		) {
+//#endregion
 
 			bool found_child = false;
 

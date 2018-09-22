@@ -13,9 +13,4 @@
 - **MountEntry.vala**
   - Added _read_only_ property.
 - **SettingsWindow.vala**
-  - Extended width to 640 to fit the added UUID column.
-
-## Todo
-
-- Show right free disk space.
-- Fix snapshot partition click selection.
+  - Extended width to 640px to fit with the added UUID column.
