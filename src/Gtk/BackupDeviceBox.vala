@@ -149,6 +149,7 @@ class BackupDeviceBox : Gtk.Box{
 			bool selected;
 			model.get (iter, 0, out dev, 3, out selected, -1);
 
+			log_debug("Select: %s => %s".printf(dev.uuid, selected ? "yes" : "no"));
 			(cell as Gtk.CellRendererToggle).active = selected;
 
 //#region [LightRed]
@@ -746,7 +747,12 @@ class BackupDeviceBox : Gtk.Box{
 
 				tv_append_child_volumes(ref model, ref iter1, part);
 			}
-			else if ((part.kname == parent.kname) && (part.type == "disk")
+//#region [LightRed]			
+			//else if ((part.kname == parent.kname) && (part.type == "disk")
+//#endregion		
+//#region [LightLime]			
+			else if ((part.kname == parent.kname) && ((part.type == "disk") || (part.type == "lvm"))
+//#endregion		
 				&& part.has_linux_filesystem() && !part.has_children()){
 				
 				// partition-less disk with linux filesystem

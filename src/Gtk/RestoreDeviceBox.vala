@@ -199,12 +199,33 @@ class RestoreDeviceBox : Gtk.Box{
 
 			if (dev != null){
 
-				if (dev.type == "disk"){
+//#region [LightRed]				
+				/*if (dev.type == "disk"){
 					(cell as Gtk.CellRendererPixbuf).icon_name = IconManager.ICON_HARDDRIVE;
 				}
-			
+				
 				(cell as Gtk.CellRendererPixbuf).sensitive = (dev.type != "disk");
-				(cell as Gtk.CellRendererPixbuf).visible = (dev.type == "disk");
+				(cell as Gtk.CellRendererPixbuf).visible = (dev.type == "disk");*/
+//#endregion	
+
+//#region [LightLime]		
+				if (
+					(dev.type == "disk") ||
+					(dev.type == "lvm")
+				) {
+					(cell as Gtk.CellRendererPixbuf).icon_name = IconManager.ICON_HARDDRIVE;
+				}
+
+				(cell as Gtk.CellRendererPixbuf).sensitive = 
+					(dev.type != "disk") &&
+					(dev.type != "lvm")
+				;
+
+				(cell as Gtk.CellRendererPixbuf).visible = 
+					(dev.type == "disk") ||
+					(dev.type == "lvm")
+				;
+//#endregion
 			}
 		});
 
